@@ -1,0 +1,25 @@
+# Virtual environment
+.venv/
+
+# Dataset images (too many/large to push). Everyone downloads them from Kaggle.
+data/raw/
+
+# Trained model files (large)
+outputs/models/
+*.h5
+*.keras
+*.tflite
+
+# Python / Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Secrets (Kaggle API token)
+kaggle.json
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
