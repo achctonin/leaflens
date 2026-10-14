@@ -23,3 +23,9 @@ kaggle.json
 Thumbs.db
 .vscode/
 .idea/
+
+# Environment files
+.env
+
+# Any other generated data (keep manifest.csv tracked)
+data/processed/
