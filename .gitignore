@@ -29,3 +29,5 @@ Thumbs.db
 
 # Any other generated data (keep manifest.csv tracked)
 data/processed/
+
+data/manifest_with_hash.csv
