@@ -17,8 +17,8 @@ Team: **Member A**, **Member B** (replace with names)
 | Near-duplicate check and removal | Done | `src/check_duplicates.py`, `src/dedupe.py`, `data/duplicates_removed.csv` |
 | Stratified 70/15/15 split, seed 42 | Done | `src/split.py`, `split` column in `data/manifest.csv` |
 | EDA | Done | `notebooks/01_eda.ipynb`, plots in `outputs/plots/` |
-| Preprocessing + augmentation | **In progress** | `src/data.py` |
-| Baseline CNN, MobileNetV3 Small/Large |  Not started | `src/model.py`, `src/train.py` |
+| Preprocessing + augmentation | Done | `src/data.py` |
+| Baseline CNN, MobileNetV3 Small/Large |  **In progress** | `src/model.py`, `src/train.py` |
 | Evaluation, Grad-CAM, real-world test | Not started | `src/evaluate.py` |
 
 After duplicate removal the manifest has **3,706 images** (the original dataset has about 4,000). The `split` column is already filled in, so nobody should re-split.
