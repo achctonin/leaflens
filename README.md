@@ -18,10 +18,27 @@ Team: **Member A**, **Member B** (replace with names)
 | Stratified 70/15/15 split, seed 42 | Done | `src/split.py`, `split` column in `data/manifest.csv` |
 | EDA | Done | `notebooks/01_eda.ipynb`, plots in `outputs/plots/` |
 | Preprocessing + augmentation | Done | `src/data.py` |
-| Baseline CNN, MobileNetV3 Small/Large |  **In progress** | `src/model.py`, `src/train.py` |
-| Evaluation, Grad-CAM, real-world test | Not started | `src/evaluate.py` |
+| Baseline CNN | Done | `src/model.py`, `src/train.py` |
+| MobileNetV3-Small (frozen, then fine-tuned) | Done | `src/model.py`, `src/train.py` |
+| MobileNetV3-Large (frozen, then fine-tuned) | Done | `src/model.py`, `src/train.py` |
+| Local leaf photos (real-world test set, 30 to 50) | **Not started** | `data/local/` (to be created) |
+| Evaluation: test set, confusion matrix, per-class metrics, Grad-CAM | **Not started** | `src/evaluate.py` (not written yet) |
+| Inference script for a single photo | **Not started** | `src/predict.py` (not written yet) |
+| Final model choice, then one run on the test set | **Not started** | |
 
-After duplicate removal the manifest has **3,706 images** (the original dataset has about 4,000). The `split` column is already filled in, so nobody should re-split.
+The manifest has **3,706 images** (the original dataset has 4,000; 294 near-duplicates were removed). The `split` column is already filled in: 2,594 train / 556 val / 556 test. Nobody should re-split.
+
+## Results so far (validation set only)
+
+The test set has **not** been used yet. These numbers were used for early stopping and for choosing between stage 1 and stage 2, so they are slightly optimistic. All runs: seed 42, batch size 32, class weights on, augmentation on the training split only. Raw numbers are in `outputs/runs.csv`.
+
+| Model | Val accuracy | Val macro-F1 | Val loss | Wrong images (of 556) | Train time (CPU laptop) |
+|---|---|---|---|---|---|
+| Baseline CNN | 95.86% | 0.960 | 0.176 | about 23 | 25.5 min |
+| MobileNetV3-Small | 99.82% | 0.998 | 0.015 | about 1 | 8.2 min |
+| MobileNetV3-Large | 99.64% | 0.997 | 0.007 | about 2 | 20.9 min |
+
+Small and Large are within one image of each other on validation, so accuracy alone will not decide between them. We will also compare model size, speed, Grad-CAM and the local leaf photos. MobileNetV3-Small is about a third the size of Large.
 
 ---
 
@@ -43,15 +60,17 @@ After duplicate removal the manifest has **3,706 images** (the original dataset 
 4. **Install dependencies:**
    ```
    python -m pip install -r requirements.txt          # data prep and EDA (light)
-   python -m pip install -r requirements-train.txt    # adds TensorFlow, only needed for training
+   python -m pip install -r requirements-train.txt    # adds TensorFlow, needed for training
    python -m pip install ipykernel                    # needed to run notebooks in VS Code
    ```
 5. **Verify:**
    ```
    python -c "import pandas, PIL, sklearn, cv2; print('ok')"
+   python src/model.py
    ```
+   The second command builds all three models and prints their sizes (baseline 242,920 parameters, MobileNetV3-Small 943,736, MobileNetV3-Large 3,004,040).
 
-Note: native Windows TensorFlow does not use the GPU. Train on Google Colab (free GPU) or WSL2 if your laptop has no suitable GPU.
+Native Windows TensorFlow does not use the GPU. All our runs were on a CPU laptop and finished in under 30 minutes each. Use Google Colab (free GPU) or WSL2 if your machine is slower.
 
 ## Dataset (each member downloads their own copy)
 
@@ -71,33 +90,59 @@ kaggle datasets download -d aryashah2k/mango-leaf-disease-dataset -p data/raw --
 ## Project layout
 - `data/raw/` original images (one folder per class = the label), not committed
 - `data/manifest.csv` filepath, label, split (committed, so splits are identical for everyone)
-- `data/duplicates_removed.csv` list of the near-duplicate images that were removed
-- `notebooks/` experiments and EDA
-- `src/` data.py, model.py, train.py, evaluate.py plus the data-prep scripts
-- `outputs/` models, plots, metrics
+- `data/duplicates_removed.csv` the near-duplicate images that were removed
+- `notebooks/` EDA (`01_eda.ipynb`)
+- `src/` data-prep scripts (`make_manifest.py`, `check_integrity.py`, `check_duplicates.py`, `dedupe.py`, `split.py`) and the ML code: `data.py` (datasets and augmentation), `model.py` (baseline and MobileNetV3), `train.py` (training), `diagnose_bn.py` (a debugging check for the baseline). `evaluate.py` and `predict.py` are still to be written.
+- `outputs/plots/` EDA plots and the augmentation preview
+- `outputs/models/` trained models (not committed, can be large; share through Drive)
+- `outputs/runs.csv` one row per training run (committed)
 
-## Finishing the EDA
+## Data and pipeline decisions
+- **Resize:** every image is stretched to 224x224 (no padding). Source images come in three shapes (320x240 landscape, 240x320 portrait, 240x240 square), so stretching distorts the leaf shape a little.
+- **No manual normalization.** Keras MobileNetV3 has preprocessing built in and expects raw 0-255 pixels. The baseline rescales to 0-1 in its first layer.
+- **Augmentation (training split only):** horizontal and vertical flip, rotation up to about 18 degrees, zoom 10%, brightness and contrast 20%. Validation and test are never augmented.
+- **Class weights** are computed from the training split. Cutting Weevil has only 172 training images (about half of the other classes), so its weight is about 1.9 and the others are about 0.93 to 0.96.
+- **Split first, augment after.** The test set is used once, at the very end.
 
-Notebook: `notebooks/01_eda.ipynb`. Run it from VS Code.
+## EDA findings (summary)
+- 8 classes, 500 images each in the original dataset. After removing 294 near-duplicates: 3,706 images. Cutting Weevil lost 254 of its 500 images (51%), Anthracnose 19, Die Back 10, Bacterial Canker 4, Gall Midge 4, Powdery Mildew 2, Sooty Mould 1, Healthy none. Cutting Weevil is now the smallest class (246 images).
+- 96.6% of images are one of three sizes: 320x240, 240x320 or 240x240. A few classes have small irregular crops.
+- Median brightness is similar across classes (about 165 to 182). Cutting Weevil images are very uniform (all 240 px tall, narrow brightness range), which could let a model recognize that class from capture conditions instead of the disease. We check this with Grad-CAM and the local leaf photos.
+- Photos show a single leaf on a plain surface, so the model does not have to deal with cluttered backgrounds.
 
-**One-time notebook setup:** open the notebook, click **Select Kernel** (top right), choose **Python Environments...**, then pick the `.venv` entry. If it is not listed, run `python -m pip install ipykernel` in the terminal, then run "Developer: Reload Window" from the command palette (`Ctrl+Shift+P`).
+## Training
 
-The notebook is a series of cells, run in order with `Shift+Enter`. Cell 1 must run first because the others use its `df`.
+Run from the repo root with the `.venv` active. Each run adds a row to `outputs/runs.csv` and saves models to `outputs/models/`. The script never touches the test split.
 
-| Cell | What it does | What to look for |
+```
+python src/train.py --model baseline --epochs 12 --run-name baseline_gn
+python src/train.py --model mobilenet_small --epochs 15 --finetune-epochs 15 --run-name mnv3_small_v1
+python src/train.py --model mobilenet_large --epochs 15 --finetune-epochs 15 --run-name mnv3_large_v1
+```
+
+- **MobileNet** trains in two stages: stage 1 trains only the new head on the frozen backbone (learning rate 1e-3); stage 2 unfreezes the top 30 backbone layers and fine-tunes at 1e-5. The script keeps whichever stage has the lower validation loss. BatchNorm layers stay frozen.
+- **Early stopping** on validation loss (patience 5) with best-weights restore, and the learning rate halves when validation loss stalls.
+- **The first MobileNet run downloads the ImageNet weights**, so it needs internet.
+- Use a unique `--run-name` for every run. If you and your teammate both append to `outputs/runs.csv`, keep both sets of rows when git reports a conflict.
+- Results can differ by a few images between machines even with seed 42.
+
+### Why the baseline uses group normalization
+With BatchNorm, the small baseline CNN reached 80 to 90% training accuracy but stayed at chance level (5 to 18%) on validation, even on its own training images in evaluation mode. `src/diagnose_bn.py` showed that accuracy returned to about 78% when BatchNorm used batch statistics, so the saved running statistics were the problem, not the data. MobileNet was not affected because its BatchNorm layers are frozen. We replaced BatchNorm with group normalization in the baseline, which has no running statistics. Mention this in the report.
+
+---
+
+## What is left
+
+| Task | Member A | Member B |
 |---|---|---|
-| 1. Setup | Moves to the repo root (so relative paths work), loads `data/manifest.csv`, prints shape | Shape should be `(3706, 3)` |
-| 2. Class distribution | Table and stacked bar chart of images per class and split, saved to `outputs/plots/class_distribution.png` | Each class is about 70/15/15; note which class is smallest (expected: Cutting Weevil) and how many images each class lost to deduplication |
-| 3. Sample grid | 5 random images per class, saved to `outputs/plots/sample_grid.png` | Backgrounds, lighting, leaves that look alike across classes. Change the seed (42) and rerun to see more |
-| 4. Image sizes | Width and height of every image, grouped by size and by class | Are all images the same size? Portrait vs landscape matters because a plain resize to 224x224 stretches non-square images |
-| 5. Brightness and color | Mean brightness and RGB per image, boxplot per class, saved to `outputs/plots/brightness_per_class.png` | Does any class differ strongly in brightness, which the model could learn instead of the disease? |
+| Local leaf photos (30 to 50 total, one leaf per photo on a plain background, labeled by disease) | Half (suggest: split by class) | Half |
+| Evaluation on the test set, once: confusion matrix, per-class precision/recall/F1 | `src/evaluate.py` | Review |
+| Grad-CAM and misclassified-image review | Review | Grad-CAM script and analysis |
+| Inference script for one photo | `src/predict.py` | Review |
+| Final model choice (Small vs Large) | Decide together after Grad-CAM and the local photo test | |
+| Proposal and report items from the plan (abstract, data description, evaluation plan, related work, timeline, framework decision) | Check the project plan for what is still missing | |
 
-**If the notebook is not finished when you pick it up:**
-1. Run `git pull` to get the latest notebook. Open it and see which cells already have outputs.
-2. Run Cell 1, then run whichever of Cells 2 to 5 are missing or empty.
-3. Save the plots to `outputs/plots/` (the cells already do this) and commit the notebook and the plots.
-4. Write 4 to 6 bullet points under a final Markdown cell titled "EDA findings": class balance, image size and orientation, lighting/background differences, anything unusual. These go straight into the data description of the proposal and the final paper.
-5. Check the box in the status table above and tell your teammate.
+**Open decision:** one code layout for the repo. This README uses the flat `src/` layout (`python src/train.py ...`). If the team prefers one folder per stage (for example `python -m src.training.train`), move the files in one go and update this README so both members use the same commands.
 
 ## Workflow
 
@@ -105,21 +150,6 @@ The notebook is a series of cells, run in order with `Shift+Enter`. Cell 1 must 
 - Run `git pull` before starting work and commit small, often.
 - Fixed seed 42 everywhere. Never re-split the data.
 - Split first, augment after. Augment the training set only.
-- Never tune anything on the test set. Use it once, at the very end.
+- Never tune anything on the test set. Use it once, at the very end, after the final model is chosen.
 - Report macro-F1, per-class recall and the confusion matrix, not just accuracy.
-
-## What comes next (after EDA)
-
-Task division from the project plan (Member A / Member B):
-
-| Phase | Member A | Member B |
-|---|---|---|
-| Preprocessing | Resize and preprocessing pipeline | Augmentation pipeline |
-| Baseline | Small CNN from scratch | Training/logging utility (shared) |
-| Transfer learning | MobileNetV3-Small, frozen then fine-tuned | MobileNetV3-Large, frozen then fine-tuned |
-| Evaluation | Confusion matrix, per-class precision/recall/F1 | Grad-CAM, misclassified-image review |
-| Real-world test | Collect and label half of the local leaf photos (30 to 50 total) | Collect and label the other half |
-
-Keras MobileNetV3 has preprocessing built in and expects raw 0-255 pixels, so do not normalize twice.
-
-Still missing for the proposal: abstract, data description, evaluation plan, at least 4 related-work papers, timeline, and the confirmed framework decision (TensorFlow/Keras).
+- Do not commit `data/raw/` or `outputs/models/`.
