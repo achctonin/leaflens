@@ -1,0 +1,3 @@
+filepath,true,pred,conf
+data/raw/Powdery Mildew/20211109_122256 (Custom).jpg,Powdery Mildew,Sooty Mould,0.8220660090446472
+data/raw/Sooty Mould/IMG_20211211_154906 (Custom).jpg,Sooty Mould,Powdery Mildew,0.5524824261665344
