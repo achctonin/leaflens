@@ -6,7 +6,7 @@ import numpy as np
 import tensorflow as tf
 from PIL import Image
 
-from data import get_class_names
+from src.data import get_class_names
 
 
 IMAGE_SIZE = (224, 224)
