@@ -21,7 +21,7 @@ import tensorflow as tf
 SEED = 42
 IMG_SIZE = (224, 224)
 ROOT = Path(__file__).resolve().parents[1]
-MANIFEST = ROOT / "data" / "manifest.csv"
+MANIFEST = ROOT / "data" / "manifest_grouped_10s.csv"
 AUTOTUNE = tf.data.AUTOTUNE
 
 

@@ -8,17 +8,18 @@ Examples (run from the repo root, with the .venv active):
     python src/train.py --model mobilenet_large --epochs 15 --finetune-epochs 15
 
 What it does:
-- Loads train/val data through data/manifest.csv (src/data.py), seed 42.
+- Loads train/val data through data/manifest_grouped_10s.csv (configured in src/data.py), seed 42.
 - Trains with class weights (Cutting Weevil is the small class), early stopping on
   val_loss, and keeps the best weights.
 - MobileNetV3 runs in two stages: (1) frozen backbone, train the head; (2) unfreeze the
   top layers and fine-tune with a low learning rate. Set --finetune-epochs 0 to skip stage 2.
-- Saves models to outputs/models/ and appends one row per run to outputs/runs.csv.
+- Saves models to outputs/models/.
+- Saves epoch-by-epoch training history to outputs/history/.
+- Appends one row per run to outputs/runs.csv.
 
 The TEST split is never touched here. It is used once, at the very end, by evaluate.py.
 """
 import argparse
-import sys
 import time
 from datetime import datetime
 from pathlib import Path
@@ -27,9 +28,11 @@ import numpy as np
 import pandas as pd
 import tensorflow as tf
 from sklearn.metrics import f1_score
+from data import (
+    SEED, ROOT, MANIFEST,
+    get_class_names, get_class_weights, make_dataset
+)
 
-sys.path.insert(0, str(Path(__file__).resolve().parent))  # lets `python src/train.py` import siblings
-from data import SEED, ROOT, get_class_names, get_class_weights, make_dataset  # noqa: E402
 from model import build_baseline, build_mobilenet, unfreeze  # noqa: E402
 
 MODELS_DIR = ROOT / "outputs" / "models"
@@ -59,18 +62,14 @@ def compile_model(model, lr):
         metrics=["accuracy"],
     )
 
-
-def fit(model, train_ds, val_ds, epochs, class_weight, patience):
+def fit(model, train_ds, val_ds, epochs, class_weight, patience, checkpoint_path):
     cbs = [
-        tf.keras.callbacks.EarlyStopping(
-            monitor="val_loss", patience=patience, restore_best_weights=True, verbose=1
-        ),
+        tf.keras.callbacks.EarlyStopping(monitor="val_loss", patience=patience, restore_best_weights=True, verbose=1),
         tf.keras.callbacks.ReduceLROnPlateau(monitor="val_loss", factor=0.5, patience=2, verbose=1),
+        tf.keras.callbacks.ModelCheckpoint(filepath=checkpoint_path, monitor="val_loss", save_best_only=True, verbose=1),
     ]
-    return model.fit(
-        train_ds, validation_data=val_ds, epochs=epochs, class_weight=class_weight, callbacks=cbs, verbose=2
-    )
 
+    return model.fit(train_ds, validation_data=val_ds, epochs=epochs, class_weight=class_weight, callbacks=cbs, verbose=2)
 
 def evaluate_val(model, val_ds):
     """Validation loss, accuracy and macro-F1 (val split only)."""
@@ -91,6 +90,19 @@ def log_run(row):
     if RUNS_CSV.exists():
         df = pd.concat([pd.read_csv(RUNS_CSV), df], ignore_index=True)
     df.to_csv(RUNS_CSV, index=False)
+
+def save_history(history, run_name, stage):
+    history_dir = ROOT / "outputs" / "history"
+    history_dir.mkdir(parents=True, exist_ok=True)
+
+    df = pd.DataFrame(history.history)
+    df.index = df.index + 1
+    df.index.name = "epoch"
+
+    path = history_dir / f"{run_name}_{stage}.csv"
+    df.to_csv(path)
+
+    print(f"Training history saved: {path}")
 
 
 def main():
@@ -115,7 +127,8 @@ def main():
 
     # ---- stage 1 (whole run for the baseline; frozen backbone for MobileNet)
     compile_model(model, args.lr)
-    h1 = fit(model, train_ds, val_ds, args.epochs, class_weight, args.patience)
+    h1 = fit(model, train_ds, val_ds, args.epochs, class_weight, args.patience, MODELS_DIR / f"{run_name}_stage1_best.keras")
+    save_history(h1, run_name, "stage1")
     results = evaluate_val(model, val_ds)
     print("after stage 1:", results)
     model.save(MODELS_DIR / f"{run_name}_stage1.keras")
@@ -126,7 +139,8 @@ def main():
     if base is not None and args.finetune_epochs > 0:
         unfreeze(base, args.unfreeze_layers)
         compile_model(model, args.finetune_lr)  # must recompile after changing trainable
-        h2 = fit(model, train_ds, val_ds, args.finetune_epochs, class_weight, args.patience)
+        h2 = fit(model, train_ds, val_ds, args.finetune_epochs, class_weight, args.patience, MODELS_DIR / f"{run_name}_stage2_best.keras")
+        save_history(h2, run_name, "stage2")
         stage2 = evaluate_val(model, val_ds)
         print("after stage 2:", stage2)
         model.save(MODELS_DIR / f"{run_name}_stage2.keras")
@@ -156,6 +170,7 @@ def main():
             **results,
             "minutes": minutes,
             "model_path": str(final_path.relative_to(ROOT)),
+            "manifest": MANIFEST.name,
         }
     )
     print(f"\nDone in {minutes} min. Best model: {final_path}")

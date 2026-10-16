@@ -1,0 +1,556 @@
+true_label,predicted_label,confidence
+Anthracnose,Anthracnose,0.9714238
+Anthracnose,Anthracnose,0.9859503
+Anthracnose,Anthracnose,0.97402304
+Anthracnose,Anthracnose,0.9840374
+Anthracnose,Anthracnose,0.98191535
+Anthracnose,Anthracnose,0.98660254
+Anthracnose,Anthracnose,0.6648298
+Anthracnose,Anthracnose,0.994054
+Anthracnose,Anthracnose,0.99471325
+Anthracnose,Anthracnose,0.9976821
+Anthracnose,Anthracnose,0.99651575
+Anthracnose,Anthracnose,0.9959627
+Anthracnose,Anthracnose,0.9972511
+Anthracnose,Anthracnose,0.9971687
+Anthracnose,Anthracnose,0.99370825
+Anthracnose,Anthracnose,0.9886615
+Anthracnose,Anthracnose,0.99207085
+Anthracnose,Anthracnose,0.93623996
+Anthracnose,Anthracnose,0.9801825
+Anthracnose,Anthracnose,0.9959812
+Anthracnose,Anthracnose,0.9922638
+Anthracnose,Anthracnose,0.9919996
+Anthracnose,Anthracnose,0.9403141
+Anthracnose,Anthracnose,0.9913071
+Anthracnose,Anthracnose,0.81512797
+Anthracnose,Anthracnose,0.8475667
+Anthracnose,Anthracnose,0.9167162
+Anthracnose,Anthracnose,0.98785365
+Anthracnose,Anthracnose,0.94264644
+Anthracnose,Anthracnose,0.9689539
+Anthracnose,Anthracnose,0.9858769
+Anthracnose,Anthracnose,0.98192054
+Anthracnose,Anthracnose,0.98787814
+Anthracnose,Anthracnose,0.9835324
+Anthracnose,Anthracnose,0.9906737
+Anthracnose,Anthracnose,0.9976815
+Anthracnose,Anthracnose,0.9900331
+Anthracnose,Anthracnose,0.98953325
+Anthracnose,Anthracnose,0.99180377
+Anthracnose,Anthracnose,0.99250484
+Anthracnose,Anthracnose,0.99368566
+Anthracnose,Anthracnose,0.96678126
+Anthracnose,Anthracnose,0.97815293
+Anthracnose,Anthracnose,0.98414314
+Anthracnose,Anthracnose,0.9919803
+Anthracnose,Anthracnose,0.9911322
+Anthracnose,Anthracnose,0.99379385
+Anthracnose,Anthracnose,0.99087065
+Anthracnose,Anthracnose,0.9912935
+Anthracnose,Anthracnose,0.97116786
+Anthracnose,Anthracnose,0.9849585
+Anthracnose,Anthracnose,0.9712362
+Anthracnose,Anthracnose,0.99040496
+Anthracnose,Anthracnose,0.9940884
+Anthracnose,Anthracnose,0.9635632
+Anthracnose,Anthracnose,0.9648921
+Anthracnose,Anthracnose,0.9866458
+Anthracnose,Anthracnose,0.98367786
+Anthracnose,Anthracnose,0.9932249
+Anthracnose,Anthracnose,0.9930728
+Anthracnose,Anthracnose,0.9841294
+Anthracnose,Anthracnose,0.99008965
+Anthracnose,Anthracnose,0.9889002
+Anthracnose,Anthracnose,0.99176615
+Anthracnose,Anthracnose,0.98940176
+Anthracnose,Anthracnose,0.9862645
+Anthracnose,Anthracnose,0.99136084
+Anthracnose,Anthracnose,0.9905833
+Anthracnose,Anthracnose,0.9252397
+Anthracnose,Anthracnose,0.9794288
+Anthracnose,Anthracnose,0.98833674
+Anthracnose,Anthracnose,0.99099135
+Bacterial Canker,Healthy,0.3818444
+Bacterial Canker,Bacterial Canker,0.6618607
+Bacterial Canker,Healthy,0.5990195
+Bacterial Canker,Bacterial Canker,0.44555342
+Bacterial Canker,Healthy,0.4623936
+Bacterial Canker,Gall Midge,0.43319267
+Bacterial Canker,Bacterial Canker,0.9633364
+Bacterial Canker,Bacterial Canker,0.9144306
+Bacterial Canker,Bacterial Canker,0.57841223
+Bacterial Canker,Bacterial Canker,0.8381725
+Bacterial Canker,Bacterial Canker,0.98380685
+Bacterial Canker,Bacterial Canker,0.96382016
+Bacterial Canker,Bacterial Canker,0.9747474
+Bacterial Canker,Bacterial Canker,0.9722527
+Bacterial Canker,Bacterial Canker,0.9822839
+Bacterial Canker,Bacterial Canker,0.99143106
+Bacterial Canker,Bacterial Canker,0.9952916
+Bacterial Canker,Bacterial Canker,0.9931993
+Bacterial Canker,Bacterial Canker,0.9957131
+Bacterial Canker,Bacterial Canker,0.88846964
+Bacterial Canker,Bacterial Canker,0.7359798
+Bacterial Canker,Bacterial Canker,0.5819013
+Bacterial Canker,Bacterial Canker,0.99009377
+Bacterial Canker,Bacterial Canker,0.9545063
+Bacterial Canker,Bacterial Canker,0.9825053
+Bacterial Canker,Bacterial Canker,0.5873054
+Bacterial Canker,Bacterial Canker,0.97844666
+Bacterial Canker,Bacterial Canker,0.97607213
+Bacterial Canker,Bacterial Canker,0.98722535
+Bacterial Canker,Gall Midge,0.763227
+Bacterial Canker,Bacterial Canker,0.81382287
+Bacterial Canker,Sooty Mould,0.50951636
+Bacterial Canker,Bacterial Canker,0.37388945
+Bacterial Canker,Gall Midge,0.8011498
+Bacterial Canker,Bacterial Canker,0.9768519
+Bacterial Canker,Bacterial Canker,0.98041946
+Bacterial Canker,Gall Midge,0.52647084
+Bacterial Canker,Bacterial Canker,0.9832718
+Bacterial Canker,Bacterial Canker,0.98756105
+Bacterial Canker,Bacterial Canker,0.9919452
+Bacterial Canker,Gall Midge,0.8595078
+Bacterial Canker,Bacterial Canker,0.8189531
+Bacterial Canker,Bacterial Canker,0.8837534
+Bacterial Canker,Bacterial Canker,0.9545127
+Bacterial Canker,Gall Midge,0.67792094
+Bacterial Canker,Gall Midge,0.54664016
+Bacterial Canker,Bacterial Canker,0.99649197
+Bacterial Canker,Gall Midge,0.7986034
+Bacterial Canker,Bacterial Canker,0.9253381
+Bacterial Canker,Bacterial Canker,0.95206225
+Bacterial Canker,Bacterial Canker,0.94085747
+Bacterial Canker,Bacterial Canker,0.9554564
+Bacterial Canker,Bacterial Canker,0.94870895
+Bacterial Canker,Bacterial Canker,0.9695898
+Bacterial Canker,Bacterial Canker,0.98742795
+Bacterial Canker,Bacterial Canker,0.98436683
+Bacterial Canker,Bacterial Canker,0.9802988
+Bacterial Canker,Bacterial Canker,0.95586234
+Bacterial Canker,Bacterial Canker,0.94872046
+Bacterial Canker,Bacterial Canker,0.94938475
+Bacterial Canker,Anthracnose,0.58420193
+Bacterial Canker,Bacterial Canker,0.964725
+Bacterial Canker,Bacterial Canker,0.592773
+Bacterial Canker,Bacterial Canker,0.8377183
+Bacterial Canker,Bacterial Canker,0.98064065
+Bacterial Canker,Bacterial Canker,0.57866275
+Bacterial Canker,Bacterial Canker,0.53426033
+Bacterial Canker,Bacterial Canker,0.8051443
+Bacterial Canker,Bacterial Canker,0.97265774
+Bacterial Canker,Bacterial Canker,0.9690736
+Bacterial Canker,Bacterial Canker,0.88359815
+Bacterial Canker,Bacterial Canker,0.96639556
+Bacterial Canker,Bacterial Canker,0.79731035
+Bacterial Canker,Bacterial Canker,0.93101436
+Cutting Weevil,Die Back,0.98936325
+Cutting Weevil,Die Back,0.9827703
+Cutting Weevil,Cutting Weevil,0.99441224
+Cutting Weevil,Cutting Weevil,0.99369544
+Cutting Weevil,Cutting Weevil,0.9910115
+Cutting Weevil,Cutting Weevil,0.9923509
+Cutting Weevil,Cutting Weevil,0.9956116
+Cutting Weevil,Cutting Weevil,0.9950197
+Cutting Weevil,Cutting Weevil,0.99561936
+Cutting Weevil,Cutting Weevil,0.99428767
+Cutting Weevil,Cutting Weevil,0.99365306
+Cutting Weevil,Cutting Weevil,0.9944465
+Cutting Weevil,Cutting Weevil,0.99514526
+Cutting Weevil,Cutting Weevil,0.99058527
+Cutting Weevil,Cutting Weevil,0.96850365
+Cutting Weevil,Cutting Weevil,0.9802639
+Cutting Weevil,Cutting Weevil,0.9395297
+Cutting Weevil,Cutting Weevil,0.9522377
+Cutting Weevil,Cutting Weevil,0.96464425
+Cutting Weevil,Cutting Weevil,0.98280346
+Cutting Weevil,Cutting Weevil,0.92588115
+Cutting Weevil,Cutting Weevil,0.99022055
+Cutting Weevil,Cutting Weevil,0.9955928
+Cutting Weevil,Cutting Weevil,0.95278555
+Cutting Weevil,Cutting Weevil,0.9659868
+Cutting Weevil,Cutting Weevil,0.97606546
+Cutting Weevil,Cutting Weevil,0.9724215
+Cutting Weevil,Cutting Weevil,0.883592
+Cutting Weevil,Cutting Weevil,0.8779176
+Cutting Weevil,Cutting Weevil,0.62178016
+Cutting Weevil,Anthracnose,0.6388188
+Cutting Weevil,Anthracnose,0.5669736
+Cutting Weevil,Anthracnose,0.6381426
+Cutting Weevil,Anthracnose,0.7666136
+Cutting Weevil,Anthracnose,0.762364
+Cutting Weevil,Anthracnose,0.85696477
+Cutting Weevil,Anthracnose,0.521796
+Die Back,Die Back,0.9731905
+Die Back,Die Back,0.9832425
+Die Back,Die Back,0.995252
+Die Back,Die Back,0.9965193
+Die Back,Die Back,0.9973259
+Die Back,Die Back,0.99653435
+Die Back,Die Back,0.99607784
+Die Back,Die Back,0.9975871
+Die Back,Die Back,0.99803084
+Die Back,Die Back,0.99804187
+Die Back,Die Back,0.9977101
+Die Back,Die Back,0.99830616
+Die Back,Die Back,0.99802065
+Die Back,Die Back,0.9986883
+Die Back,Die Back,0.9986076
+Die Back,Die Back,0.9975731
+Die Back,Die Back,0.9982266
+Die Back,Die Back,0.9847131
+Die Back,Die Back,0.9972888
+Die Back,Die Back,0.9976204
+Die Back,Die Back,0.9414175
+Die Back,Die Back,0.9958865
+Die Back,Die Back,0.99461854
+Die Back,Die Back,0.9970776
+Die Back,Die Back,0.995355
+Die Back,Die Back,0.9947291
+Die Back,Die Back,0.9968952
+Die Back,Die Back,0.9885152
+Die Back,Die Back,0.9960504
+Die Back,Die Back,0.8751811
+Die Back,Die Back,0.93502253
+Die Back,Die Back,0.846387
+Die Back,Die Back,0.73442376
+Die Back,Die Back,0.7637968
+Die Back,Die Back,0.9371226
+Die Back,Die Back,0.57601804
+Die Back,Die Back,0.89803946
+Die Back,Die Back,0.8508634
+Die Back,Die Back,0.8377153
+Die Back,Die Back,0.8005082
+Die Back,Die Back,0.87149894
+Die Back,Die Back,0.9168023
+Die Back,Die Back,0.911898
+Die Back,Die Back,0.92389154
+Die Back,Die Back,0.8838269
+Die Back,Die Back,0.8973798
+Die Back,Die Back,0.9098899
+Die Back,Die Back,0.8903193
+Die Back,Die Back,0.94909656
+Die Back,Die Back,0.9218048
+Die Back,Die Back,0.93110937
+Die Back,Die Back,0.72909576
+Die Back,Gall Midge,0.48123327
+Die Back,Die Back,0.61421806
+Die Back,Die Back,0.8710474
+Die Back,Die Back,0.8786194
+Die Back,Die Back,0.82660735
+Die Back,Die Back,0.8625912
+Die Back,Die Back,0.87013406
+Die Back,Die Back,0.9301015
+Die Back,Die Back,0.95076746
+Die Back,Die Back,0.9521633
+Die Back,Die Back,0.8305579
+Die Back,Die Back,0.8801148
+Die Back,Die Back,0.6439215
+Die Back,Die Back,0.97735244
+Die Back,Die Back,0.8777641
+Die Back,Die Back,0.9475304
+Die Back,Die Back,0.9661696
+Die Back,Die Back,0.9616497
+Die Back,Die Back,0.96228665
+Die Back,Die Back,0.97436756
+Die Back,Die Back,0.92781025
+Gall Midge,Gall Midge,0.7588511
+Gall Midge,Gall Midge,0.928719
+Gall Midge,Gall Midge,0.97104317
+Gall Midge,Gall Midge,0.9729709
+Gall Midge,Gall Midge,0.9381555
+Gall Midge,Gall Midge,0.81313765
+Gall Midge,Gall Midge,0.8283005
+Gall Midge,Gall Midge,0.92759573
+Gall Midge,Gall Midge,0.88637364
+Gall Midge,Gall Midge,0.8936749
+Gall Midge,Gall Midge,0.9325727
+Gall Midge,Gall Midge,0.97356796
+Gall Midge,Gall Midge,0.9811389
+Gall Midge,Gall Midge,0.98612785
+Gall Midge,Gall Midge,0.98779756
+Gall Midge,Gall Midge,0.9873284
+Gall Midge,Gall Midge,0.96039414
+Gall Midge,Gall Midge,0.9873705
+Gall Midge,Gall Midge,0.9810068
+Gall Midge,Gall Midge,0.98852575
+Gall Midge,Gall Midge,0.68183935
+Gall Midge,Gall Midge,0.68962795
+Gall Midge,Gall Midge,0.557159
+Gall Midge,Sooty Mould,0.6983855
+Gall Midge,Gall Midge,0.6851425
+Gall Midge,Gall Midge,0.9871482
+Gall Midge,Gall Midge,0.9823155
+Gall Midge,Gall Midge,0.98578507
+Gall Midge,Gall Midge,0.97846425
+Gall Midge,Gall Midge,0.94526494
+Gall Midge,Gall Midge,0.9912072
+Gall Midge,Gall Midge,0.9588432
+Gall Midge,Gall Midge,0.9844097
+Gall Midge,Gall Midge,0.9607251
+Gall Midge,Gall Midge,0.9581833
+Gall Midge,Gall Midge,0.70370567
+Gall Midge,Gall Midge,0.6148122
+Gall Midge,Sooty Mould,0.7008119
+Gall Midge,Gall Midge,0.9632743
+Gall Midge,Gall Midge,0.76184094
+Gall Midge,Gall Midge,0.86845917
+Gall Midge,Gall Midge,0.98596317
+Gall Midge,Gall Midge,0.92714834
+Gall Midge,Gall Midge,0.9701579
+Gall Midge,Gall Midge,0.9506714
+Gall Midge,Gall Midge,0.97723824
+Gall Midge,Gall Midge,0.96911836
+Gall Midge,Gall Midge,0.97271574
+Gall Midge,Gall Midge,0.96142894
+Gall Midge,Gall Midge,0.9641443
+Gall Midge,Gall Midge,0.97107285
+Gall Midge,Gall Midge,0.9632598
+Gall Midge,Gall Midge,0.9691787
+Gall Midge,Gall Midge,0.97537154
+Gall Midge,Gall Midge,0.9013766
+Gall Midge,Gall Midge,0.9867749
+Gall Midge,Gall Midge,0.98600906
+Gall Midge,Gall Midge,0.98175067
+Gall Midge,Gall Midge,0.948335
+Gall Midge,Gall Midge,0.9753239
+Gall Midge,Gall Midge,0.6612609
+Gall Midge,Gall Midge,0.61122406
+Gall Midge,Gall Midge,0.5712007
+Gall Midge,Gall Midge,0.9732824
+Gall Midge,Gall Midge,0.9824119
+Gall Midge,Gall Midge,0.9860588
+Gall Midge,Gall Midge,0.937787
+Gall Midge,Gall Midge,0.9215079
+Gall Midge,Gall Midge,0.8338596
+Gall Midge,Gall Midge,0.7180252
+Gall Midge,Gall Midge,0.71793795
+Gall Midge,Gall Midge,0.98563945
+Gall Midge,Gall Midge,0.8816516
+Gall Midge,Gall Midge,0.7466751
+Healthy,Healthy,0.9719579
+Healthy,Healthy,0.99150217
+Healthy,Healthy,0.7211058
+Healthy,Healthy,0.9927626
+Healthy,Healthy,0.99465984
+Healthy,Healthy,0.77067465
+Healthy,Healthy,0.8717852
+Healthy,Healthy,0.9854114
+Healthy,Healthy,0.9906268
+Healthy,Healthy,0.9601217
+Healthy,Healthy,0.9935742
+Healthy,Healthy,0.9911594
+Healthy,Healthy,0.9757441
+Healthy,Healthy,0.9514488
+Healthy,Healthy,0.9812245
+Healthy,Healthy,0.9912316
+Healthy,Healthy,0.98107177
+Healthy,Healthy,0.9359505
+Healthy,Healthy,0.95196
+Healthy,Healthy,0.74709404
+Healthy,Healthy,0.87767
+Healthy,Healthy,0.99269825
+Healthy,Healthy,0.9782467
+Healthy,Healthy,0.99279433
+Healthy,Healthy,0.9946964
+Healthy,Healthy,0.9934077
+Healthy,Healthy,0.9920357
+Healthy,Healthy,0.983135
+Healthy,Healthy,0.98890406
+Healthy,Healthy,0.9924051
+Healthy,Healthy,0.9914484
+Healthy,Healthy,0.9951951
+Healthy,Healthy,0.9949852
+Healthy,Healthy,0.995118
+Healthy,Healthy,0.9943017
+Healthy,Healthy,0.9872671
+Healthy,Healthy,0.99140066
+Healthy,Healthy,0.99279165
+Healthy,Healthy,0.9926807
+Healthy,Healthy,0.99369806
+Healthy,Healthy,0.9939587
+Healthy,Healthy,0.99471754
+Healthy,Healthy,0.9949969
+Healthy,Healthy,0.9906562
+Healthy,Healthy,0.99463236
+Healthy,Healthy,0.9873088
+Healthy,Healthy,0.9818824
+Healthy,Healthy,0.9757402
+Healthy,Healthy,0.97580737
+Healthy,Healthy,0.8567472
+Healthy,Healthy,0.8457397
+Healthy,Healthy,0.9834538
+Healthy,Healthy,0.97794676
+Healthy,Healthy,0.9187642
+Healthy,Healthy,0.8831657
+Healthy,Healthy,0.88146526
+Healthy,Healthy,0.981686
+Healthy,Healthy,0.98024493
+Healthy,Healthy,0.9810606
+Healthy,Healthy,0.9898694
+Healthy,Healthy,0.9773646
+Healthy,Healthy,0.9885563
+Healthy,Healthy,0.9756132
+Healthy,Healthy,0.99405044
+Healthy,Healthy,0.9944817
+Healthy,Healthy,0.9941695
+Healthy,Healthy,0.9941282
+Healthy,Healthy,0.9914015
+Healthy,Healthy,0.9825272
+Healthy,Healthy,0.9912477
+Healthy,Healthy,0.99407
+Healthy,Healthy,0.9920591
+Healthy,Healthy,0.76073706
+Healthy,Healthy,0.992101
+Healthy,Healthy,0.9930553
+Powdery Mildew,Powdery Mildew,0.98860687
+Powdery Mildew,Powdery Mildew,0.73241997
+Powdery Mildew,Powdery Mildew,0.7849064
+Powdery Mildew,Powdery Mildew,0.7238671
+Powdery Mildew,Powdery Mildew,0.71759087
+Powdery Mildew,Powdery Mildew,0.88522667
+Powdery Mildew,Powdery Mildew,0.9503379
+Powdery Mildew,Powdery Mildew,0.96097463
+Powdery Mildew,Powdery Mildew,0.9222621
+Powdery Mildew,Powdery Mildew,0.8796664
+Powdery Mildew,Powdery Mildew,0.8647137
+Powdery Mildew,Powdery Mildew,0.98695266
+Powdery Mildew,Powdery Mildew,0.93710446
+Powdery Mildew,Powdery Mildew,0.91867715
+Powdery Mildew,Powdery Mildew,0.96531326
+Powdery Mildew,Powdery Mildew,0.9428624
+Powdery Mildew,Powdery Mildew,0.97729754
+Powdery Mildew,Powdery Mildew,0.9750089
+Powdery Mildew,Powdery Mildew,0.98330426
+Powdery Mildew,Powdery Mildew,0.96777
+Powdery Mildew,Powdery Mildew,0.9874303
+Powdery Mildew,Powdery Mildew,0.9881688
+Powdery Mildew,Powdery Mildew,0.98373693
+Powdery Mildew,Powdery Mildew,0.9928075
+Powdery Mildew,Powdery Mildew,0.98065645
+Powdery Mildew,Powdery Mildew,0.9443839
+Powdery Mildew,Powdery Mildew,0.98100054
+Powdery Mildew,Powdery Mildew,0.98675203
+Powdery Mildew,Powdery Mildew,0.9864231
+Powdery Mildew,Powdery Mildew,0.98345286
+Powdery Mildew,Powdery Mildew,0.99197525
+Powdery Mildew,Powdery Mildew,0.85045004
+Powdery Mildew,Powdery Mildew,0.95285666
+Powdery Mildew,Powdery Mildew,0.91219795
+Powdery Mildew,Powdery Mildew,0.9897738
+Powdery Mildew,Powdery Mildew,0.8523338
+Powdery Mildew,Powdery Mildew,0.7384566
+Powdery Mildew,Powdery Mildew,0.7909261
+Powdery Mildew,Powdery Mildew,0.9330546
+Powdery Mildew,Powdery Mildew,0.94663113
+Powdery Mildew,Powdery Mildew,0.9548843
+Powdery Mildew,Powdery Mildew,0.97477156
+Powdery Mildew,Powdery Mildew,0.97996646
+Powdery Mildew,Powdery Mildew,0.9684464
+Powdery Mildew,Sooty Mould,0.6818102
+Powdery Mildew,Powdery Mildew,0.8929444
+Powdery Mildew,Powdery Mildew,0.97790504
+Powdery Mildew,Powdery Mildew,0.97029793
+Powdery Mildew,Powdery Mildew,0.97909456
+Powdery Mildew,Powdery Mildew,0.94697976
+Powdery Mildew,Powdery Mildew,0.9610581
+Powdery Mildew,Powdery Mildew,0.893851
+Powdery Mildew,Powdery Mildew,0.667314
+Powdery Mildew,Sooty Mould,0.93824863
+Powdery Mildew,Sooty Mould,0.90630114
+Powdery Mildew,Powdery Mildew,0.80729514
+Powdery Mildew,Sooty Mould,0.604477
+Powdery Mildew,Powdery Mildew,0.815413
+Powdery Mildew,Powdery Mildew,0.6804232
+Powdery Mildew,Powdery Mildew,0.5908712
+Powdery Mildew,Powdery Mildew,0.6651789
+Powdery Mildew,Powdery Mildew,0.9822489
+Powdery Mildew,Powdery Mildew,0.9217235
+Powdery Mildew,Powdery Mildew,0.9462237
+Powdery Mildew,Powdery Mildew,0.9705282
+Powdery Mildew,Powdery Mildew,0.85375124
+Powdery Mildew,Powdery Mildew,0.977136
+Powdery Mildew,Powdery Mildew,0.9837136
+Powdery Mildew,Powdery Mildew,0.9875381
+Powdery Mildew,Powdery Mildew,0.8473195
+Powdery Mildew,Powdery Mildew,0.7349402
+Powdery Mildew,Powdery Mildew,0.93591654
+Powdery Mildew,Powdery Mildew,0.9921023
+Powdery Mildew,Powdery Mildew,0.8389504
+Powdery Mildew,Powdery Mildew,0.6620252
+Sooty Mould,Sooty Mould,0.95049006
+Sooty Mould,Sooty Mould,0.97420406
+Sooty Mould,Sooty Mould,0.9920447
+Sooty Mould,Sooty Mould,0.9941162
+Sooty Mould,Sooty Mould,0.9887194
+Sooty Mould,Sooty Mould,0.9562748
+Sooty Mould,Sooty Mould,0.9648094
+Sooty Mould,Sooty Mould,0.96359265
+Sooty Mould,Sooty Mould,0.91300744
+Sooty Mould,Sooty Mould,0.9791753
+Sooty Mould,Sooty Mould,0.9918359
+Sooty Mould,Sooty Mould,0.98448527
+Sooty Mould,Sooty Mould,0.9897176
+Sooty Mould,Sooty Mould,0.98115015
+Sooty Mould,Sooty Mould,0.94166446
+Sooty Mould,Sooty Mould,0.6124654
+Sooty Mould,Powdery Mildew,0.94554204
+Sooty Mould,Powdery Mildew,0.9657719
+Sooty Mould,Powdery Mildew,0.96841395
+Sooty Mould,Powdery Mildew,0.93364346
+Sooty Mould,Powdery Mildew,0.88173795
+Sooty Mould,Powdery Mildew,0.8766504
+Sooty Mould,Powdery Mildew,0.6436171
+Sooty Mould,Sooty Mould,0.6169686
+Sooty Mould,Powdery Mildew,0.53972197
+Sooty Mould,Sooty Mould,0.5527078
+Sooty Mould,Sooty Mould,0.76882005
+Sooty Mould,Sooty Mould,0.55621916
+Sooty Mould,Sooty Mould,0.95462483
+Sooty Mould,Sooty Mould,0.73872143
+Sooty Mould,Sooty Mould,0.58917254
+Sooty Mould,Sooty Mould,0.48507276
+Sooty Mould,Sooty Mould,0.6722788
+Sooty Mould,Sooty Mould,0.63139266
+Sooty Mould,Sooty Mould,0.7597796
+Sooty Mould,Sooty Mould,0.6494789
+Sooty Mould,Sooty Mould,0.54720575
+Sooty Mould,Sooty Mould,0.4798805
+Sooty Mould,Sooty Mould,0.6104501
+Sooty Mould,Sooty Mould,0.4961715
+Sooty Mould,Sooty Mould,0.6026539
+Sooty Mould,Sooty Mould,0.6685064
+Sooty Mould,Sooty Mould,0.66443807
+Sooty Mould,Powdery Mildew,0.4676236
+Sooty Mould,Powdery Mildew,0.62364525
+Sooty Mould,Powdery Mildew,0.53070307
+Sooty Mould,Sooty Mould,0.78576154
+Sooty Mould,Sooty Mould,0.5246279
+Sooty Mould,Sooty Mould,0.49710852
+Sooty Mould,Powdery Mildew,0.62697613
+Sooty Mould,Powdery Mildew,0.4845038
+Sooty Mould,Gall Midge,0.84236574
+Sooty Mould,Gall Midge,0.92611724
+Sooty Mould,Gall Midge,0.9219164
+Sooty Mould,Sooty Mould,0.8819939
+Sooty Mould,Sooty Mould,0.73140216
+Sooty Mould,Sooty Mould,0.8924746
+Sooty Mould,Gall Midge,0.3512475
+Sooty Mould,Sooty Mould,0.6811481
+Sooty Mould,Sooty Mould,0.7207494
+Sooty Mould,Sooty Mould,0.599239
+Sooty Mould,Gall Midge,0.4869038
+Sooty Mould,Sooty Mould,0.8894626
+Sooty Mould,Sooty Mould,0.6868905
+Sooty Mould,Sooty Mould,0.8555015
+Sooty Mould,Sooty Mould,0.86300045
+Sooty Mould,Sooty Mould,0.58675826
+Sooty Mould,Sooty Mould,0.96396005
+Sooty Mould,Sooty Mould,0.6968607
+Sooty Mould,Sooty Mould,0.67695296
+Sooty Mould,Sooty Mould,0.8764396
+Sooty Mould,Powdery Mildew,0.37440696
+Sooty Mould,Sooty Mould,0.86994785
+Sooty Mould,Sooty Mould,0.77098614
+Sooty Mould,Sooty Mould,0.7051425

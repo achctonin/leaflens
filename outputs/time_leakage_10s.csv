@@ -1,0 +1,1114 @@
+split,label,file,closest_train_file,gap_seconds
+val,Sooty Mould,data/raw/Sooty Mould/IMG_20211212_145222 (Custom).jpg,data/raw/Sooty Mould/IMG_20211212_145233 (Custom).jpg,11
+val,Powdery Mildew,data/raw/Powdery Mildew/IMG_20211107_130101 (Custom).jpg,data/raw/Powdery Mildew/IMG_20211107_130050 (Custom).jpg,11
+val,Sooty Mould,data/raw/Sooty Mould/IMG_20211108_122543 (Custom).jpg,data/raw/Sooty Mould/IMG_20211108_122532 (Custom).jpg,11
+test,Powdery Mildew,data/raw/Powdery Mildew/IMG_20211107_125342 (Custom).jpg,data/raw/Powdery Mildew/IMG_20211107_125353 (Custom).jpg,11
+val,Healthy,data/raw/Healthy/20211231_154939 (Custom).jpg,data/raw/Healthy/20211231_154928 (Custom).jpg,11
+test,Gall Midge,data/raw/Gall Midge/IMG_20211106_164159 (Custom).jpg,data/raw/Gall Midge/IMG_20211106_164148 (Custom).jpg,11
+val,Die Back,data/raw/Die Back/20211129_161654 (Custom).jpg,data/raw/Die Back/20211129_161643 (Custom).jpg,11
+val,Cutting Weevil,data/raw/Cutting Weevil/20211011_161657(0) (Custom) (Custom).jpg,data/raw/Cutting Weevil/20211011_161708 (Custom) (Custom).jpg,11
+val,Healthy,data/raw/Healthy/20211231_125121 (Custom).jpg,data/raw/Healthy/20211231_125110 (Custom).jpg,11
+test,Bacterial Canker,data/raw/Bacterial Canker/IMG_20211106_135232 (Custom).jpg,data/raw/Bacterial Canker/IMG_20211106_135221 (Custom).jpg,11
+test,Gall Midge,data/raw/Gall Midge/IMG_20211106_163122 (Custom).jpg,data/raw/Gall Midge/IMG_20211106_163111 (Custom).jpg,11
+val,Bacterial Canker,data/raw/Bacterial Canker/IMG_20211106_134416 (Custom).jpg,data/raw/Bacterial Canker/IMG_20211106_134405 (Custom).jpg,11
+val,Powdery Mildew,data/raw/Powdery Mildew/IMG_20211107_122516 (Custom).jpg,data/raw/Powdery Mildew/IMG_20211107_122505 (Custom).jpg,11
+val,Cutting Weevil,data/raw/Cutting Weevil/20211011_161657 (Custom) (Custom).jpg,data/raw/Cutting Weevil/20211011_161708 (Custom) (Custom).jpg,11
+val,Die Back,data/raw/Die Back/20211129_163038 (Custom).jpg,data/raw/Die Back/20211129_163027 (Custom).jpg,11
+test,Sooty Mould,data/raw/Sooty Mould/IMG_20211108_122041 (Custom).jpg,data/raw/Sooty Mould/IMG_20211108_122030 (Custom).jpg,11
+test,Bacterial Canker,data/raw/Bacterial Canker/IMG_20211106_141335 (Custom).jpg,data/raw/Bacterial Canker/IMG_20211106_141324 (Custom).jpg,11
+val,Healthy,data/raw/Healthy/20211231_155708 (Custom).jpg,data/raw/Healthy/20211231_155719 (Custom).jpg,11
+val,Healthy,data/raw/Healthy/20211231_155835 (Custom).jpg,data/raw/Healthy/20211231_155846 (Custom).jpg,11
+val,Bacterial Canker,data/raw/Bacterial Canker/IMG_20211106_143134 (Custom).jpg,data/raw/Bacterial Canker/IMG_20211106_143123 (Custom).jpg,11
+val,Bacterial Canker,data/raw/Bacterial Canker/IMG_20211106_142856 (Custom).jpg,data/raw/Bacterial Canker/IMG_20211106_142907 (Custom).jpg,11
+val,Bacterial Canker,data/raw/Bacterial Canker/IMG_20211106_140253 (Custom).jpg,data/raw/Bacterial Canker/IMG_20211106_140242 (Custom).jpg,11
+val,Anthracnose,data/raw/Anthracnose/20211011_134007 (Custom).jpg,data/raw/Anthracnose/20211011_133956 (Custom).jpg,11
+test,Healthy,data/raw/Healthy/20211231_125451 (Custom).jpg,data/raw/Healthy/20211231_125439 (Custom).jpg,12
+val,Cutting Weevil,data/raw/Cutting Weevil/20211011_161532 (Custom) (Custom).jpg,data/raw/Cutting Weevil/20211011_161520 (Custom) (Custom).jpg,12
+val,Cutting Weevil,data/raw/Cutting Weevil/20211011_161656(0) (Custom) (Custom).jpg,data/raw/Cutting Weevil/20211011_161708 (Custom) (Custom).jpg,12
+test,Gall Midge,data/raw/Gall Midge/IMG_20211106_165656 (Custom).jpg,data/raw/Gall Midge/IMG_20211106_165644 (Custom).jpg,12
+test,Healthy,data/raw/Healthy/20211231_124534 (Custom).jpg,data/raw/Healthy/20211231_124546 (Custom).jpg,12
+test,Gall Midge,data/raw/Gall Midge/IMG_20211106_163123 (Custom).jpg,data/raw/Gall Midge/IMG_20211106_163111 (Custom).jpg,12
+val,Cutting Weevil,data/raw/Cutting Weevil/20211011_161641(0) (Custom) (Custom).jpg,data/raw/Cutting Weevil/20211011_161629 (Custom) (Custom).jpg,12
+val,Powdery Mildew,data/raw/Powdery Mildew/IMG_20211107_125209 (Custom).jpg,data/raw/Powdery Mildew/IMG_20211107_125157 (Custom).jpg,12
+val,Powdery Mildew,data/raw/Powdery Mildew/20211109_121257 (Custom).jpg,data/raw/Powdery Mildew/20211109_121245 (Custom).jpg,12
+test,Bacterial Canker,data/raw/Bacterial Canker/IMG_20211106_135302 (Custom).jpg,data/raw/Bacterial Canker/IMG_20211106_135314 (Custom).jpg,12
+test,Bacterial Canker,data/raw/Bacterial Canker/IMG_20211106_140448 (Custom).jpg,data/raw/Bacterial Canker/IMG_20211106_140500 (Custom).jpg,12
+val,Powdery Mildew,data/raw/Powdery Mildew/IMG_20211107_120339 (Custom).jpg,data/raw/Powdery Mildew/IMG_20211107_120351 (Custom).jpg,12
+val,Bacterial Canker,data/raw/Bacterial Canker/IMG_20211106_142840 (Custom).jpg,data/raw/Bacterial Canker/IMG_20211106_142828 (Custom).jpg,12
+test,Healthy,data/raw/Healthy/20211231_160300 (Custom).jpg,data/raw/Healthy/20211231_160312 (Custom).jpg,12
+test,Healthy,data/raw/Healthy/20211231_161700 (Custom).jpg,data/raw/Healthy/20211231_161648 (Custom).jpg,12
+test,Bacterial Canker,data/raw/Bacterial Canker/IMG_20211106_140834 (Custom).jpg,data/raw/Bacterial Canker/IMG_20211106_140846 (Custom).jpg,12
+val,Healthy,data/raw/Healthy/20211231_124945 (Custom).jpg,data/raw/Healthy/20211231_124957 (Custom).jpg,12
+val,Cutting Weevil,data/raw/Cutting Weevil/20211011_161641 (Custom) (Custom).jpg,data/raw/Cutting Weevil/20211011_161629 (Custom) (Custom).jpg,12
+val,Powdery Mildew,data/raw/Powdery Mildew/IMG_20211107_124941 (Custom).jpg,data/raw/Powdery Mildew/IMG_20211107_124953 (Custom).jpg,12
+val,Die Back,data/raw/Die Back/20211129_160544 (Custom).jpg,data/raw/Die Back/20211129_160532 (Custom).jpg,12
+test,Sooty Mould,data/raw/Sooty Mould/IMG_20211211_154153 (Custom).jpg,data/raw/Sooty Mould/IMG_20211211_154205 (Custom).jpg,12
+val,Powdery Mildew,data/raw/Powdery Mildew/20211109_122336 (Custom).jpg,data/raw/Powdery Mildew/20211109_122324 (Custom).jpg,12
+test,Gall Midge,data/raw/Gall Midge/IMG_20211106_164200 (Custom).jpg,data/raw/Gall Midge/IMG_20211106_164148 (Custom).jpg,12
+val,Bacterial Canker,data/raw/Bacterial Canker/IMG_20211106_140926 (Custom).jpg,data/raw/Bacterial Canker/IMG_20211106_140938 (Custom).jpg,12
+val,Sooty Mould,data/raw/Sooty Mould/IMG_20211108_120804 (Custom).jpg,data/raw/Sooty Mould/IMG_20211108_120816 (Custom).jpg,12
+test,Gall Midge,data/raw/Gall Midge/IMG_20211106_161336 (Custom).jpg,data/raw/Gall Midge/IMG_20211106_161324 (Custom).jpg,12
+val,Gall Midge,data/raw/Gall Midge/IMG_20211106_161552 (Custom).jpg,data/raw/Gall Midge/IMG_20211106_161604 (Custom).jpg,12
+val,Gall Midge,data/raw/Gall Midge/IMG_20211106_162047 (Custom).jpg,data/raw/Gall Midge/IMG_20211106_162059 (Custom).jpg,12
+test,Gall Midge,data/raw/Gall Midge/IMG_20211106_164036 (Custom).jpg,data/raw/Gall Midge/IMG_20211106_164049 (Custom).jpg,13
+test,Healthy,data/raw/Healthy/20211231_125335 (Custom).jpg,data/raw/Healthy/20211231_125322 (Custom).jpg,13
+test,Die Back,data/raw/Die Back/20211129_161817 (Custom).jpg,data/raw/Die Back/20211129_161830 (Custom).jpg,13
+test,Anthracnose,data/raw/Anthracnose/IMG_20211011_164110 (Custom).jpg,data/raw/Anthracnose/IMG_20211011_164123 (Custom).jpg,13
+val,Gall Midge,data/raw/Gall Midge/IMG_20211106_163640 (Custom).jpg,data/raw/Gall Midge/IMG_20211106_163653 (Custom).jpg,13
+test,Bacterial Canker,data/raw/Bacterial Canker/IMG_20211106_135800 (Custom).jpg,data/raw/Bacterial Canker/IMG_20211106_135747 (Custom).jpg,13
+val,Gall Midge,data/raw/Gall Midge/IMG_20211106_161707 (Custom).jpg,data/raw/Gall Midge/IMG_20211106_161654 (Custom).jpg,13
+test,Bacterial Canker,data/raw/Bacterial Canker/IMG_20211106_135234 (Custom).jpg,data/raw/Bacterial Canker/IMG_20211106_135221 (Custom).jpg,13
+test,Gall Midge,data/raw/Gall Midge/IMG_20211106_165916 (Custom).jpg,data/raw/Gall Midge/IMG_20211106_165903 (Custom).jpg,13
+val,Healthy,data/raw/Healthy/20211231_155132 (Custom).jpg,data/raw/Healthy/20211231_155119 (Custom).jpg,13
+test,Bacterial Canker,data/raw/Bacterial Canker/IMG_20211106_120934 (Custom).jpg,data/raw/Bacterial Canker/IMG_20211106_120947 (Custom).jpg,13
+val,Cutting Weevil,data/raw/Cutting Weevil/20211011_161642 (Custom) (Custom).jpg,data/raw/Cutting Weevil/20211011_161629 (Custom) (Custom).jpg,13
+test,Cutting Weevil,data/raw/Cutting Weevil/20211011_162146 (Custom) (Custom).jpg,data/raw/Cutting Weevil/20211011_162133 (Custom) (Custom).jpg,13
+val,Bacterial Canker,data/raw/Bacterial Canker/IMG_20211106_141217 (Custom).jpg,data/raw/Bacterial Canker/IMG_20211106_141230 (Custom).jpg,13
+val,Healthy,data/raw/Healthy/20211231_160748 (Custom).jpg,data/raw/Healthy/20211231_160735 (Custom).jpg,13
+val,Healthy,data/raw/Healthy/20211231_155358 (Custom).jpg,data/raw/Healthy/20211231_155345 (Custom).jpg,13
+val,Sooty Mould,data/raw/Sooty Mould/IMG_20211108_120922 (Custom).jpg,data/raw/Sooty Mould/IMG_20211108_120909 (Custom).jpg,13
+test,Bacterial Canker,data/raw/Bacterial Canker/IMG_20211106_140715 (Custom).jpg,data/raw/Bacterial Canker/IMG_20211106_140728 (Custom).jpg,13
+test,Healthy,data/raw/Healthy/20211231_123734 (Custom).jpg,data/raw/Healthy/20211231_123721 (Custom).jpg,13
+val,Healthy,data/raw/Healthy/20211231_123359 (Custom).jpg,data/raw/Healthy/20211231_123346 (Custom).jpg,13
+test,Bacterial Canker,data/raw/Bacterial Canker/IMG_20211106_140429 (Custom).jpg,data/raw/Bacterial Canker/IMG_20211106_140416 (Custom).jpg,13
+val,Die Back,data/raw/Die Back/20211129_162528 (Custom).jpg,data/raw/Die Back/20211129_162541 (Custom).jpg,13
+val,Powdery Mildew,data/raw/Powdery Mildew/IMG_20211107_120151 (Custom).jpg,data/raw/Powdery Mildew/IMG_20211107_120138 (Custom).jpg,13
+val,Die Back,data/raw/Die Back/20211129_164312 (Custom).jpg,data/raw/Die Back/20211129_164326 (Custom).jpg,14
+val,Die Back,data/raw/Die Back/IMG_20211028_003109 (Custom).jpg,data/raw/Die Back/IMG_20211028_003123 (Custom).jpg,14
+val,Healthy,data/raw/Healthy/20211231_155812 (Custom).jpg,data/raw/Healthy/20211231_155758 (Custom).jpg,14
+val,Die Back,data/raw/Die Back/20211129_164544 (Custom).jpg,data/raw/Die Back/20211129_164530 (Custom).jpg,14
+test,Powdery Mildew,data/raw/Powdery Mildew/IMG_20211107_120124 (Custom).jpg,data/raw/Powdery Mildew/IMG_20211107_120138 (Custom).jpg,14
+test,Healthy,data/raw/Healthy/20211231_162439 (Custom).jpg,data/raw/Healthy/20211231_162425 (Custom).jpg,14
+test,Powdery Mildew,data/raw/Powdery Mildew/IMG_20211107_122254 (Custom).jpg,data/raw/Powdery Mildew/IMG_20211107_122308 (Custom).jpg,14
+test,Healthy,data/raw/Healthy/20211231_123801 (Custom).jpg,data/raw/Healthy/20211231_123815 (Custom).jpg,14
+val,Cutting Weevil,data/raw/Cutting Weevil/20211011_161534 (Custom) (Custom).jpg,data/raw/Cutting Weevil/20211011_161520 (Custom) (Custom).jpg,14
+val,Cutting Weevil,data/raw/Cutting Weevil/20211011_161643 (Custom) (Custom).jpg,data/raw/Cutting Weevil/20211011_161629 (Custom) (Custom).jpg,14
+val,Die Back,data/raw/Die Back/20211129_161657 (Custom).jpg,data/raw/Die Back/20211129_161643 (Custom).jpg,14
+test,Gall Midge,data/raw/Gall Midge/IMG_20211106_164202 (Custom).jpg,data/raw/Gall Midge/IMG_20211106_164148 (Custom).jpg,14
+val,Sooty Mould,data/raw/Sooty Mould/IMG_20211108_121321 (Custom).jpg,data/raw/Sooty Mould/IMG_20211108_121307 (Custom).jpg,14
+val,Powdery Mildew,data/raw/Powdery Mildew/20211109_122338 (Custom).jpg,data/raw/Powdery Mildew/20211109_122324 (Custom).jpg,14
+test,Powdery Mildew,data/raw/Powdery Mildew/IMG_20211107_125339 (Custom).jpg,data/raw/Powdery Mildew/IMG_20211107_125353 (Custom).jpg,14
+test,Gall Midge,data/raw/Gall Midge/IMG_20211106_163236 (Custom).jpg,data/raw/Gall Midge/IMG_20211106_163250 (Custom).jpg,14
+val,Die Back,data/raw/Die Back/20211129_162736 (Custom).jpg,data/raw/Die Back/20211129_162722 (Custom).jpg,14
+test,Healthy,data/raw/Healthy/20211231_154911 (Custom).jpg,data/raw/Healthy/20211231_154925 (Custom).jpg,14
+val,Powdery Mildew,data/raw/Powdery Mildew/IMG_20211107_130104 (Custom).jpg,data/raw/Powdery Mildew/IMG_20211107_130050 (Custom).jpg,14
+val,Powdery Mildew,data/raw/Powdery Mildew/IMG_20211107_130129 (Custom).jpg,data/raw/Powdery Mildew/IMG_20211107_130143 (Custom).jpg,14
+test,Healthy,data/raw/Healthy/20211231_155235 (Custom).jpg,data/raw/Healthy/20211231_155249 (Custom).jpg,14
+val,Bacterial Canker,data/raw/Bacterial Canker/IMG_20211106_141035 (Custom).jpg,data/raw/Bacterial Canker/IMG_20211106_141049 (Custom).jpg,14
+val,Bacterial Canker,data/raw/Bacterial Canker/IMG_20211106_143159 (Custom).jpg,data/raw/Bacterial Canker/IMG_20211106_143213 (Custom).jpg,14
+val,Sooty Mould,data/raw/Sooty Mould/IMG_20211212_145218 (Custom).jpg,data/raw/Sooty Mould/IMG_20211212_145233 (Custom).jpg,15
+test,Gall Midge,data/raw/Gall Midge/IMG_20211106_163126 (Custom).jpg,data/raw/Gall Midge/IMG_20211106_163111 (Custom).jpg,15
+val,Gall Midge,data/raw/Gall Midge/IMG_20211106_161549 (Custom).jpg,data/raw/Gall Midge/IMG_20211106_161604 (Custom).jpg,15
+val,Cutting Weevil,data/raw/Cutting Weevil/20211011_161544 (Custom) (Custom).jpg,data/raw/Cutting Weevil/20211011_161559 (Custom) (Custom).jpg,15
+test,Healthy,data/raw/Healthy/20211231_162108 (Custom).jpg,data/raw/Healthy/20211231_162123 (Custom).jpg,15
+test,Gall Midge,data/raw/Gall Midge/IMG_20211106_165918 (Custom).jpg,data/raw/Gall Midge/IMG_20211106_165903 (Custom).jpg,15
+val,Healthy,data/raw/Healthy/20211231_124457 (Custom).jpg,data/raw/Healthy/20211231_124442 (Custom).jpg,15
+test,Healthy,data/raw/Healthy/20211231_125800 (Custom).jpg,data/raw/Healthy/20211231_125815 (Custom).jpg,15
+val,Bacterial Canker,data/raw/Bacterial Canker/IMG_20211106_134420 (Custom).jpg,data/raw/Bacterial Canker/IMG_20211106_134405 (Custom).jpg,15
+val,Sooty Mould,data/raw/Sooty Mould/IMG_20211211_155505 (Custom).jpg,data/raw/Sooty Mould/IMG_20211211_155450 (Custom).jpg,15
+val,Cutting Weevil,data/raw/Cutting Weevil/20211011_170153 (Custom) (Custom).jpg,data/raw/Cutting Weevil/20211011_170138 (Custom) (Custom).jpg,15
+test,Bacterial Canker,data/raw/Bacterial Canker/IMG_20211106_140649 (Custom).jpg,data/raw/Bacterial Canker/IMG_20211106_140634 (Custom).jpg,15
+val,Gall Midge,data/raw/Gall Midge/IMG_20211106_162044 (Custom).jpg,data/raw/Gall Midge/IMG_20211106_162059 (Custom).jpg,15
+test,Healthy,data/raw/Healthy/20211231_161753 (Custom).jpg,data/raw/Healthy/20211231_161808 (Custom).jpg,15
+val,Gall Midge,data/raw/Gall Midge/IMG_20211106_163638 (Custom).jpg,data/raw/Gall Midge/IMG_20211106_163653 (Custom).jpg,15
+test,Sooty Mould,data/raw/Sooty Mould/IMG_20211108_122045 (Custom).jpg,data/raw/Sooty Mould/IMG_20211108_122030 (Custom).jpg,15
+test,Die Back,data/raw/Die Back/20211129_163945 (Custom).jpg,data/raw/Die Back/20211129_164000 (Custom).jpg,15
+val,Healthy,data/raw/Healthy/20211231_155704 (Custom).jpg,data/raw/Healthy/20211231_155719 (Custom).jpg,15
+val,Healthy,data/raw/Healthy/20211231_155831 (Custom).jpg,data/raw/Healthy/20211231_155846 (Custom).jpg,15
+test,Powdery Mildew,data/raw/Powdery Mildew/IMG_20211107_120012 (Custom).jpg,data/raw/Powdery Mildew/IMG_20211107_115957 (Custom).jpg,15
+val,Powdery Mildew,data/raw/Powdery Mildew/20211109_121301 (Custom).jpg,data/raw/Powdery Mildew/20211109_121245 (Custom).jpg,16
+val,Powdery Mildew,data/raw/Powdery Mildew/IMG_20211107_124937 (Custom).jpg,data/raw/Powdery Mildew/IMG_20211107_124953 (Custom).jpg,16
+test,Die Back,data/raw/Die Back/20211129_161814 (Custom).jpg,data/raw/Die Back/20211129_161830 (Custom).jpg,16
+val,Die Back,data/raw/Die Back/20211129_161659 (Custom).jpg,data/raw/Die Back/20211129_161643 (Custom).jpg,16
+val,Powdery Mildew,data/raw/Powdery Mildew/20211109_122340 (Custom).jpg,data/raw/Powdery Mildew/20211109_122324 (Custom).jpg,16
+test,Gall Midge,data/raw/Gall Midge/IMG_20211106_164204 (Custom).jpg,data/raw/Gall Midge/IMG_20211106_164148 (Custom).jpg,16
+val,Powdery Mildew,data/raw/Powdery Mildew/IMG_20211107_125213 (Custom).jpg,data/raw/Powdery Mildew/IMG_20211107_125157 (Custom).jpg,16
+val,Bacterial Canker,data/raw/Bacterial Canker/IMG_20211106_143157 (Custom).jpg,data/raw/Bacterial Canker/IMG_20211106_143213 (Custom).jpg,16
+test,Bacterial Canker,data/raw/Bacterial Canker/IMG_20211106_135258 (Custom).jpg,data/raw/Bacterial Canker/IMG_20211106_135314 (Custom).jpg,16
+val,Gall Midge,data/raw/Gall Midge/IMG_20211106_165359 (Custom).jpg,data/raw/Gall Midge/IMG_20211106_165343 (Custom).jpg,16
+test,Healthy,data/raw/Healthy/20211231_125752 (Custom).jpg,data/raw/Healthy/20211231_125736 (Custom).jpg,16
+val,Healthy,data/raw/Healthy/20211231_155401 (Custom).jpg,data/raw/Healthy/20211231_155345 (Custom).jpg,16
+val,Bacterial Canker,data/raw/Bacterial Canker/IMG_20211106_143139 (Custom).jpg,data/raw/Bacterial Canker/IMG_20211106_143123 (Custom).jpg,16
+test,Healthy,data/raw/Healthy/20211231_123552 (Custom).jpg,data/raw/Healthy/20211231_123608 (Custom).jpg,16
+test,Die Back,data/raw/Die Back/20211129_163930 (Custom).jpg,data/raw/Die Back/20211129_163914 (Custom).jpg,16
+test,Healthy,data/raw/Healthy/20211231_123737 (Custom).jpg,data/raw/Healthy/20211231_123721 (Custom).jpg,16
+test,Bacterial Canker,data/raw/Bacterial Canker/IMG_20211106_140444 (Custom).jpg,data/raw/Bacterial Canker/IMG_20211106_140500 (Custom).jpg,16
+val,Bacterial Canker,data/raw/Bacterial Canker/IMG_20211106_142844 (Custom).jpg,data/raw/Bacterial Canker/IMG_20211106_142828 (Custom).jpg,16
+val,Bacterial Canker,data/raw/Bacterial Canker/IMG_20211106_135939 (Custom).jpg,data/raw/Bacterial Canker/IMG_20211106_135955 (Custom).jpg,16
+val,Anthracnose,data/raw/Anthracnose/20211011_134012 (Custom).jpg,data/raw/Anthracnose/20211011_133956 (Custom).jpg,16
+test,Bacterial Canker,data/raw/Bacterial Canker/IMG_20211106_140516 (Custom).jpg,data/raw/Bacterial Canker/IMG_20211106_140500 (Custom).jpg,16
+test,Gall Midge,data/raw/Gall Midge/IMG_20211106_163233 (Custom).jpg,data/raw/Gall Midge/IMG_20211106_163250 (Custom).jpg,17
+test,Gall Midge,data/raw/Gall Midge/IMG_20211106_164032 (Custom).jpg,data/raw/Gall Midge/IMG_20211106_164049 (Custom).jpg,17
+test,Sooty Mould,data/raw/Sooty Mould/IMG_20211212_143142 (Custom).jpg,data/raw/Sooty Mould/IMG_20211212_143159 (Custom).jpg,17
+val,Sooty Mould,data/raw/Sooty Mould/IMG_20211211_155507 (Custom).jpg,data/raw/Sooty Mould/IMG_20211211_155450 (Custom).jpg,17
+val,Powdery Mildew,data/raw/Powdery Mildew/IMG_20211107_130107 (Custom).jpg,data/raw/Powdery Mildew/IMG_20211107_130050 (Custom).jpg,17
+test,Powdery Mildew,data/raw/Powdery Mildew/IMG_20211107_125336 (Custom).jpg,data/raw/Powdery Mildew/IMG_20211107_125353 (Custom).jpg,17
+val,Powdery Mildew,data/raw/Powdery Mildew/20211109_122341 (Custom).jpg,data/raw/Powdery Mildew/20211109_122324 (Custom).jpg,17
+val,Die Back,data/raw/Die Back/20211129_162415 (Custom).jpg,data/raw/Die Back/20211129_162358 (Custom).jpg,17
+test,Powdery Mildew,data/raw/Powdery Mildew/IMG_20211107_122251 (Custom).jpg,data/raw/Powdery Mildew/IMG_20211107_122308 (Custom).jpg,17
+test,Sooty Mould,data/raw/Sooty Mould/IMG_20211211_154148 (Custom).jpg,data/raw/Sooty Mould/IMG_20211211_154205 (Custom).jpg,17
+val,Sooty Mould,data/raw/Sooty Mould/IMG_20211212_144903 (Custom).jpg,data/raw/Sooty Mould/IMG_20211212_144846 (Custom).jpg,17
+test,Gall Midge,data/raw/Gall Midge/IMG_20211106_165701 (Custom).jpg,data/raw/Gall Midge/IMG_20211106_165644 (Custom).jpg,17
+test,Gall Midge,data/raw/Gall Midge/IMG_20211106_163128 (Custom).jpg,data/raw/Gall Midge/IMG_20211106_163111 (Custom).jpg,17
+test,Bacterial Canker,data/raw/Bacterial Canker/IMG_20211106_135804 (Custom).jpg,data/raw/Bacterial Canker/IMG_20211106_135747 (Custom).jpg,17
+val,Healthy,data/raw/Healthy/20211231_130337 (Custom).jpg,data/raw/Healthy/20211231_130320 (Custom).jpg,17
+test,Healthy,data/raw/Healthy/20211231_123758 (Custom).jpg,data/raw/Healthy/20211231_123815 (Custom).jpg,17
+test,Healthy,data/raw/Healthy/20211231_125456 (Custom).jpg,data/raw/Healthy/20211231_125439 (Custom).jpg,17
+test,Powdery Mildew,data/raw/Powdery Mildew/IMG_20211107_121423 (Custom).jpg,data/raw/Powdery Mildew/IMG_20211107_121440 (Custom).jpg,17
+val,Healthy,data/raw/Healthy/20211231_124348 (Custom).jpg,data/raw/Healthy/20211231_124331 (Custom).jpg,17
+test,Healthy,data/raw/Healthy/20211231_124641 (Custom).jpg,data/raw/Healthy/20211231_124624 (Custom).jpg,17
+test,Bacterial Canker,data/raw/Bacterial Canker/IMG_20211106_135257 (Custom).jpg,data/raw/Bacterial Canker/IMG_20211106_135314 (Custom).jpg,17
+test,Gall Midge,data/raw/Gall Midge/IMG_20211106_165746 (Custom).jpg,data/raw/Gall Midge/IMG_20211106_165803 (Custom).jpg,17
+test,Cutting Weevil,data/raw/Cutting Weevil/20211011_162150 (Custom) (Custom).jpg,data/raw/Cutting Weevil/20211011_162133 (Custom) (Custom).jpg,17
+val,Healthy,data/raw/Healthy/20211231_160834 (Custom).jpg,data/raw/Healthy/20211231_160851 (Custom).jpg,17
+val,Bacterial Canker,data/raw/Bacterial Canker/IMG_20211106_140821 (Custom).jpg,data/raw/Bacterial Canker/IMG_20211106_140804 (Custom).jpg,17
+val,Healthy,data/raw/Healthy/20211231_155815 (Custom).jpg,data/raw/Healthy/20211231_155758 (Custom).jpg,17
+val,Die Back,data/raw/Die Back/20211129_164547 (Custom).jpg,data/raw/Die Back/20211129_164530 (Custom).jpg,17
+val,Healthy,data/raw/Healthy/20211231_123310 (Custom).jpg,data/raw/Healthy/20211231_123327 (Custom).jpg,17
+val,Bacterial Canker,data/raw/Bacterial Canker/IMG_20211106_142850 (Custom).jpg,data/raw/Bacterial Canker/IMG_20211106_142907 (Custom).jpg,17
+test,Healthy,data/raw/Healthy/20211231_161750 (Custom).jpg,data/raw/Healthy/20211231_161808 (Custom).jpg,18
+val,Die Back,data/raw/Die Back/20211129_161701 (Custom).jpg,data/raw/Die Back/20211129_161643 (Custom).jpg,18
+val,Die Back,data/raw/Die Back/20211129_162740 (Custom).jpg,data/raw/Die Back/20211129_162722 (Custom).jpg,18
+val,Gall Midge,data/raw/Gall Midge/IMG_20211106_163635 (Custom).jpg,data/raw/Gall Midge/IMG_20211106_163653 (Custom).jpg,18
+test,Healthy,data/raw/Healthy/20211231_162105 (Custom).jpg,data/raw/Healthy/20211231_162123 (Custom).jpg,18
+val,Sooty Mould,data/raw/Sooty Mould/IMG_20211108_121325 (Custom).jpg,data/raw/Sooty Mould/IMG_20211108_121307 (Custom).jpg,18
+val,Powdery Mildew,data/raw/Powdery Mildew/20211109_121303 (Custom).jpg,data/raw/Powdery Mildew/20211109_121245 (Custom).jpg,18
+test,Healthy,data/raw/Healthy/20211231_162443 (Custom).jpg,data/raw/Healthy/20211231_162425 (Custom).jpg,18
+test,Anthracnose,data/raw/Anthracnose/IMG_20211011_164105 (Custom).jpg,data/raw/Anthracnose/IMG_20211011_164123 (Custom).jpg,18
+val,Bacterial Canker,data/raw/Bacterial Canker/IMG_20211106_143155 (Custom).jpg,data/raw/Bacterial Canker/IMG_20211106_143213 (Custom).jpg,18
+test,Bacterial Canker,data/raw/Bacterial Canker/IMG_20211106_134550 (Custom).jpg,data/raw/Bacterial Canker/IMG_20211106_134608 (Custom).jpg,18
+val,Powdery Mildew,data/raw/Powdery Mildew/IMG_20211107_122523 (Custom).jpg,data/raw/Powdery Mildew/IMG_20211107_122505 (Custom).jpg,18
+val,Healthy,data/raw/Healthy/20211231_124401 (Custom).jpg,data/raw/Healthy/20211231_124419 (Custom).jpg,18
+val,Cutting Weevil,data/raw/Cutting Weevil/20211011_161650(0) (Custom) (Custom).jpg,data/raw/Cutting Weevil/20211011_161708 (Custom) (Custom).jpg,18
+test,Healthy,data/raw/Healthy/20211231_154907 (Custom).jpg,data/raw/Healthy/20211231_154925 (Custom).jpg,18
+val,Sooty Mould,data/raw/Sooty Mould/IMG_20211108_120927 (Custom).jpg,data/raw/Sooty Mould/IMG_20211108_120909 (Custom).jpg,18
+test,Powdery Mildew,data/raw/Powdery Mildew/IMG_20211107_120015 (Custom).jpg,data/raw/Powdery Mildew/IMG_20211107_115957 (Custom).jpg,18
+val,Bacterial Canker,data/raw/Bacterial Canker/IMG_20211106_143141 (Custom).jpg,data/raw/Bacterial Canker/IMG_20211106_143123 (Custom).jpg,18
+val,Die Back,data/raw/Die Back/20211129_164308 (Custom).jpg,data/raw/Die Back/20211129_164326 (Custom).jpg,18
+test,Sooty Mould,data/raw/Sooty Mould/IMG_20211108_122048 (Custom).jpg,data/raw/Sooty Mould/IMG_20211108_122030 (Custom).jpg,18
+test,Bacterial Canker,data/raw/Bacterial Canker/IMG_20211106_140604 (Custom).jpg,data/raw/Bacterial Canker/IMG_20211106_140622 (Custom).jpg,18
+test,Bacterial Canker,data/raw/Bacterial Canker/IMG_20211106_140710 (Custom).jpg,data/raw/Bacterial Canker/IMG_20211106_140728 (Custom).jpg,18
+val,Sooty Mould,data/raw/Sooty Mould/IMG_20211212_145215 (Custom).jpg,data/raw/Sooty Mould/IMG_20211212_145233 (Custom).jpg,18
+val,Powdery Mildew,data/raw/Powdery Mildew/IMG_20211107_130124 (Custom).jpg,data/raw/Powdery Mildew/IMG_20211107_130143 (Custom).jpg,19
+val,Powdery Mildew,data/raw/Powdery Mildew/20211109_122343 (Custom).jpg,data/raw/Powdery Mildew/20211109_122324 (Custom).jpg,19
+val,Healthy,data/raw/Healthy/20211231_155827 (Custom).jpg,data/raw/Healthy/20211231_155846 (Custom).jpg,19
+test,Bacterial Canker,data/raw/Bacterial Canker/IMG_20211106_140519 (Custom).jpg,data/raw/Bacterial Canker/IMG_20211106_140500 (Custom).jpg,19
+test,Bacterial Canker,data/raw/Bacterial Canker/IMG_20211106_140653 (Custom).jpg,data/raw/Bacterial Canker/IMG_20211106_140634 (Custom).jpg,19
+val,Healthy,data/raw/Healthy/20211231_123405 (Custom).jpg,data/raw/Healthy/20211231_123346 (Custom).jpg,19
+test,Bacterial Canker,data/raw/Bacterial Canker/IMG_20211106_140441 (Custom).jpg,data/raw/Bacterial Canker/IMG_20211106_140500 (Custom).jpg,19
+test,Bacterial Canker,data/raw/Bacterial Canker/IMG_20211106_140435 (Custom).jpg,data/raw/Bacterial Canker/IMG_20211106_140416 (Custom).jpg,19
+val,Bacterial Canker,data/raw/Bacterial Canker/IMG_20211106_142847 (Custom).jpg,data/raw/Bacterial Canker/IMG_20211106_142828 (Custom).jpg,19
+test,Die Back,data/raw/Die Back/20211129_163933 (Custom).jpg,data/raw/Die Back/20211129_163914 (Custom).jpg,19
+test,Bacterial Canker,data/raw/Bacterial Canker/IMG_20211106_140205 (Custom).jpg,data/raw/Bacterial Canker/IMG_20211106_140224 (Custom).jpg,19
+val,Bacterial Canker,data/raw/Bacterial Canker/IMG_20211106_143331 (Custom).jpg,data/raw/Bacterial Canker/IMG_20211106_143312 (Custom).jpg,19
+test,Gall Midge,data/raw/Gall Midge/IMG_20211106_164207 (Custom).jpg,data/raw/Gall Midge/IMG_20211106_164148 (Custom).jpg,19
+test,Gall Midge,data/raw/Gall Midge/IMG_20211106_163130 (Custom).jpg,data/raw/Gall Midge/IMG_20211106_163111 (Custom).jpg,19
+test,Gall Midge,data/raw/Gall Midge/IMG_20211106_163231 (Custom).jpg,data/raw/Gall Midge/IMG_20211106_163250 (Custom).jpg,19
+val,Gall Midge,data/raw/Gall Midge/IMG_20211106_162040 (Custom).jpg,data/raw/Gall Midge/IMG_20211106_162059 (Custom).jpg,19
+val,Healthy,data/raw/Healthy/20211231_124501 (Custom).jpg,data/raw/Healthy/20211231_124442 (Custom).jpg,19
+val,Healthy,data/raw/Healthy/20211231_125707 (Custom).jpg,data/raw/Healthy/20211231_125726 (Custom).jpg,19
+test,Bacterial Canker,data/raw/Bacterial Canker/IMG_20211106_120928 (Custom).jpg,data/raw/Bacterial Canker/IMG_20211106_120947 (Custom).jpg,19
+val,Cutting Weevil,data/raw/Cutting Weevil/20211011_170157 (Custom) (Custom).jpg,data/raw/Cutting Weevil/20211011_170138 (Custom) (Custom).jpg,19
+test,Gall Midge,data/raw/Gall Midge/IMG_20211106_164030 (Custom).jpg,data/raw/Gall Midge/IMG_20211106_164049 (Custom).jpg,19
+val,Sooty Mould,data/raw/Sooty Mould/IMG_20211212_142945 (Custom).jpg,data/raw/Sooty Mould/IMG_20211212_142926 (Custom).jpg,19
+val,Powdery Mildew,data/raw/Powdery Mildew/IMG_20211107_124130 (Custom).jpg,data/raw/Powdery Mildew/IMG_20211107_124111 (Custom).jpg,19
+val,Die Back,data/raw/Die Back/20211129_163047 (Custom).jpg,data/raw/Die Back/20211129_163027 (Custom).jpg,20
+test,Healthy,data/raw/Healthy/20211231_123548 (Custom).jpg,data/raw/Healthy/20211231_123608 (Custom).jpg,20
+test,Die Back,data/raw/Die Back/20211129_163940 (Custom).jpg,data/raw/Die Back/20211129_164000 (Custom).jpg,20
+test,Powdery Mildew,data/raw/Powdery Mildew/IMG_20211107_125813 (Custom).jpg,data/raw/Powdery Mildew/IMG_20211107_125753 (Custom).jpg,20
+test,Powdery Mildew,data/raw/Powdery Mildew/IMG_20211107_122248 (Custom).jpg,data/raw/Powdery Mildew/IMG_20211107_122308 (Custom).jpg,20
+val,Bacterial Canker,data/raw/Bacterial Canker/IMG_20211106_143143 (Custom).jpg,data/raw/Bacterial Canker/IMG_20211106_143123 (Custom).jpg,20
+test,Cutting Weevil,data/raw/Cutting Weevil/20211011_161735 (Custom) (Custom).jpg,data/raw/Cutting Weevil/20211011_161715(0) (Custom) (Custom).jpg,20
+val,Cutting Weevil,data/raw/Cutting Weevil/20211011_162552 (Custom) (Custom).jpg,data/raw/Cutting Weevil/20211011_162532 (Custom) (Custom).jpg,20
+test,Cutting Weevil,data/raw/Cutting Weevil/20211011_162153 (Custom) (Custom).jpg,data/raw/Cutting Weevil/20211011_162133 (Custom) (Custom).jpg,20
+val,Die Back,data/raw/Die Back/20211129_162418 (Custom).jpg,data/raw/Die Back/20211129_162358 (Custom).jpg,20
+val,Healthy,data/raw/Healthy/20211231_154948 (Custom).jpg,data/raw/Healthy/20211231_154928 (Custom).jpg,20
+test,Anthracnose,data/raw/Anthracnose/20211011_134117 (Custom).jpg,data/raw/Anthracnose/20211011_134057 (Custom).jpg,20
+val,Powdery Mildew,data/raw/Powdery Mildew/IMG_20211107_124933 (Custom).jpg,data/raw/Powdery Mildew/IMG_20211107_124953 (Custom).jpg,20
+test,Powdery Mildew,data/raw/Powdery Mildew/20211109_121158 (Custom).jpg,data/raw/Powdery Mildew/20211109_121218 (Custom).jpg,20
+test,Healthy,data/raw/Healthy/20211231_155229 (Custom).jpg,data/raw/Healthy/20211231_155249 (Custom).jpg,20
+val,Healthy,data/raw/Healthy/20211231_155139 (Custom).jpg,data/raw/Healthy/20211231_155119 (Custom).jpg,20
+val,Sooty Mould,data/raw/Sooty Mould/IMG_20211211_155510 (Custom).jpg,data/raw/Sooty Mould/IMG_20211211_155450 (Custom).jpg,20
+val,Bacterial Canker,data/raw/Bacterial Canker/IMG_20211106_140918 (Custom).jpg,data/raw/Bacterial Canker/IMG_20211106_140938 (Custom).jpg,20
+test,Bacterial Canker,data/raw/Bacterial Canker/IMG_20211106_135253 (Custom).jpg,data/raw/Bacterial Canker/IMG_20211106_135314 (Custom).jpg,21
+val,Bacterial Canker,data/raw/Bacterial Canker/IMG_20211106_135002 (Custom).jpg,data/raw/Bacterial Canker/IMG_20211106_135023 (Custom).jpg,21
+val,Healthy,data/raw/Healthy/20211231_155406 (Custom).jpg,data/raw/Healthy/20211231_155345 (Custom).jpg,21
+val,Gall Midge,data/raw/Gall Midge/IMG_20211106_161527 (Custom).jpg,data/raw/Gall Midge/IMG_20211106_161506 (Custom).jpg,21
+val,Bacterial Canker,data/raw/Bacterial Canker/IMG_20211106_141609 (Custom).jpg,data/raw/Bacterial Canker/IMG_20211106_141548 (Custom).jpg,21
+test,Gall Midge,data/raw/Gall Midge/IMG_20211106_165705 (Custom).jpg,data/raw/Gall Midge/IMG_20211106_165644 (Custom).jpg,21
+val,Powdery Mildew,data/raw/Powdery Mildew/20211109_122345 (Custom).jpg,data/raw/Powdery Mildew/20211109_122324 (Custom).jpg,21
+val,Gall Midge,data/raw/Gall Midge/IMG_20211106_163632 (Custom).jpg,data/raw/Gall Midge/IMG_20211106_163653 (Custom).jpg,21
+test,Healthy,data/raw/Healthy/20211231_162026 (Custom).jpg,data/raw/Healthy/20211231_162005 (Custom).jpg,21
+test,Die Back,data/raw/Die Back/20211129_160432 (Custom).jpg,data/raw/Die Back/20211129_160453 (Custom).jpg,21
+test,Powdery Mildew,data/raw/Powdery Mildew/IMG_20211107_115212 (Custom).jpg,data/raw/Powdery Mildew/IMG_20211107_115151 (Custom).jpg,21
+test,Healthy,data/raw/Healthy/20211231_155058 (Custom).jpg,data/raw/Healthy/20211231_155119 (Custom).jpg,21
+test,Sooty Mould,data/raw/Sooty Mould/IMG_20211212_143138 (Custom).jpg,data/raw/Sooty Mould/IMG_20211212_143159 (Custom).jpg,21
+val,Healthy,data/raw/Healthy/20211231_155819 (Custom).jpg,data/raw/Healthy/20211231_155758 (Custom).jpg,21
+val,Bacterial Canker,data/raw/Bacterial Canker/IMG_20211106_143152 (Custom).jpg,data/raw/Bacterial Canker/IMG_20211106_143213 (Custom).jpg,21
+val,Sooty Mould,data/raw/Sooty Mould/IMG_20211212_144907 (Custom).jpg,data/raw/Sooty Mould/IMG_20211212_144846 (Custom).jpg,21
+test,Gall Midge,data/raw/Gall Midge/IMG_20211106_163132 (Custom).jpg,data/raw/Gall Midge/IMG_20211106_163111 (Custom).jpg,21
+val,Gall Midge,data/raw/Gall Midge/IMG_20211106_165404 (Custom).jpg,data/raw/Gall Midge/IMG_20211106_165343 (Custom).jpg,21
+val,Cutting Weevil,data/raw/Cutting Weevil/20211011_162553 (Custom) (Custom).jpg,data/raw/Cutting Weevil/20211011_162532 (Custom) (Custom).jpg,21
+val,Gall Midge,data/raw/Gall Midge/IMG_20211106_161542 (Custom).jpg,data/raw/Gall Midge/IMG_20211106_161604 (Custom).jpg,22
+test,Bacterial Canker,data/raw/Bacterial Canker/IMG_20211106_120925 (Custom).jpg,data/raw/Bacterial Canker/IMG_20211106_120947 (Custom).jpg,22
+test,Bacterial Canker,data/raw/Bacterial Canker/IMG_20211106_134546 (Custom).jpg,data/raw/Bacterial Canker/IMG_20211106_134608 (Custom).jpg,22
+test,Cutting Weevil,data/raw/Cutting Weevil/20211011_162155 (Custom) (Custom).jpg,data/raw/Cutting Weevil/20211011_162133 (Custom) (Custom).jpg,22
+test,Die Back,data/raw/Die Back/20211129_163936 (Custom).jpg,data/raw/Die Back/20211129_163914 (Custom).jpg,22
+val,Bacterial Canker,data/raw/Bacterial Canker/IMG_20211106_135933 (Custom).jpg,data/raw/Bacterial Canker/IMG_20211106_135955 (Custom).jpg,22
+test,Sooty Mould,data/raw/Sooty Mould/IMG_20211108_122052 (Custom).jpg,data/raw/Sooty Mould/IMG_20211108_122030 (Custom).jpg,22
+val,Healthy,data/raw/Healthy/20211231_123305 (Custom).jpg,data/raw/Healthy/20211231_123327 (Custom).jpg,22
+val,Powdery Mildew,data/raw/Powdery Mildew/IMG_20211107_130112 (Custom).jpg,data/raw/Powdery Mildew/IMG_20211107_130050 (Custom).jpg,22
+test,Bacterial Canker,data/raw/Bacterial Canker/IMG_20211106_140522 (Custom).jpg,data/raw/Bacterial Canker/IMG_20211106_140500 (Custom).jpg,22
+val,Anthracnose,data/raw/Anthracnose/20211011_134018 (Custom).jpg,data/raw/Anthracnose/20211011_133956 (Custom).jpg,22
+val,Sooty Mould,data/raw/Sooty Mould/IMG_20211212_142948 (Custom).jpg,data/raw/Sooty Mould/IMG_20211212_142926 (Custom).jpg,22
+val,Powdery Mildew,data/raw/Powdery Mildew/20211109_121307 (Custom).jpg,data/raw/Powdery Mildew/20211109_121245 (Custom).jpg,22
+test,Powdery Mildew,data/raw/Powdery Mildew/IMG_20211107_125331 (Custom).jpg,data/raw/Powdery Mildew/IMG_20211107_125353 (Custom).jpg,22
+val,Powdery Mildew,data/raw/Powdery Mildew/IMG_20211107_124133 (Custom).jpg,data/raw/Powdery Mildew/IMG_20211107_124111 (Custom).jpg,22
+val,Sooty Mould,data/raw/Sooty Mould/IMG_20211108_121329 (Custom).jpg,data/raw/Sooty Mould/IMG_20211108_121307 (Custom).jpg,22
+val,Powdery Mildew,data/raw/Powdery Mildew/IMG_20211107_125219 (Custom).jpg,data/raw/Powdery Mildew/IMG_20211107_125157 (Custom).jpg,22
+test,Gall Midge,data/raw/Gall Midge/IMG_20211106_164027 (Custom).jpg,data/raw/Gall Midge/IMG_20211106_164049 (Custom).jpg,22
+test,Die Back,data/raw/Die Back/20211129_161808 (Custom).jpg,data/raw/Die Back/20211129_161830 (Custom).jpg,22
+val,Die Back,data/raw/Die Back/20211129_162744 (Custom).jpg,data/raw/Die Back/20211129_162722 (Custom).jpg,22
+val,Bacterial Canker,data/raw/Bacterial Canker/IMG_20211106_121300 (Custom).jpg,data/raw/Bacterial Canker/IMG_20211106_121322 (Custom).jpg,22
+val,Bacterial Canker,data/raw/Bacterial Canker/IMG_20211106_143145 (Custom).jpg,data/raw/Bacterial Canker/IMG_20211106_143123 (Custom).jpg,22
+test,Gall Midge,data/raw/Gall Midge/IMG_20211106_164330 (Custom).jpg,data/raw/Gall Midge/IMG_20211106_164352 (Custom).jpg,22
+test,Bacterial Canker,data/raw/Bacterial Canker/IMG_20211106_135243 (Custom).jpg,data/raw/Bacterial Canker/IMG_20211106_135221 (Custom).jpg,22
+val,Powdery Mildew,data/raw/Powdery Mildew/IMG_20211107_130121 (Custom).jpg,data/raw/Powdery Mildew/IMG_20211107_130143 (Custom).jpg,22
+test,Gall Midge,data/raw/Gall Midge/IMG_20211106_163134 (Custom).jpg,data/raw/Gall Midge/IMG_20211106_163111 (Custom).jpg,23
+val,Die Back,data/raw/Die Back/20211129_163050 (Custom).jpg,data/raw/Die Back/20211129_163027 (Custom).jpg,23
+val,Gall Midge,data/raw/Gall Midge/IMG_20211106_165446 (Custom).jpg,data/raw/Gall Midge/IMG_20211106_165509 (Custom).jpg,23
+val,Healthy,data/raw/Healthy/20211231_160828 (Custom).jpg,data/raw/Healthy/20211231_160851 (Custom).jpg,23
+val,Healthy,data/raw/Healthy/20211231_124354 (Custom).jpg,data/raw/Healthy/20211231_124331 (Custom).jpg,23
+test,Gall Midge,data/raw/Gall Midge/IMG_20211106_164211 (Custom).jpg,data/raw/Gall Midge/IMG_20211106_164148 (Custom).jpg,23
+val,Powdery Mildew,data/raw/Powdery Mildew/20211109_122347 (Custom).jpg,data/raw/Powdery Mildew/20211109_122324 (Custom).jpg,23
+val,Die Back,data/raw/Die Back/20211129_164303 (Custom).jpg,data/raw/Die Back/20211129_164326 (Custom).jpg,23
+val,Healthy,data/raw/Healthy/20211231_160758 (Custom).jpg,data/raw/Healthy/20211231_160735 (Custom).jpg,23
+test,Powdery Mildew,data/raw/Powdery Mildew/IMG_20211107_125816 (Custom).jpg,data/raw/Powdery Mildew/IMG_20211107_125753 (Custom).jpg,23
+val,Gall Midge,data/raw/Gall Midge/IMG_20211106_161529 (Custom).jpg,data/raw/Gall Midge/IMG_20211106_161506 (Custom).jpg,23
+val,Die Back,data/raw/Die Back/20211129_162518 (Custom).jpg,data/raw/Die Back/20211129_162541 (Custom).jpg,23
+test,Anthracnose,data/raw/Anthracnose/IMG_20211011_164100 (Custom).jpg,data/raw/Anthracnose/IMG_20211011_164123 (Custom).jpg,23
+val,Gall Midge,data/raw/Gall Midge/IMG_20211106_163630 (Custom).jpg,data/raw/Gall Midge/IMG_20211106_163653 (Custom).jpg,23
+val,Sooty Mould,data/raw/Sooty Mould/IMG_20211211_155513 (Custom).jpg,data/raw/Sooty Mould/IMG_20211211_155450 (Custom).jpg,23
+val,Die Back,data/raw/Die Back/20211129_161706 (Custom).jpg,data/raw/Die Back/20211129_161643 (Custom).jpg,23
+val,Die Back,data/raw/Die Back/20211129_162421 (Custom).jpg,data/raw/Die Back/20211129_162358 (Custom).jpg,23
+val,Gall Midge,data/raw/Gall Midge/IMG_20211106_162036 (Custom).jpg,data/raw/Gall Midge/IMG_20211106_162059 (Custom).jpg,23
+test,Bacterial Canker,data/raw/Bacterial Canker/IMG_20211106_135810 (Custom).jpg,data/raw/Bacterial Canker/IMG_20211106_135747 (Custom).jpg,23
+test,Powdery Mildew,data/raw/Powdery Mildew/IMG_20211107_122244 (Custom).jpg,data/raw/Powdery Mildew/IMG_20211107_122308 (Custom).jpg,24
+test,Bacterial Canker,data/raw/Bacterial Canker/IMG_20211106_135245 (Custom).jpg,data/raw/Bacterial Canker/IMG_20211106_135221 (Custom).jpg,24
+val,Bacterial Canker,data/raw/Bacterial Canker/IMG_20211106_143149 (Custom).jpg,data/raw/Bacterial Canker/IMG_20211106_143213 (Custom).jpg,24
+test,Healthy,data/raw/Healthy/20211231_161403 (Custom).jpg,data/raw/Healthy/20211231_161427 (Custom).jpg,24
+test,Gall Midge,data/raw/Gall Midge/IMG_20211106_164328 (Custom).jpg,data/raw/Gall Midge/IMG_20211106_164352 (Custom).jpg,24
+test,Healthy,data/raw/Healthy/20211231_161712 (Custom).jpg,data/raw/Healthy/20211231_161648 (Custom).jpg,24
+test,Healthy,data/raw/Healthy/20211231_162059 (Custom).jpg,data/raw/Healthy/20211231_162123 (Custom).jpg,24
+test,Anthracnose,data/raw/Anthracnose/IMG_20211011_162626 (Custom).jpg,data/raw/Anthracnose/IMG_20211011_162650 (Custom).jpg,24
+val,Powdery Mildew,data/raw/Powdery Mildew/IMG_20211107_124929 (Custom).jpg,data/raw/Powdery Mildew/IMG_20211107_124953 (Custom).jpg,24
+test,Healthy,data/raw/Healthy/20211231_161744 (Custom).jpg,data/raw/Healthy/20211231_161808 (Custom).jpg,24
+val,Powdery Mildew,data/raw/Powdery Mildew/20211109_122348 (Custom).jpg,data/raw/Powdery Mildew/20211109_122324 (Custom).jpg,24
+val,Sooty Mould,data/raw/Sooty Mould/IMG_20211108_120933 (Custom).jpg,data/raw/Sooty Mould/IMG_20211108_120909 (Custom).jpg,24
+test,Powdery Mildew,data/raw/Powdery Mildew/IMG_20211107_125818 (Custom).jpg,data/raw/Powdery Mildew/IMG_20211107_125753 (Custom).jpg,25
+val,Gall Midge,data/raw/Gall Midge/IMG_20211106_162537 (Custom).jpg,data/raw/Gall Midge/IMG_20211106_162602 (Custom).jpg,25
+test,Die Back,data/raw/Die Back/20211129_161805 (Custom).jpg,data/raw/Die Back/20211129_161830 (Custom).jpg,25
+test,Die Back,data/raw/Die Back/20211129_160428 (Custom).jpg,data/raw/Die Back/20211129_160453 (Custom).jpg,25
+val,Gall Midge,data/raw/Gall Midge/IMG_20211106_163628 (Custom).jpg,data/raw/Gall Midge/IMG_20211106_163653 (Custom).jpg,25
+test,Gall Midge,data/raw/Gall Midge/IMG_20211106_163136 (Custom).jpg,data/raw/Gall Midge/IMG_20211106_163111 (Custom).jpg,25
+test,Bacterial Canker,data/raw/Bacterial Canker/IMG_20211106_140056 (Custom).jpg,data/raw/Bacterial Canker/IMG_20211106_140031 (Custom).jpg,25
+test,Healthy,data/raw/Healthy/20211231_161319 (Custom).jpg,data/raw/Healthy/20211231_161254 (Custom).jpg,25
+val,Bacterial Canker,data/raw/Bacterial Canker/IMG_20211106_134958 (Custom).jpg,data/raw/Bacterial Canker/IMG_20211106_135023 (Custom).jpg,25
+val,Gall Midge,data/raw/Gall Midge/IMG_20211106_161531 (Custom).jpg,data/raw/Gall Midge/IMG_20211106_161506 (Custom).jpg,25
+test,Healthy,data/raw/Healthy/20211231_125504 (Custom).jpg,data/raw/Healthy/20211231_125439 (Custom).jpg,25
+test,Cutting Weevil,data/raw/Cutting Weevil/20211011_162158 (Custom) (Custom).jpg,data/raw/Cutting Weevil/20211011_162133 (Custom) (Custom).jpg,25
+val,Anthracnose,data/raw/Anthracnose/20211011_134021 (Custom).jpg,data/raw/Anthracnose/20211011_133956 (Custom).jpg,25
+test,Healthy,data/raw/Healthy/20211231_123542 (Custom).jpg,data/raw/Healthy/20211231_123608 (Custom).jpg,26
+val,Die Back,data/raw/Die Back/20211129_164300 (Custom).jpg,data/raw/Die Back/20211129_164326 (Custom).jpg,26
+test,Healthy,data/raw/Healthy/20211231_161401 (Custom).jpg,data/raw/Healthy/20211231_161427 (Custom).jpg,26
+test,Bacterial Canker,data/raw/Bacterial Canker/IMG_20211106_140702 (Custom).jpg,data/raw/Bacterial Canker/IMG_20211106_140728 (Custom).jpg,26
+test,Bacterial Canker,data/raw/Bacterial Canker/IMG_20211106_135248 (Custom).jpg,data/raw/Bacterial Canker/IMG_20211106_135314 (Custom).jpg,26
+test,Cutting Weevil,data/raw/Cutting Weevil/20211011_162329 (Custom) (Custom).jpg,data/raw/Cutting Weevil/20211011_162355 (Custom) (Custom).jpg,26
+val,Powdery Mildew,data/raw/Powdery Mildew/IMG_20211107_124137 (Custom).jpg,data/raw/Powdery Mildew/IMG_20211107_124111 (Custom).jpg,26
+test,Healthy,data/raw/Healthy/20211231_155223 (Custom).jpg,data/raw/Healthy/20211231_155249 (Custom).jpg,26
+val,Sooty Mould,data/raw/Sooty Mould/IMG_20211212_144912 (Custom).jpg,data/raw/Sooty Mould/IMG_20211212_144846 (Custom).jpg,26
+val,Bacterial Canker,data/raw/Bacterial Canker/IMG_20211106_141614 (Custom).jpg,data/raw/Bacterial Canker/IMG_20211106_141548 (Custom).jpg,26
+val,Powdery Mildew,data/raw/Powdery Mildew/IMG_20211107_125223 (Custom).jpg,data/raw/Powdery Mildew/IMG_20211107_125157 (Custom).jpg,26
+test,Sooty Mould,data/raw/Sooty Mould/IMG_20211108_122056 (Custom).jpg,data/raw/Sooty Mould/IMG_20211108_122030 (Custom).jpg,26
+val,Sooty Mould,data/raw/Sooty Mould/IMG_20211108_121333 (Custom).jpg,data/raw/Sooty Mould/IMG_20211108_121307 (Custom).jpg,26
+test,Sooty Mould,data/raw/Sooty Mould/IMG_20211212_143133 (Custom).jpg,data/raw/Sooty Mould/IMG_20211212_143159 (Custom).jpg,26
+val,Sooty Mould,data/raw/Sooty Mould/IMG_20211211_155417 (Custom).jpg,data/raw/Sooty Mould/IMG_20211211_155443 (Custom).jpg,26
+test,Healthy,data/raw/Healthy/20211231_155053 (Custom).jpg,data/raw/Healthy/20211231_155119 (Custom).jpg,26
+val,Powdery Mildew,data/raw/Powdery Mildew/IMG_20211107_124927 (Custom).jpg,data/raw/Powdery Mildew/IMG_20211107_124953 (Custom).jpg,26
+val,Sooty Mould,data/raw/Sooty Mould/IMG_20211212_142952 (Custom).jpg,data/raw/Sooty Mould/IMG_20211212_142926 (Custom).jpg,26
+test,Sooty Mould,data/raw/Sooty Mould/IMG_20211211_154139 (Custom).jpg,data/raw/Sooty Mould/IMG_20211211_154205 (Custom).jpg,26
+test,Healthy,data/raw/Healthy/20211231_162451 (Custom).jpg,data/raw/Healthy/20211231_162425 (Custom).jpg,26
+val,Gall Midge,data/raw/Gall Midge/IMG_20211106_165443 (Custom).jpg,data/raw/Gall Midge/IMG_20211106_165509 (Custom).jpg,26
+test,Gall Midge,data/raw/Gall Midge/IMG_20211106_164214 (Custom).jpg,data/raw/Gall Midge/IMG_20211106_164148 (Custom).jpg,26
+val,Cutting Weevil,data/raw/Cutting Weevil/20211011_161426 (Custom) (Custom).jpg,data/raw/Cutting Weevil/20211011_161452 (Custom) (Custom).jpg,26
+test,Gall Midge,data/raw/Gall Midge/IMG_20211106_163138 (Custom).jpg,data/raw/Gall Midge/IMG_20211106_163111 (Custom).jpg,27
+val,Die Back,data/raw/Die Back/20211129_163054 (Custom).jpg,data/raw/Die Back/20211129_163027 (Custom).jpg,27
+test,Bacterial Canker,data/raw/Bacterial Canker/IMG_20211106_120920 (Custom).jpg,data/raw/Bacterial Canker/IMG_20211106_120947 (Custom).jpg,27
+test,Powdery Mildew,data/raw/Powdery Mildew/IMG_20211107_122241 (Custom).jpg,data/raw/Powdery Mildew/IMG_20211107_122308 (Custom).jpg,27
+test,Bacterial Canker,data/raw/Bacterial Canker/IMG_20211106_134541 (Custom).jpg,data/raw/Bacterial Canker/IMG_20211106_134608 (Custom).jpg,27
+val,Cutting Weevil,data/raw/Cutting Weevil/20211011_161425 (Custom) (Custom).jpg,data/raw/Cutting Weevil/20211011_161452 (Custom) (Custom).jpg,27
+val,Healthy,data/raw/Healthy/20211231_160802 (Custom).jpg,data/raw/Healthy/20211231_160735 (Custom).jpg,27
+test,Healthy,data/raw/Healthy/20211231_161321 (Custom).jpg,data/raw/Healthy/20211231_161254 (Custom).jpg,27
+val,Die Back,data/raw/Die Back/20211129_162514 (Custom).jpg,data/raw/Die Back/20211129_162541 (Custom).jpg,27
+val,Gall Midge,data/raw/Gall Midge/IMG_20211106_163626 (Custom).jpg,data/raw/Gall Midge/IMG_20211106_163653 (Custom).jpg,27
+test,Powdery Mildew,data/raw/Powdery Mildew/IMG_20211107_125326 (Custom).jpg,data/raw/Powdery Mildew/IMG_20211107_125353 (Custom).jpg,27
+val,Die Back,data/raw/Die Back/20211129_162425 (Custom).jpg,data/raw/Die Back/20211129_162358 (Custom).jpg,27
+val,Powdery Mildew,data/raw/Powdery Mildew/20211109_122351 (Custom).jpg,data/raw/Powdery Mildew/20211109_122324 (Custom).jpg,27
+val,Healthy,data/raw/Healthy/20211231_160823 (Custom).jpg,data/raw/Healthy/20211231_160851 (Custom).jpg,28
+test,Powdery Mildew,data/raw/Powdery Mildew/IMG_20211107_125821 (Custom).jpg,data/raw/Powdery Mildew/IMG_20211107_125753 (Custom).jpg,28
+test,Powdery Mildew,data/raw/Powdery Mildew/IMG_20211107_125842 (Custom).jpg,data/raw/Powdery Mildew/IMG_20211107_125910 (Custom).jpg,28
+val,Sooty Mould,data/raw/Sooty Mould/IMG_20211108_120937 (Custom).jpg,data/raw/Sooty Mould/IMG_20211108_120909 (Custom).jpg,28
+val,Sooty Mould,data/raw/Sooty Mould/IMG_20211211_155518 (Custom).jpg,data/raw/Sooty Mould/IMG_20211211_155450 (Custom).jpg,28
+val,Cutting Weevil,data/raw/Cutting Weevil/20211011_161424(0) (Custom) (Custom).jpg,data/raw/Cutting Weevil/20211011_161452 (Custom) (Custom).jpg,28
+val,Bacterial Canker,data/raw/Bacterial Canker/IMG_20211106_134850 (Custom).jpg,data/raw/Bacterial Canker/IMG_20211106_134822 (Custom).jpg,28
+val,Cutting Weevil,data/raw/Cutting Weevil/20211011_161424 (Custom) (Custom).jpg,data/raw/Cutting Weevil/20211011_161452 (Custom) (Custom).jpg,28
+val,Gall Midge,data/raw/Gall Midge/IMG_20211106_162534 (Custom).jpg,data/raw/Gall Midge/IMG_20211106_162602 (Custom).jpg,28
+test,Healthy,data/raw/Healthy/20211231_125350 (Custom).jpg,data/raw/Healthy/20211231_125322 (Custom).jpg,28
+test,Die Back,data/raw/Die Back/20211129_160425 (Custom).jpg,data/raw/Die Back/20211129_160453 (Custom).jpg,28
+val,Bacterial Canker,data/raw/Bacterial Canker/IMG_20211106_135927 (Custom).jpg,data/raw/Bacterial Canker/IMG_20211106_135955 (Custom).jpg,28
+val,Die Back,data/raw/Die Back/20211129_164258 (Custom).jpg,data/raw/Die Back/20211129_164326 (Custom).jpg,28
+val,Healthy,data/raw/Healthy/20211231_155147 (Custom).jpg,data/raw/Healthy/20211231_155119 (Custom).jpg,28
+test,Bacterial Canker,data/raw/Bacterial Canker/IMG_20211106_140554 (Custom).jpg,data/raw/Bacterial Canker/IMG_20211106_140622 (Custom).jpg,28
+test,Anthracnose,data/raw/Anthracnose/IMG_20211011_164055 (Custom).jpg,data/raw/Anthracnose/IMG_20211011_164123 (Custom).jpg,28
+test,Healthy,data/raw/Healthy/20211231_162055 (Custom).jpg,data/raw/Healthy/20211231_162123 (Custom).jpg,28
+test,Anthracnose,data/raw/Anthracnose/IMG_20211011_162622 (Custom).jpg,data/raw/Anthracnose/IMG_20211011_162650 (Custom).jpg,28
+test,Die Back,data/raw/Die Back/20211129_161802 (Custom).jpg,data/raw/Die Back/20211129_161830 (Custom).jpg,28
+test,Healthy,data/raw/Healthy/20211231_161740 (Custom).jpg,data/raw/Healthy/20211231_161808 (Custom).jpg,28
+test,Gall Midge,data/raw/Gall Midge/IMG_20211106_162909 (Custom).jpg,data/raw/Gall Midge/IMG_20211106_162937 (Custom).jpg,28
+test,Anthracnose,data/raw/Anthracnose/20211011_134125 (Custom).jpg,data/raw/Anthracnose/20211011_134057 (Custom).jpg,28
+test,Bacterial Canker,data/raw/Bacterial Canker/IMG_20211106_140553 (Custom).jpg,data/raw/Bacterial Canker/IMG_20211106_140622 (Custom).jpg,29
+test,Gall Midge,data/raw/Gall Midge/IMG_20211106_163140 (Custom).jpg,data/raw/Gall Midge/IMG_20211106_163111 (Custom).jpg,29
+val,Anthracnose,data/raw/Anthracnose/20211011_134025 (Custom).jpg,data/raw/Anthracnose/20211011_133956 (Custom).jpg,29
+val,Healthy,data/raw/Healthy/20211231_123258 (Custom).jpg,data/raw/Healthy/20211231_123327 (Custom).jpg,29
+test,Gall Midge,data/raw/Gall Midge/IMG_20211106_164323 (Custom).jpg,data/raw/Gall Midge/IMG_20211106_164352 (Custom).jpg,29
+val,Powdery Mildew,data/raw/Powdery Mildew/IMG_20211107_124140 (Custom).jpg,data/raw/Powdery Mildew/IMG_20211107_124111 (Custom).jpg,29
+test,Cutting Weevil,data/raw/Cutting Weevil/20211011_161744 (Custom) (Custom).jpg,data/raw/Cutting Weevil/20211011_161715(0) (Custom) (Custom).jpg,29
+val,Gall Midge,data/raw/Gall Midge/IMG_20211106_162030 (Custom).jpg,data/raw/Gall Midge/IMG_20211106_162059 (Custom).jpg,29
+val,Gall Midge,data/raw/Gall Midge/IMG_20211106_162734 (Custom).jpg,data/raw/Gall Midge/IMG_20211106_162705 (Custom).jpg,29
+test,Anthracnose,data/raw/Anthracnose/IMG_20211011_164054 (Custom).jpg,data/raw/Anthracnose/IMG_20211011_164123 (Custom).jpg,29
+val,Powdery Mildew,data/raw/Powdery Mildew/IMG_20211107_124924 (Custom).jpg,data/raw/Powdery Mildew/IMG_20211107_124953 (Custom).jpg,29
+val,Powdery Mildew,data/raw/Powdery Mildew/20211109_121314 (Custom).jpg,data/raw/Powdery Mildew/20211109_121245 (Custom).jpg,29
+test,Sooty Mould,data/raw/Sooty Mould/IMG_20211108_122059 (Custom).jpg,data/raw/Sooty Mould/IMG_20211108_122030 (Custom).jpg,29
+val,Powdery Mildew,data/raw/Powdery Mildew/IMG_20211107_125226 (Custom).jpg,data/raw/Powdery Mildew/IMG_20211107_125157 (Custom).jpg,29
+val,Die Back,data/raw/Die Back/20211129_162428 (Custom).jpg,data/raw/Die Back/20211129_162358 (Custom).jpg,30
+val,Die Back,data/raw/Die Back/20211129_162511 (Custom).jpg,data/raw/Die Back/20211129_162541 (Custom).jpg,30
+test,Gall Midge,data/raw/Gall Midge/IMG_20211106_164218 (Custom).jpg,data/raw/Gall Midge/IMG_20211106_164148 (Custom).jpg,30
+test,Cutting Weevil,data/raw/Cutting Weevil/20211011_170108 (Custom) (Custom).jpg,data/raw/Cutting Weevil/20211011_170138 (Custom) (Custom).jpg,30
+test,Gall Midge,data/raw/Gall Midge/IMG_20211106_163141 (Custom).jpg,data/raw/Gall Midge/IMG_20211106_163111 (Custom).jpg,30
+val,Bacterial Canker,data/raw/Bacterial Canker/IMG_20211106_135925 (Custom).jpg,data/raw/Bacterial Canker/IMG_20211106_135955 (Custom).jpg,30
+test,Gall Midge,data/raw/Gall Midge/IMG_20211106_161724 (Custom).jpg,data/raw/Gall Midge/IMG_20211106_161654 (Custom).jpg,30
+test,Bacterial Canker,data/raw/Bacterial Canker/IMG_20211106_143342 (Custom).jpg,data/raw/Bacterial Canker/IMG_20211106_143312 (Custom).jpg,30
+val,Bacterial Canker,data/raw/Bacterial Canker/IMG_20211106_140346 (Custom).jpg,data/raw/Bacterial Canker/IMG_20211106_140416 (Custom).jpg,30
+test,Powdery Mildew,data/raw/Powdery Mildew/IMG_20211107_122238 (Custom).jpg,data/raw/Powdery Mildew/IMG_20211107_122308 (Custom).jpg,30
+test,Anthracnose,data/raw/Anthracnose/IMG_20211011_162620 (Custom).jpg,data/raw/Anthracnose/IMG_20211011_162650 (Custom).jpg,30
+val,Healthy,data/raw/Healthy/20211231_123850 (Custom).jpg,data/raw/Healthy/20211231_123920 (Custom).jpg,30
+val,Sooty Mould,data/raw/Sooty Mould/IMG_20211212_142956 (Custom).jpg,data/raw/Sooty Mould/IMG_20211212_142926 (Custom).jpg,30
+test,Sooty Mould,data/raw/Sooty Mould/IMG_20211211_154134 (Custom).jpg,data/raw/Sooty Mould/IMG_20211211_154205 (Custom).jpg,31
+val,Sooty Mould,data/raw/Sooty Mould/IMG_20211211_155412 (Custom).jpg,data/raw/Sooty Mould/IMG_20211211_155443 (Custom).jpg,31
+val,Die Back,data/raw/Die Back/20211129_162753 (Custom).jpg,data/raw/Die Back/20211129_162722 (Custom).jpg,31
+test,Bacterial Canker,data/raw/Bacterial Canker/IMG_20211106_140551 (Custom).jpg,data/raw/Bacterial Canker/IMG_20211106_140622 (Custom).jpg,31
+val,Die Back,data/raw/Die Back/20211129_161714 (Custom).jpg,data/raw/Die Back/20211129_161643 (Custom).jpg,31
+val,Healthy,data/raw/Healthy/20211231_160806 (Custom).jpg,data/raw/Healthy/20211231_160735 (Custom).jpg,31
+val,Bacterial Canker,data/raw/Bacterial Canker/IMG_20211106_142012 (Custom).jpg,data/raw/Bacterial Canker/IMG_20211106_141941 (Custom).jpg,31
+test,Bacterial Canker,data/raw/Bacterial Canker/IMG_20211106_120916 (Custom).jpg,data/raw/Bacterial Canker/IMG_20211106_120947 (Custom).jpg,31
+val,Healthy,data/raw/Healthy/20211231_124515 (Custom).jpg,data/raw/Healthy/20211231_124546 (Custom).jpg,31
+val,Sooty Mould,data/raw/Sooty Mould/IMG_20211108_121338 (Custom).jpg,data/raw/Sooty Mould/IMG_20211108_121307 (Custom).jpg,31
+val,Bacterial Canker,data/raw/Bacterial Canker/IMG_20211106_134952 (Custom).jpg,data/raw/Bacterial Canker/IMG_20211106_135023 (Custom).jpg,31
+test,Healthy,data/raw/Healthy/20211231_161719 (Custom).jpg,data/raw/Healthy/20211231_161648 (Custom).jpg,31
+val,Gall Midge,data/raw/Gall Midge/IMG_20211106_162531 (Custom).jpg,data/raw/Gall Midge/IMG_20211106_162602 (Custom).jpg,31
+test,Cutting Weevil,data/raw/Cutting Weevil/20211011_162204 (Custom) (Custom).jpg,data/raw/Cutting Weevil/20211011_162133 (Custom) (Custom).jpg,31
+test,Anthracnose,data/raw/Anthracnose/IMG_20211011_134506 (Custom).jpg,data/raw/Anthracnose/20211011_134537 (Custom).jpg,31
+test,Healthy,data/raw/Healthy/20211231_155218 (Custom).jpg,data/raw/Healthy/20211231_155249 (Custom).jpg,31
+val,Sooty Mould,data/raw/Sooty Mould/IMG_20211212_144917 (Custom).jpg,data/raw/Sooty Mould/IMG_20211212_144846 (Custom).jpg,31
+test,Powdery Mildew,data/raw/Powdery Mildew/IMG_20211107_125839 (Custom).jpg,data/raw/Powdery Mildew/IMG_20211107_125910 (Custom).jpg,31
+val,Die Back,data/raw/Die Back/20211129_164254 (Custom).jpg,data/raw/Die Back/20211129_164326 (Custom).jpg,32
+val,Powdery Mildew,data/raw/Powdery Mildew/20211109_121317 (Custom).jpg,data/raw/Powdery Mildew/20211109_121245 (Custom).jpg,32
+val,Healthy,data/raw/Healthy/20211231_123847 (Custom).jpg,data/raw/Healthy/20211231_123815 (Custom).jpg,32
+val,Gall Midge,data/raw/Gall Midge/IMG_20211106_162737 (Custom).jpg,data/raw/Gall Midge/IMG_20211106_162705 (Custom).jpg,32
+val,Powdery Mildew,data/raw/Powdery Mildew/IMG_20211107_125229 (Custom).jpg,data/raw/Powdery Mildew/IMG_20211107_125157 (Custom).jpg,32
+test,Gall Midge,data/raw/Gall Midge/IMG_20211106_163143 (Custom).jpg,data/raw/Gall Midge/IMG_20211106_163111 (Custom).jpg,32
+test,Cutting Weevil,data/raw/Cutting Weevil/20211011_161242 (Custom) (Custom).jpg,data/raw/Cutting Weevil/20211011_161210(0) (Custom) (Custom).jpg,32
+test,Healthy,data/raw/Healthy/20211231_162037 (Custom).jpg,data/raw/Healthy/20211231_162005 (Custom).jpg,32
+val,Gall Midge,data/raw/Gall Midge/IMG_20211106_163942 (Custom).jpg,data/raw/Gall Midge/IMG_20211106_163910 (Custom).jpg,32
+test,Powdery Mildew,data/raw/Powdery Mildew/IMG_20211107_125321 (Custom).jpg,data/raw/Powdery Mildew/IMG_20211107_125353 (Custom).jpg,32
+val,Sooty Mould,data/raw/Sooty Mould/IMG_20211211_155522 (Custom).jpg,data/raw/Sooty Mould/IMG_20211211_155450 (Custom).jpg,32
+test,Powdery Mildew,data/raw/Powdery Mildew/IMG_20211107_125825 (Custom).jpg,data/raw/Powdery Mildew/IMG_20211107_125753 (Custom).jpg,32
+val,Powdery Mildew,data/raw/Powdery Mildew/IMG_20211107_124920 (Custom).jpg,data/raw/Powdery Mildew/IMG_20211107_124953 (Custom).jpg,33
+val,Healthy,data/raw/Healthy/20211231_155646 (Custom).jpg,data/raw/Healthy/20211231_155719 (Custom).jpg,33
+test,Bacterial Canker,data/raw/Bacterial Canker/IMG_20211106_143345 (Custom).jpg,data/raw/Bacterial Canker/IMG_20211106_143312 (Custom).jpg,33
+val,Bacterial Canker,data/raw/Bacterial Canker/IMG_20211106_142014 (Custom).jpg,data/raw/Bacterial Canker/IMG_20211106_141941 (Custom).jpg,33
+val,Bacterial Canker,data/raw/Bacterial Canker/IMG_20211106_134855 (Custom).jpg,data/raw/Bacterial Canker/IMG_20211106_134822 (Custom).jpg,33
+test,Cutting Weevil,data/raw/Cutting Weevil/20211011_161243(0) (Custom) (Custom).jpg,data/raw/Cutting Weevil/20211011_161210(0) (Custom) (Custom).jpg,33
+val,Gall Midge,data/raw/Gall Midge/IMG_20211106_163620 (Custom).jpg,data/raw/Gall Midge/IMG_20211106_163653 (Custom).jpg,33
+val,Sooty Mould,data/raw/Sooty Mould/IMG_20211108_120942 (Custom).jpg,data/raw/Sooty Mould/IMG_20211108_120909 (Custom).jpg,33
+test,Healthy,data/raw/Healthy/20211231_162050 (Custom).jpg,data/raw/Healthy/20211231_162123 (Custom).jpg,33
+test,Cutting Weevil,data/raw/Cutting Weevil/20211011_161243 (Custom) (Custom).jpg,data/raw/Cutting Weevil/20211011_161210(0) (Custom) (Custom).jpg,33
+val,Cutting Weevil,data/raw/Cutting Weevil/20211011_161419 (Custom) (Custom).jpg,data/raw/Cutting Weevil/20211011_161452 (Custom) (Custom).jpg,33
+val,Healthy,data/raw/Healthy/20211231_155152 (Custom).jpg,data/raw/Healthy/20211231_155119 (Custom).jpg,33
+val,Healthy,data/raw/Healthy/20211231_155418 (Custom).jpg,data/raw/Healthy/20211231_155345 (Custom).jpg,33
+val,Bacterial Canker,data/raw/Bacterial Canker/IMG_20211106_140343 (Custom).jpg,data/raw/Bacterial Canker/IMG_20211106_140416 (Custom).jpg,33
+test,Gall Midge,data/raw/Gall Midge/IMG_20211106_164318 (Custom).jpg,data/raw/Gall Midge/IMG_20211106_164352 (Custom).jpg,34
+test,Cutting Weevil,data/raw/Cutting Weevil/20211011_161244 (Custom) (Custom).jpg,data/raw/Cutting Weevil/20211011_161210(0) (Custom) (Custom).jpg,34
+val,Cutting Weevil,data/raw/Cutting Weevil/20211011_161418 (Custom) (Custom).jpg,data/raw/Cutting Weevil/20211011_161452 (Custom) (Custom).jpg,34
+test,Gall Midge,data/raw/Gall Midge/IMG_20211106_164222 (Custom).jpg,data/raw/Gall Midge/IMG_20211106_164148 (Custom).jpg,34
+test,Sooty Mould,data/raw/Sooty Mould/IMG_20211212_143125 (Custom).jpg,data/raw/Sooty Mould/IMG_20211212_143159 (Custom).jpg,34
+val,Cutting Weevil,data/raw/Cutting Weevil/20211011_161418(0) (Custom) (Custom).jpg,data/raw/Cutting Weevil/20211011_161452 (Custom) (Custom).jpg,34
+val,Gall Midge,data/raw/Gall Midge/IMG_20211106_163944 (Custom).jpg,data/raw/Gall Midge/IMG_20211106_163910 (Custom).jpg,34
+test,Healthy,data/raw/Healthy/20211231_155045 (Custom).jpg,data/raw/Healthy/20211231_155119 (Custom).jpg,34
+test,Sooty Mould,data/raw/Sooty Mould/IMG_20211108_122104 (Custom).jpg,data/raw/Sooty Mould/IMG_20211108_122030 (Custom).jpg,34
+val,Healthy,data/raw/Healthy/20211231_124739 (Custom).jpg,data/raw/Healthy/20211231_124813 (Custom).jpg,34
+test,Anthracnose,data/raw/Anthracnose/IMG_20211011_164049 (Custom).jpg,data/raw/Anthracnose/IMG_20211011_164123 (Custom).jpg,34
+val,Bacterial Canker,data/raw/Bacterial Canker/IMG_20211106_134949 (Custom).jpg,data/raw/Bacterial Canker/IMG_20211106_135023 (Custom).jpg,34
+val,Sooty Mould,data/raw/Sooty Mould/IMG_20211108_121341 (Custom).jpg,data/raw/Sooty Mould/IMG_20211108_121307 (Custom).jpg,34
+val,Healthy,data/raw/Healthy/20211231_123253 (Custom).jpg,data/raw/Healthy/20211231_123327 (Custom).jpg,34
+val,Healthy,data/raw/Healthy/20211231_160817 (Custom).jpg,data/raw/Healthy/20211231_160851 (Custom).jpg,34
+val,Die Back,data/raw/Die Back/20211129_161717 (Custom).jpg,data/raw/Die Back/20211129_161643 (Custom).jpg,34
+val,Gall Midge,data/raw/Gall Midge/IMG_20211106_164015 (Custom).jpg,data/raw/Gall Midge/IMG_20211106_164049 (Custom).jpg,34
+test,Powdery Mildew,data/raw/Powdery Mildew/IMG_20211107_125836 (Custom).jpg,data/raw/Powdery Mildew/IMG_20211107_125910 (Custom).jpg,34
+test,Anthracnose,data/raw/Anthracnose/IMG_20211011_162616 (Custom).jpg,data/raw/Anthracnose/IMG_20211011_162650 (Custom).jpg,34
+test,Anthracnose,data/raw/Anthracnose/20211011_134131 (Custom).jpg,data/raw/Anthracnose/20211011_134057 (Custom).jpg,34
+test,Healthy,data/raw/Healthy/20211231_161328 (Custom).jpg,data/raw/Healthy/20211231_161254 (Custom).jpg,34
+test,Healthy,data/raw/Healthy/20211231_162040 (Custom).jpg,data/raw/Healthy/20211231_162005 (Custom).jpg,35
+val,Gall Midge,data/raw/Gall Midge/IMG_20211106_163945 (Custom).jpg,data/raw/Gall Midge/IMG_20211106_163910 (Custom).jpg,35
+test,Die Back,data/raw/Die Back/20211129_161755 (Custom).jpg,data/raw/Die Back/20211129_161830 (Custom).jpg,35
+val,Gall Midge,data/raw/Gall Midge/IMG_20211106_163618 (Custom).jpg,data/raw/Gall Midge/IMG_20211106_163653 (Custom).jpg,35
+test,Cutting Weevil,data/raw/Cutting Weevil/20211011_161245(0) (Custom) (Custom).jpg,data/raw/Cutting Weevil/20211011_161210(0) (Custom) (Custom).jpg,35
+test,Cutting Weevil,data/raw/Cutting Weevil/20211011_161245 (Custom) (Custom).jpg,data/raw/Cutting Weevil/20211011_161210(0) (Custom) (Custom).jpg,35
+val,Gall Midge,data/raw/Gall Midge/IMG_20211106_162024 (Custom).jpg,data/raw/Gall Midge/IMG_20211106_162059 (Custom).jpg,35
+test,Bacterial Canker,data/raw/Bacterial Canker/IMG_20211106_140547 (Custom).jpg,data/raw/Bacterial Canker/IMG_20211106_140622 (Custom).jpg,35
+val,Sooty Mould,data/raw/Sooty Mould/IMG_20211211_155525 (Custom).jpg,data/raw/Sooty Mould/IMG_20211211_155450 (Custom).jpg,35
+val,Healthy,data/raw/Healthy/20211231_160810 (Custom).jpg,data/raw/Healthy/20211231_160735 (Custom).jpg,35
+val,Sooty Mould,data/raw/Sooty Mould/IMG_20211211_155408 (Custom).jpg,data/raw/Sooty Mould/IMG_20211211_155443 (Custom).jpg,35
+val,Sooty Mould,data/raw/Sooty Mould/IMG_20211212_144921 (Custom).jpg,data/raw/Sooty Mould/IMG_20211212_144846 (Custom).jpg,35
+val,Die Back,data/raw/Die Back/20211129_162505 (Custom).jpg,data/raw/Die Back/20211129_162541 (Custom).jpg,36
+test,Cutting Weevil,data/raw/Cutting Weevil/20211011_162209 (Custom) (Custom).jpg,data/raw/Cutting Weevil/20211011_162133 (Custom) (Custom).jpg,36
+val,Gall Midge,data/raw/Gall Midge/IMG_20211106_163617 (Custom).jpg,data/raw/Gall Midge/IMG_20211106_163653 (Custom).jpg,36
+val,Die Back,data/raw/Die Back/20211129_162758 (Custom).jpg,data/raw/Die Back/20211129_162722 (Custom).jpg,36
+val,Gall Midge,data/raw/Gall Midge/IMG_20211106_162741 (Custom).jpg,data/raw/Gall Midge/IMG_20211106_162705 (Custom).jpg,36
+test,Anthracnose,data/raw/Anthracnose/IMG_20211011_164047 (Custom).jpg,data/raw/Anthracnose/IMG_20211011_164123 (Custom).jpg,36
+test,Powdery Mildew,data/raw/Powdery Mildew/IMG_20211107_125829 (Custom).jpg,data/raw/Powdery Mildew/IMG_20211107_125753 (Custom).jpg,36
+test,Gall Midge,data/raw/Gall Midge/IMG_20211106_163147 (Custom).jpg,data/raw/Gall Midge/IMG_20211106_163111 (Custom).jpg,36
+test,Cutting Weevil,data/raw/Cutting Weevil/20211011_161246 (Custom) (Custom).jpg,data/raw/Cutting Weevil/20211011_161210(0) (Custom) (Custom).jpg,36
+test,Anthracnose,data/raw/Anthracnose/IMG_20211011_162614 (Custom).jpg,data/raw/Anthracnose/IMG_20211011_162650 (Custom).jpg,36
+val,Powdery Mildew,data/raw/Powdery Mildew/IMG_20211107_125233 (Custom).jpg,data/raw/Powdery Mildew/IMG_20211107_125157 (Custom).jpg,36
+test,Healthy,data/raw/Healthy/20211231_161331 (Custom).jpg,data/raw/Healthy/20211231_161254 (Custom).jpg,37
+test,Bacterial Canker,data/raw/Bacterial Canker/IMG_20211106_143349 (Custom).jpg,data/raw/Bacterial Canker/IMG_20211106_143312 (Custom).jpg,37
+val,Gall Midge,data/raw/Gall Midge/IMG_20211106_164012 (Custom).jpg,data/raw/Gall Midge/IMG_20211106_164049 (Custom).jpg,37
+val,Die Back,data/raw/Die Back/20211129_161720 (Custom).jpg,data/raw/Die Back/20211129_161643 (Custom).jpg,37
+val,Gall Midge,data/raw/Gall Midge/IMG_20211106_163947 (Custom).jpg,data/raw/Gall Midge/IMG_20211106_163910 (Custom).jpg,37
+val,Powdery Mildew,data/raw/Powdery Mildew/IMG_20211107_124546 (Custom).jpg,data/raw/Powdery Mildew/IMG_20211107_124623 (Custom).jpg,37
+test,Sooty Mould,data/raw/Sooty Mould/IMG_20211108_122126 (Custom).jpg,data/raw/Sooty Mould/IMG_20211108_122203 (Custom).jpg,37
+test,Powdery Mildew,data/raw/Powdery Mildew/IMG_20211107_125833 (Custom).jpg,data/raw/Powdery Mildew/IMG_20211107_125910 (Custom).jpg,37
+test,Gall Midge,data/raw/Gall Midge/IMG_20211106_162900 (Custom).jpg,data/raw/Gall Midge/IMG_20211106_162937 (Custom).jpg,37
+test,Bacterial Canker,data/raw/Bacterial Canker/IMG_20211106_140545 (Custom).jpg,data/raw/Bacterial Canker/IMG_20211106_140622 (Custom).jpg,37
+val,Bacterial Canker,data/raw/Bacterial Canker/IMG_20211106_134859 (Custom).jpg,data/raw/Bacterial Canker/IMG_20211106_134822 (Custom).jpg,37
+val,Bacterial Canker,data/raw/Bacterial Canker/IMG_20211106_142018 (Custom).jpg,data/raw/Bacterial Canker/IMG_20211106_141941 (Custom).jpg,37
+test,Healthy,data/raw/Healthy/20211231_162045 (Custom).jpg,data/raw/Healthy/20211231_162123 (Custom).jpg,38
+val,Powdery Mildew,data/raw/Powdery Mildew/IMG_20211107_124915 (Custom).jpg,data/raw/Powdery Mildew/IMG_20211107_124953 (Custom).jpg,38
+val,Powdery Mildew,data/raw/Powdery Mildew/IMG_20211107_125235 (Custom).jpg,data/raw/Powdery Mildew/IMG_20211107_125157 (Custom).jpg,38
+test,Gall Midge,data/raw/Gall Midge/IMG_20211106_164314 (Custom).jpg,data/raw/Gall Midge/IMG_20211106_164352 (Custom).jpg,38
+test,Bacterial Canker,data/raw/Bacterial Canker/IMG_20211106_141626 (Custom).jpg,data/raw/Bacterial Canker/IMG_20211106_141548 (Custom).jpg,38
+test,Sooty Mould,data/raw/Sooty Mould/IMG_20211211_154127 (Custom).jpg,data/raw/Sooty Mould/IMG_20211211_154205 (Custom).jpg,38
+val,Gall Midge,data/raw/Gall Midge/IMG_20211106_163948 (Custom).jpg,data/raw/Gall Midge/IMG_20211106_163910 (Custom).jpg,38
+val,Gall Midge,data/raw/Gall Midge/IMG_20211106_164010 (Custom).jpg,data/raw/Gall Midge/IMG_20211106_164049 (Custom).jpg,39
+val,Cutting Weevil,data/raw/Cutting Weevil/20211011_161413 (Custom) (Custom).jpg,data/raw/Cutting Weevil/20211011_161452 (Custom) (Custom).jpg,39
+val,Sooty Mould,data/raw/Sooty Mould/IMG_20211108_120948 (Custom).jpg,data/raw/Sooty Mould/IMG_20211108_120909 (Custom).jpg,39
+val,Die Back,data/raw/Die Back/IMG_20211027_193504 (Custom).jpg,data/raw/Die Back/IMG_20211027_193425 (Custom).jpg,39
+val,Gall Midge,data/raw/Gall Midge/IMG_20211106_163614 (Custom).jpg,data/raw/Gall Midge/IMG_20211106_163653 (Custom).jpg,39
+test,Die Back,data/raw/Die Back/20211129_161751 (Custom).jpg,data/raw/Die Back/20211129_161830 (Custom).jpg,39
+val,Healthy,data/raw/Healthy/20211231_155640 (Custom).jpg,data/raw/Healthy/20211231_155719 (Custom).jpg,39
+val,Healthy,data/raw/Healthy/20211231_160118 (Custom).jpg,data/raw/Healthy/20211231_160039 (Custom).jpg,39
+val,Gall Midge,data/raw/Gall Midge/IMG_20211106_162744 (Custom).jpg,data/raw/Gall Midge/IMG_20211106_162705 (Custom).jpg,39
+val,Bacterial Canker,data/raw/Bacterial Canker/IMG_20211106_134444 (Custom).jpg,data/raw/Bacterial Canker/IMG_20211106_134405 (Custom).jpg,39
+test,Gall Midge,data/raw/Gall Midge/IMG_20211106_161733 (Custom).jpg,data/raw/Gall Midge/IMG_20211106_161654 (Custom).jpg,39
+val,Healthy,data/raw/Healthy/20211231_123529 (Custom).jpg,data/raw/Healthy/20211231_123608 (Custom).jpg,39
+val,Bacterial Canker,data/raw/Bacterial Canker/IMG_20211106_140321 (Custom).jpg,data/raw/Bacterial Canker/IMG_20211106_140242 (Custom).jpg,39
+val,Bacterial Canker,data/raw/Bacterial Canker/IMG_20211106_134944 (Custom).jpg,data/raw/Bacterial Canker/IMG_20211106_135023 (Custom).jpg,39
+test,Powdery Mildew,data/raw/Powdery Mildew/IMG_20211107_122229 (Custom).jpg,data/raw/Powdery Mildew/IMG_20211107_122308 (Custom).jpg,39
+test,Anthracnose,data/raw/Anthracnose/IMG_20211011_164044 (Custom).jpg,data/raw/Anthracnose/IMG_20211011_164123 (Custom).jpg,39
+val,Sooty Mould,data/raw/Sooty Mould/IMG_20211212_144925 (Custom).jpg,data/raw/Sooty Mould/IMG_20211212_144846 (Custom).jpg,39
+test,Healthy,data/raw/Healthy/20211231_161333 (Custom).jpg,data/raw/Healthy/20211231_161254 (Custom).jpg,39
+val,Gall Midge,data/raw/Gall Midge/IMG_20211106_163210 (Custom).jpg,data/raw/Gall Midge/IMG_20211106_163250 (Custom).jpg,40
+val,Die Back,data/raw/Die Back/20211129_163107 (Custom).jpg,data/raw/Die Back/20211129_163027 (Custom).jpg,40
+val,Cutting Weevil,data/raw/Cutting Weevil/20211011_161412 (Custom) (Custom).jpg,data/raw/Cutting Weevil/20211011_161452 (Custom) (Custom).jpg,40
+test,Cutting Weevil,data/raw/Cutting Weevil/20211011_162612 (Custom) (Custom).jpg,data/raw/Cutting Weevil/20211011_162532 (Custom) (Custom).jpg,40
+test,Cutting Weevil,data/raw/Cutting Weevil/20211011_162213 (Custom) (Custom).jpg,data/raw/Cutting Weevil/20211011_162133 (Custom) (Custom).jpg,40
+val,Gall Midge,data/raw/Gall Midge/IMG_20211106_163950 (Custom).jpg,data/raw/Gall Midge/IMG_20211106_163910 (Custom).jpg,40
+val,Die Back,data/raw/Die Back/20211129_161723 (Custom).jpg,data/raw/Die Back/20211129_161643 (Custom).jpg,40
+test,Die Back,data/raw/Die Back/20211129_162912 (Custom).jpg,data/raw/Die Back/20211129_162952 (Custom).jpg,40
+test,Gall Midge,data/raw/Gall Midge/IMG_20211106_164312 (Custom).jpg,data/raw/Gall Midge/IMG_20211106_164352 (Custom).jpg,40
+val,Gall Midge,data/raw/Gall Midge/IMG_20211106_165423 (Custom).jpg,data/raw/Gall Midge/IMG_20211106_165343 (Custom).jpg,40
+val,Bacterial Canker,data/raw/Bacterial Canker/IMG_20211106_135827 (Custom).jpg,data/raw/Bacterial Canker/IMG_20211106_135747 (Custom).jpg,40
+val,Healthy,data/raw/Healthy/20211231_124733 (Custom).jpg,data/raw/Healthy/20211231_124813 (Custom).jpg,40
+test,Bacterial Canker,data/raw/Bacterial Canker/IMG_20211106_140540 (Custom).jpg,data/raw/Bacterial Canker/IMG_20211106_140500 (Custom).jpg,40
+val,Healthy,data/raw/Healthy/20211231_123247 (Custom).jpg,data/raw/Healthy/20211231_123327 (Custom).jpg,40
+test,Bacterial Canker,data/raw/Bacterial Canker/IMG_20211106_140542 (Custom).jpg,data/raw/Bacterial Canker/IMG_20211106_140622 (Custom).jpg,40
+val,Sooty Mould,data/raw/Sooty Mould/IMG_20211108_121347 (Custom).jpg,data/raw/Sooty Mould/IMG_20211108_121307 (Custom).jpg,40
+val,Sooty Mould,data/raw/Sooty Mould/IMG_20211211_155530 (Custom).jpg,data/raw/Sooty Mould/IMG_20211211_155450 (Custom).jpg,40
+val,Bacterial Canker,data/raw/Bacterial Canker/IMG_20211106_134903 (Custom).jpg,data/raw/Bacterial Canker/IMG_20211106_134822 (Custom).jpg,41
+test,Anthracnose,data/raw/Anthracnose/20211008_124933 (Custom).jpg,data/raw/Anthracnose/20211008_125014 (Custom).jpg,41
+val,Gall Midge,data/raw/Gall Midge/IMG_20211106_162521 (Custom).jpg,data/raw/Gall Midge/IMG_20211106_162602 (Custom).jpg,41
+test,Die Back,data/raw/Die Back/IMG_20211028_003454 (Custom).jpg,data/raw/Die Back/IMG_20211028_003413 (Custom).jpg,41
+test,Die Back,data/raw/Die Back/20211129_161749 (Custom).jpg,data/raw/Die Back/20211129_161830 (Custom).jpg,41
+test,Anthracnose,data/raw/Anthracnose/IMG_20211011_162609 (Custom).jpg,data/raw/Anthracnose/IMG_20211011_162650 (Custom).jpg,41
+val,Gall Midge,data/raw/Gall Midge/IMG_20211106_163952 (Custom).jpg,data/raw/Gall Midge/IMG_20211106_163910 (Custom).jpg,42
+val,Die Back,data/raw/Die Back/IMG_20211028_003656 (Custom).jpg,data/raw/Die Back/IMG_20211028_003738 (Custom).jpg,42
+val,Gall Midge,data/raw/Gall Midge/IMG_20211106_162747 (Custom).jpg,data/raw/Gall Midge/IMG_20211106_162705 (Custom).jpg,42
+val,Die Back,data/raw/Die Back/20211129_162459 (Custom).jpg,data/raw/Die Back/20211129_162541 (Custom).jpg,42
+val,Die Back,data/raw/Die Back/20211129_162804 (Custom).jpg,data/raw/Die Back/20211129_162722 (Custom).jpg,42
+val,Cutting Weevil,data/raw/Cutting Weevil/20211011_161410 (Custom) (Custom).jpg,data/raw/Cutting Weevil/20211011_161452 (Custom) (Custom).jpg,42
+test,Gall Midge,data/raw/Gall Midge/IMG_20211106_164230 (Custom).jpg,data/raw/Gall Midge/IMG_20211106_164148 (Custom).jpg,42
+test,Gall Midge,data/raw/Gall Midge/IMG_20211106_161736 (Custom).jpg,data/raw/Gall Midge/IMG_20211106_161654 (Custom).jpg,42
+test,Gall Midge,data/raw/Gall Midge/IMG_20211106_162855 (Custom).jpg,data/raw/Gall Midge/IMG_20211106_162937 (Custom).jpg,42
+test,Sooty Mould,data/raw/Sooty Mould/IMG_20211108_122121 (Custom).jpg,data/raw/Sooty Mould/IMG_20211108_122203 (Custom).jpg,42
+test,Healthy,data/raw/Healthy/20211231_155207 (Custom).jpg,data/raw/Healthy/20211231_155249 (Custom).jpg,42
+val,Healthy,data/raw/Healthy/20211231_155427 (Custom).jpg,data/raw/Healthy/20211231_155345 (Custom).jpg,42
+val,Bacterial Canker,data/raw/Bacterial Canker/IMG_20211106_140334 (Custom).jpg,data/raw/Bacterial Canker/IMG_20211106_140416 (Custom).jpg,42
+val,Healthy,data/raw/Healthy/20211231_155637 (Custom).jpg,data/raw/Healthy/20211231_155719 (Custom).jpg,42
+test,Healthy,data/raw/Healthy/20211231_161345 (Custom).jpg,data/raw/Healthy/20211231_161427 (Custom).jpg,42
+val,Healthy,data/raw/Healthy/20211231_124707 (Custom).jpg,data/raw/Healthy/20211231_124624 (Custom).jpg,43
+val,Die Back,data/raw/Die Back/20211129_162441 (Custom).jpg,data/raw/Die Back/20211129_162358 (Custom).jpg,43
+val,Cutting Weevil,data/raw/Cutting Weevil/20211011_160625 (Custom) (Custom).jpg,data/raw/Cutting Weevil/20211011_160708 (Custom) (Custom).jpg,43
+val,Gall Midge,data/raw/Gall Midge/IMG_20211106_164006 (Custom).jpg,data/raw/Gall Midge/IMG_20211106_164049 (Custom).jpg,43
+val,Die Back,data/raw/Die Back/20211129_161726 (Custom).jpg,data/raw/Die Back/20211129_161643 (Custom).jpg,43
+test,Anthracnose,data/raw/Anthracnose/20211011_164219 (Custom).jpg,data/raw/Anthracnose/IMG_20211011_164136 (Custom).jpg,43
+test,Powdery Mildew,data/raw/Powdery Mildew/IMG_20211107_122225 (Custom).jpg,data/raw/Powdery Mildew/IMG_20211107_122308 (Custom).jpg,43
+test,Anthracnose,data/raw/Anthracnose/IMG_20211011_162607 (Custom).jpg,data/raw/Anthracnose/IMG_20211011_162650 (Custom).jpg,43
+val,Sooty Mould,data/raw/Sooty Mould/IMG_20211211_155533 (Custom).jpg,data/raw/Sooty Mould/IMG_20211211_155450 (Custom).jpg,43
+val,Powdery Mildew,data/raw/Powdery Mildew/IMG_20211107_124910 (Custom).jpg,data/raw/Powdery Mildew/IMG_20211107_124953 (Custom).jpg,43
+test,Bacterial Canker,data/raw/Bacterial Canker/IMG_20211106_141631 (Custom).jpg,data/raw/Bacterial Canker/IMG_20211106_141548 (Custom).jpg,43
+test,Healthy,data/raw/Healthy/20211231_125522 (Custom).jpg,data/raw/Healthy/20211231_125439 (Custom).jpg,43
+test,Die Back,data/raw/Die Back/20211129_161747 (Custom).jpg,data/raw/Die Back/20211129_161830 (Custom).jpg,43
+val,Sooty Mould,data/raw/Sooty Mould/IMG_20211108_120952 (Custom).jpg,data/raw/Sooty Mould/IMG_20211108_120909 (Custom).jpg,43
+test,Gall Midge,data/raw/Gall Midge/IMG_20211106_162854 (Custom).jpg,data/raw/Gall Midge/IMG_20211106_162937 (Custom).jpg,43
+test,Anthracnose,data/raw/Anthracnose/20211008_124931 (Custom).jpg,data/raw/Anthracnose/20211008_125014 (Custom).jpg,43
+test,Cutting Weevil,data/raw/Cutting Weevil/20211011_162216 (Custom) (Custom).jpg,data/raw/Cutting Weevil/20211011_162133 (Custom) (Custom).jpg,43
+val,Gall Midge,data/raw/Gall Midge/IMG_20211106_163954 (Custom).jpg,data/raw/Gall Midge/IMG_20211106_163910 (Custom).jpg,44
+val,Bacterial Canker,data/raw/Bacterial Canker/IMG_20211106_134906 (Custom).jpg,data/raw/Bacterial Canker/IMG_20211106_134822 (Custom).jpg,44
+val,Sooty Mould,data/raw/Sooty Mould/IMG_20211108_121351 (Custom).jpg,data/raw/Sooty Mould/IMG_20211108_121307 (Custom).jpg,44
+val,Healthy,data/raw/Healthy/20211231_123243 (Custom).jpg,data/raw/Healthy/20211231_123327 (Custom).jpg,44
+test,Cutting Weevil,data/raw/Cutting Weevil/20211011_162616 (Custom) (Custom).jpg,data/raw/Cutting Weevil/20211011_162532 (Custom) (Custom).jpg,44
+test,Die Back,data/raw/Die Back/IMG_20211028_003457 (Custom).jpg,data/raw/Die Back/IMG_20211028_003413 (Custom).jpg,44
+val,Gall Midge,data/raw/Gall Midge/IMG_20211106_162749 (Custom).jpg,data/raw/Gall Midge/IMG_20211106_162705 (Custom).jpg,44
+test,Bacterial Canker,data/raw/Bacterial Canker/IMG_20211106_143356 (Custom).jpg,data/raw/Bacterial Canker/IMG_20211106_143312 (Custom).jpg,44
+test,Healthy,data/raw/Healthy/20211231_161339 (Custom).jpg,data/raw/Healthy/20211231_161254 (Custom).jpg,45
+test,Sooty Mould,data/raw/Sooty Mould/IMG_20211211_154120 (Custom).jpg,data/raw/Sooty Mould/IMG_20211211_154205 (Custom).jpg,45
+test,Powdery Mildew,data/raw/Powdery Mildew/IMG_20211107_125308 (Custom).jpg,data/raw/Powdery Mildew/IMG_20211107_125353 (Custom).jpg,45
+val,Powdery Mildew,data/raw/Powdery Mildew/IMG_20211107_125242 (Custom).jpg,data/raw/Powdery Mildew/IMG_20211107_125157 (Custom).jpg,45
+test,Healthy,data/raw/Healthy/20211231_155034 (Custom).jpg,data/raw/Healthy/20211231_155119 (Custom).jpg,45
+test,Anthracnose,data/raw/Anthracnose/IMG_20211011_162605 (Custom).jpg,data/raw/Anthracnose/IMG_20211011_162650 (Custom).jpg,45
+test,Sooty Mould,data/raw/Sooty Mould/IMG_20211212_143114 (Custom).jpg,data/raw/Sooty Mould/IMG_20211212_143159 (Custom).jpg,45
+val,Bacterial Canker,data/raw/Bacterial Canker/IMG_20211106_134938 (Custom).jpg,data/raw/Bacterial Canker/IMG_20211106_135023 (Custom).jpg,45
+val,Die Back,data/raw/Die Back/IMG_20211027_193510 (Custom).jpg,data/raw/Die Back/IMG_20211027_193425 (Custom).jpg,45
+test,Powdery Mildew,data/raw/Powdery Mildew/IMG_20211107_125656 (Custom).jpg,data/raw/Powdery Mildew/IMG_20211107_125741 (Custom).jpg,45
+test,Cutting Weevil,data/raw/Cutting Weevil/20211011_162617(0) (Custom) (Custom).jpg,data/raw/Cutting Weevil/20211011_162532 (Custom) (Custom).jpg,45
+test,Healthy,data/raw/Healthy/20211231_161342 (Custom).jpg,data/raw/Healthy/20211231_161427 (Custom).jpg,45
+test,Gall Midge,data/raw/Gall Midge/IMG_20211106_162852 (Custom).jpg,data/raw/Gall Midge/IMG_20211106_162937 (Custom).jpg,45
+val,Die Back,data/raw/Die Back/20211129_162807 (Custom).jpg,data/raw/Die Back/20211129_162722 (Custom).jpg,45
+test,Powdery Mildew,data/raw/Powdery Mildew/IMG_20211107_122222 (Custom).jpg,data/raw/Powdery Mildew/IMG_20211107_122308 (Custom).jpg,46
+val,Die Back,data/raw/Die Back/20211129_162455 (Custom).jpg,data/raw/Die Back/20211129_162541 (Custom).jpg,46
+val,Gall Midge,data/raw/Gall Midge/IMG_20211106_163956 (Custom).jpg,data/raw/Gall Midge/IMG_20211106_163910 (Custom).jpg,46
+val,Gall Midge,data/raw/Gall Midge/IMG_20211106_162516 (Custom).jpg,data/raw/Gall Midge/IMG_20211106_162602 (Custom).jpg,46
+test,Die Back,data/raw/Die Back/IMG_20211028_003459 (Custom).jpg,data/raw/Die Back/IMG_20211028_003413 (Custom).jpg,46
+test,Die Back,data/raw/Die Back/IMG_20211028_003033 (Custom).jpg,data/raw/Die Back/IMG_20211028_002947 (Custom).jpg,46
+val,Die Back,data/raw/Die Back/20211129_161729 (Custom).jpg,data/raw/Die Back/20211129_161643 (Custom).jpg,46
+test,Gall Midge,data/raw/Gall Midge/IMG_20211106_164306 (Custom).jpg,data/raw/Gall Midge/IMG_20211106_164352 (Custom).jpg,46
+test,Gall Midge,data/raw/Gall Midge/IMG_20211106_162851 (Custom).jpg,data/raw/Gall Midge/IMG_20211106_162937 (Custom).jpg,46
+val,Die Back,data/raw/Die Back/20211129_163113 (Custom).jpg,data/raw/Die Back/20211129_163027 (Custom).jpg,46
+val,Sooty Mould,data/raw/Sooty Mould/IMG_20211211_155357 (Custom).jpg,data/raw/Sooty Mould/IMG_20211211_155443 (Custom).jpg,46
+val,Gall Midge,data/raw/Gall Midge/IMG_20211106_164002 (Custom).jpg,data/raw/Gall Midge/IMG_20211106_164049 (Custom).jpg,47
+val,Powdery Mildew,data/raw/Powdery Mildew/IMG_20211107_124906 (Custom).jpg,data/raw/Powdery Mildew/IMG_20211107_124953 (Custom).jpg,47
+val,Healthy,data/raw/Healthy/20211231_155432 (Custom).jpg,data/raw/Healthy/20211231_155345 (Custom).jpg,47
+test,Healthy,data/raw/Healthy/20211231_155015 (Custom).jpg,data/raw/Healthy/20211231_154928 (Custom).jpg,47
+val,Bacterial Canker,data/raw/Bacterial Canker/IMG_20211106_135834 (Custom).jpg,data/raw/Bacterial Canker/IMG_20211106_135747 (Custom).jpg,47
+val,Bacterial Canker,data/raw/Bacterial Canker/IMG_20211106_134909 (Custom).jpg,data/raw/Bacterial Canker/IMG_20211106_134822 (Custom).jpg,47
+test,Anthracnose,data/raw/Anthracnose/IMG_20211011_164036 (Custom).jpg,data/raw/Anthracnose/IMG_20211011_164123 (Custom).jpg,47
+test,Die Back,data/raw/Die Back/20211129_162905 (Custom).jpg,data/raw/Die Back/20211129_162952 (Custom).jpg,47
+val,Gall Midge,data/raw/Gall Midge/IMG_20211106_163203 (Custom).jpg,data/raw/Gall Midge/IMG_20211106_163250 (Custom).jpg,47
+test,Cutting Weevil,data/raw/Cutting Weevil/20211011_162308 (Custom) (Custom).jpg,data/raw/Cutting Weevil/20211011_162355 (Custom) (Custom).jpg,47
+val,Gall Midge,data/raw/Gall Midge/IMG_20211106_162752 (Custom).jpg,data/raw/Gall Midge/IMG_20211106_162705 (Custom).jpg,47
+val,Sooty Mould,data/raw/Sooty Mould/IMG_20211108_120956 (Custom).jpg,data/raw/Sooty Mould/IMG_20211108_120909 (Custom).jpg,47
+test,Powdery Mildew,data/raw/Powdery Mildew/IMG_20211107_125654 (Custom).jpg,data/raw/Powdery Mildew/IMG_20211107_125741 (Custom).jpg,47
+test,Die Back,data/raw/Die Back/20211129_162904 (Custom).jpg,data/raw/Die Back/20211129_162952 (Custom).jpg,48
+val,Powdery Mildew,data/raw/Powdery Mildew/IMG_20211107_125245 (Custom).jpg,data/raw/Powdery Mildew/IMG_20211107_125157 (Custom).jpg,48
+test,Sooty Mould,data/raw/Sooty Mould/IMG_20211212_143111 (Custom).jpg,data/raw/Sooty Mould/IMG_20211212_143159 (Custom).jpg,48
+val,Healthy,data/raw/Healthy/20211231_124712 (Custom).jpg,data/raw/Healthy/20211231_124624 (Custom).jpg,48
+val,Die Back,data/raw/Die Back/20211129_162810 (Custom).jpg,data/raw/Die Back/20211129_162722 (Custom).jpg,48
+test,Cutting Weevil,data/raw/Cutting Weevil/20211011_162221 (Custom) (Custom).jpg,data/raw/Cutting Weevil/20211011_162133 (Custom) (Custom).jpg,48
+val,Die Back,data/raw/Die Back/20211129_162446 (Custom).jpg,data/raw/Die Back/20211129_162358 (Custom).jpg,48
+test,Cutting Weevil,data/raw/Cutting Weevil/20211011_162620(0) (Custom) (Custom).jpg,data/raw/Cutting Weevil/20211011_162532 (Custom) (Custom).jpg,48
+val,Die Back,data/raw/Die Back/IMG_20211028_003650 (Custom).jpg,data/raw/Die Back/IMG_20211028_003738 (Custom).jpg,48
+test,Gall Midge,data/raw/Gall Midge/IMG_20211106_162849 (Custom).jpg,data/raw/Gall Midge/IMG_20211106_162937 (Custom).jpg,48
+test,Gall Midge,data/raw/Gall Midge/IMG_20211106_164303 (Custom).jpg,data/raw/Gall Midge/IMG_20211106_164352 (Custom).jpg,49
+val,Bacterial Canker,data/raw/Bacterial Canker/IMG_20211106_134934 (Custom).jpg,data/raw/Bacterial Canker/IMG_20211106_135023 (Custom).jpg,49
+val,Healthy,data/raw/Healthy/20211231_124724 (Custom).jpg,data/raw/Healthy/20211231_124813 (Custom).jpg,49
+test,Powdery Mildew,data/raw/Powdery Mildew/IMG_20211107_122219 (Custom).jpg,data/raw/Powdery Mildew/IMG_20211107_122308 (Custom).jpg,49
+test,Bacterial Canker,data/raw/Bacterial Canker/IMG_20211106_143401 (Custom).jpg,data/raw/Bacterial Canker/IMG_20211106_143312 (Custom).jpg,49
+test,Anthracnose,data/raw/Anthracnose/IMG_20211011_164034 (Custom).jpg,data/raw/Anthracnose/IMG_20211011_164123 (Custom).jpg,49
+test,Powdery Mildew,data/raw/Powdery Mildew/IMG_20211107_125304 (Custom).jpg,data/raw/Powdery Mildew/IMG_20211107_125353 (Custom).jpg,49
+val,Die Back,data/raw/Die Back/20211129_161732 (Custom).jpg,data/raw/Die Back/20211129_161643 (Custom).jpg,49
+val,Gall Midge,data/raw/Gall Midge/IMG_20211106_164000 (Custom).jpg,data/raw/Gall Midge/IMG_20211106_164049 (Custom).jpg,49
+val,Die Back,data/raw/Die Back/20211129_162452 (Custom).jpg,data/raw/Die Back/20211129_162541 (Custom).jpg,49
+val,Gall Midge,data/raw/Gall Midge/IMG_20211106_163201 (Custom).jpg,data/raw/Gall Midge/IMG_20211106_163250 (Custom).jpg,49
+test,Powdery Mildew,data/raw/Powdery Mildew/IMG_20211107_125651 (Custom).jpg,data/raw/Powdery Mildew/IMG_20211107_125741 (Custom).jpg,50
+test,Die Back,data/raw/Die Back/IMG_20211028_003503 (Custom).jpg,data/raw/Die Back/IMG_20211028_003413 (Custom).jpg,50
+test,Gall Midge,data/raw/Gall Midge/IMG_20211106_162847 (Custom).jpg,data/raw/Gall Midge/IMG_20211106_162937 (Custom).jpg,50
+val,Gall Midge,data/raw/Gall Midge/IMG_20211106_162512 (Custom).jpg,data/raw/Gall Midge/IMG_20211106_162602 (Custom).jpg,50
+val,Die Back,data/raw/Die Back/IMG_20211027_193515 (Custom).jpg,data/raw/Die Back/IMG_20211027_193425 (Custom).jpg,50
+val,Powdery Mildew,data/raw/Powdery Mildew/IMG_20211107_124903 (Custom).jpg,data/raw/Powdery Mildew/IMG_20211107_124953 (Custom).jpg,50
+test,Healthy,data/raw/Healthy/20211231_154835 (Custom).jpg,data/raw/Healthy/20211231_154925 (Custom).jpg,50
+val,Bacterial Canker,data/raw/Bacterial Canker/IMG_20211106_120857 (Custom).jpg,data/raw/Bacterial Canker/IMG_20211106_120947 (Custom).jpg,50
+val,Cutting Weevil,data/raw/Cutting Weevil/20211011_160618 (Custom) (Custom).jpg,data/raw/Cutting Weevil/20211011_160708 (Custom) (Custom).jpg,50
+test,Bacterial Canker,data/raw/Bacterial Canker/IMG_20211106_140134 (Custom).jpg,data/raw/Bacterial Canker/IMG_20211106_140224 (Custom).jpg,50
+val,Sooty Mould,data/raw/Sooty Mould/IMG_20211211_155353 (Custom).jpg,data/raw/Sooty Mould/IMG_20211211_155443 (Custom).jpg,50
+test,Die Back,data/raw/Die Back/20211129_162901 (Custom).jpg,data/raw/Die Back/20211129_162952 (Custom).jpg,51
+test,Healthy,data/raw/Healthy/20211231_155028 (Custom).jpg,data/raw/Healthy/20211231_155119 (Custom).jpg,51
+test,Gall Midge,data/raw/Gall Midge/IMG_20211106_161745 (Custom).jpg,data/raw/Gall Midge/IMG_20211106_161654 (Custom).jpg,51
+val,Sooty Mould,data/raw/Sooty Mould/IMG_20211108_121000 (Custom).jpg,data/raw/Sooty Mould/IMG_20211108_120909 (Custom).jpg,51
+test,Bacterial Canker,data/raw/Bacterial Canker/IMG_20211106_143404 (Custom).jpg,data/raw/Bacterial Canker/IMG_20211106_143312 (Custom).jpg,52
+val,Bacterial Canker,data/raw/Bacterial Canker/IMG_20211106_135903 (Custom).jpg,data/raw/Bacterial Canker/IMG_20211106_135955 (Custom).jpg,52
+val,Healthy,data/raw/Healthy/20211231_155437 (Custom).jpg,data/raw/Healthy/20211231_155345 (Custom).jpg,52
+test,Bacterial Canker,data/raw/Bacterial Canker/IMG_20211106_134516 (Custom).jpg,data/raw/Bacterial Canker/IMG_20211106_134608 (Custom).jpg,52
+val,Die Back,data/raw/Die Back/20211129_163119 (Custom).jpg,data/raw/Die Back/20211129_163027 (Custom).jpg,52
+val,Healthy,data/raw/Healthy/20211231_124721 (Custom).jpg,data/raw/Healthy/20211231_124813 (Custom).jpg,52
+test,Powdery Mildew,data/raw/Powdery Mildew/IMG_20211107_125301 (Custom).jpg,data/raw/Powdery Mildew/IMG_20211107_125353 (Custom).jpg,52
+test,Cutting Weevil,data/raw/Cutting Weevil/20211011_162625(0) (Custom) (Custom).jpg,data/raw/Cutting Weevil/20211011_162532 (Custom) (Custom).jpg,53
+val,Gall Midge,data/raw/Gall Midge/IMG_20211106_162509 (Custom).jpg,data/raw/Gall Midge/IMG_20211106_162602 (Custom).jpg,53
+test,Cutting Weevil,data/raw/Cutting Weevil/20211011_162625 (Custom) (Custom).jpg,data/raw/Cutting Weevil/20211011_162532 (Custom) (Custom).jpg,53
+val,Die Back,data/raw/Die Back/20211129_162815 (Custom).jpg,data/raw/Die Back/20211129_162722 (Custom).jpg,53
+val,Bacterial Canker,data/raw/Bacterial Canker/IMG_20211106_134930 (Custom).jpg,data/raw/Bacterial Canker/IMG_20211106_135023 (Custom).jpg,53
+test,Healthy,data/raw/Healthy/20211231_155022 (Custom).jpg,data/raw/Healthy/20211231_154928 (Custom).jpg,54
+test,Bacterial Canker,data/raw/Bacterial Canker/IMG_20211106_141642 (Custom).jpg,data/raw/Bacterial Canker/IMG_20211106_141548 (Custom).jpg,54
+test,Gall Midge,data/raw/Gall Midge/IMG_20211106_164258 (Custom).jpg,data/raw/Gall Midge/IMG_20211106_164352 (Custom).jpg,54
+val,Die Back,data/raw/Die Back/IMG_20211028_003644 (Custom).jpg,data/raw/Die Back/IMG_20211028_003738 (Custom).jpg,54
+test,Powdery Mildew,data/raw/Powdery Mildew/IMG_20211107_125647 (Custom).jpg,data/raw/Powdery Mildew/IMG_20211107_125741 (Custom).jpg,54
+val,Powdery Mildew,data/raw/Powdery Mildew/IMG_20211107_123525 (Custom).jpg,data/raw/Powdery Mildew/IMG_20211107_123619 (Custom).jpg,54
+val,Cutting Weevil,data/raw/Cutting Weevil/20211011_160614 (Custom) (Custom).jpg,data/raw/Cutting Weevil/20211011_160708 (Custom) (Custom).jpg,54
+val,Bacterial Canker,data/raw/Bacterial Canker/IMG_20211106_135842 (Custom).jpg,data/raw/Bacterial Canker/IMG_20211106_135747 (Custom).jpg,55
+val,Sooty Mould,data/raw/Sooty Mould/IMG_20211211_155348 (Custom).jpg,data/raw/Sooty Mould/IMG_20211211_155443 (Custom).jpg,55
+test,Gall Midge,data/raw/Gall Midge/IMG_20211106_162842 (Custom).jpg,data/raw/Gall Midge/IMG_20211106_162937 (Custom).jpg,55
+test,Sooty Mould,data/raw/Sooty Mould/IMG_20211212_143104 (Custom).jpg,data/raw/Sooty Mould/IMG_20211212_143159 (Custom).jpg,55
+test,Sooty Mould,data/raw/Sooty Mould/IMG_20211211_154110 (Custom).jpg,data/raw/Sooty Mould/IMG_20211211_154205 (Custom).jpg,55
+test,Powdery Mildew,data/raw/Powdery Mildew/IMG_20211107_121344 (Custom).jpg,data/raw/Powdery Mildew/IMG_20211107_121440 (Custom).jpg,56
+test,Die Back,data/raw/Die Back/20211129_162856 (Custom).jpg,data/raw/Die Back/20211129_162952 (Custom).jpg,56
+test,Die Back,data/raw/Die Back/IMG_20211027_185934 (Custom).jpg,data/raw/Die Back/IMG_20211027_190030 (Custom).jpg,56
+test,Anthracnose,data/raw/Anthracnose/20211011_134441 (Custom).jpg,data/raw/Anthracnose/20211011_134537 (Custom).jpg,56
+val,Cutting Weevil,data/raw/Cutting Weevil/20211011_160612 (Custom) (Custom).jpg,data/raw/Cutting Weevil/20211011_160708 (Custom) (Custom).jpg,56
+test,Healthy,data/raw/Healthy/20211231_155623 (Custom).jpg,data/raw/Healthy/20211231_155719 (Custom).jpg,56
+val,Bacterial Canker,data/raw/Bacterial Canker/IMG_20211106_134927 (Custom).jpg,data/raw/Bacterial Canker/IMG_20211106_135023 (Custom).jpg,56
+test,Gall Midge,data/raw/Gall Midge/IMG_20211106_162840 (Custom).jpg,data/raw/Gall Midge/IMG_20211106_162937 (Custom).jpg,57
+val,Gall Midge,data/raw/Gall Midge/IMG_20211106_162802 (Custom).jpg,data/raw/Gall Midge/IMG_20211106_162705 (Custom).jpg,57
+val,Bacterial Canker,data/raw/Bacterial Canker/IMG_20211106_120850 (Custom).jpg,data/raw/Bacterial Canker/IMG_20211106_120947 (Custom).jpg,57
+test,Anthracnose,data/raw/Anthracnose/20211008_124917 (Custom).jpg,data/raw/Anthracnose/20211008_125014 (Custom).jpg,57
+test,Healthy,data/raw/Healthy/20211231_154828 (Custom).jpg,data/raw/Healthy/20211231_154925 (Custom).jpg,57
+test,Bacterial Canker,data/raw/Bacterial Canker/IMG_20211106_141645 (Custom).jpg,data/raw/Bacterial Canker/IMG_20211106_141548 (Custom).jpg,57
+val,Sooty Mould,data/raw/Sooty Mould/IMG_20211108_121006 (Custom).jpg,data/raw/Sooty Mould/IMG_20211108_120909 (Custom).jpg,57
+test,Gall Midge,data/raw/Gall Midge/IMG_20211106_164255 (Custom).jpg,data/raw/Gall Midge/IMG_20211106_164352 (Custom).jpg,57
+val,Bacterial Canker,data/raw/Bacterial Canker/IMG_20211106_135845 (Custom).jpg,data/raw/Bacterial Canker/IMG_20211106_135747 (Custom).jpg,58
+val,Sooty Mould,data/raw/Sooty Mould/IMG_20211211_155345 (Custom).jpg,data/raw/Sooty Mould/IMG_20211211_155443 (Custom).jpg,58
+test,Anthracnose,data/raw/Anthracnose/IMG_20211011_153551 (Custom).jpg,data/raw/Anthracnose/IMG_20211011_153453 (Custom).jpg,58
+test,Anthracnose,data/raw/Anthracnose/20211011_134439 (Custom).jpg,data/raw/Anthracnose/20211011_134537 (Custom).jpg,58
+test,Gall Midge,data/raw/Gall Midge/IMG_20211106_164254 (Custom).jpg,data/raw/Gall Midge/IMG_20211106_164352 (Custom).jpg,58
+test,Sooty Mould,data/raw/Sooty Mould/IMG_20211212_143101 (Custom).jpg,data/raw/Sooty Mould/IMG_20211212_143159 (Custom).jpg,58
+val,Bacterial Canker,data/raw/Bacterial Canker/IMG_20211106_135856 (Custom).jpg,data/raw/Bacterial Canker/IMG_20211106_135955 (Custom).jpg,59
+test,Powdery Mildew,data/raw/Powdery Mildew/IMG_20211107_121341 (Custom).jpg,data/raw/Powdery Mildew/IMG_20211107_121440 (Custom).jpg,59
+val,Powdery Mildew,data/raw/Powdery Mildew/IMG_20211107_123520 (Custom).jpg,data/raw/Powdery Mildew/IMG_20211107_123619 (Custom).jpg,59
+test,Gall Midge,data/raw/Gall Midge/IMG_20211106_162838 (Custom).jpg,data/raw/Gall Midge/IMG_20211106_162937 (Custom).jpg,59
+val,Cutting Weevil,data/raw/Cutting Weevil/20211011_161309 (Custom) (Custom).jpg,data/raw/Cutting Weevil/20211011_161210(0) (Custom) (Custom).jpg,59
+test,Bacterial Canker,data/raw/Bacterial Canker/IMG_20211106_142040 (Custom).jpg,data/raw/Bacterial Canker/IMG_20211106_141941 (Custom).jpg,59
+test,Die Back,data/raw/Die Back/20211129_162852 (Custom).jpg,data/raw/Die Back/20211129_162952 (Custom).jpg,60
+val,Bacterial Canker,data/raw/Bacterial Canker/IMG_20211106_135847 (Custom).jpg,data/raw/Bacterial Canker/IMG_20211106_135747 (Custom).jpg,60
+test,Gall Midge,data/raw/Gall Midge/IMG_20211106_162837 (Custom).jpg,data/raw/Gall Midge/IMG_20211106_162937 (Custom).jpg,60
+val,Gall Midge,data/raw/Gall Midge/IMG_20211106_162805 (Custom).jpg,data/raw/Gall Midge/IMG_20211106_162705 (Custom).jpg,60
+val,Healthy,data/raw/Healthy/20211231_125626 (Custom).jpg,data/raw/Healthy/20211231_125726 (Custom).jpg,60
+test,Bacterial Canker,data/raw/Bacterial Canker/IMG_20211106_141649 (Custom).jpg,data/raw/Bacterial Canker/IMG_20211106_141548 (Custom).jpg,61
+test,Anthracnose,data/raw/Anthracnose/IMG_20211011_153554 (Custom).jpg,data/raw/Anthracnose/IMG_20211011_153453 (Custom).jpg,61
+test,Bacterial Canker,data/raw/Bacterial Canker/IMG_20211106_143413 (Custom).jpg,data/raw/Bacterial Canker/IMG_20211106_143312 (Custom).jpg,61
+val,Sooty Mould,data/raw/Sooty Mould/IMG_20211211_155342 (Custom).jpg,data/raw/Sooty Mould/IMG_20211211_155443 (Custom).jpg,61
+test,Die Back,data/raw/Die Back/IMG_20211028_002648 (Custom).jpg,data/raw/Die Back/IMG_20211028_002750 (Custom).jpg,62
+test,Die Back,data/raw/Die Back/20211129_162850 (Custom).jpg,data/raw/Die Back/20211129_162952 (Custom).jpg,62
+test,Sooty Mould,data/raw/Sooty Mould/IMG_20211211_154103 (Custom).jpg,data/raw/Sooty Mould/IMG_20211211_154205 (Custom).jpg,62
+val,Healthy,data/raw/Healthy/20211231_123225 (Custom).jpg,data/raw/Healthy/20211231_123327 (Custom).jpg,62
+test,Bacterial Canker,data/raw/Bacterial Canker/IMG_20211106_143414 (Custom).jpg,data/raw/Bacterial Canker/IMG_20211106_143312 (Custom).jpg,62
+val,Bacterial Canker,data/raw/Bacterial Canker/IMG_20211106_135853 (Custom).jpg,data/raw/Bacterial Canker/IMG_20211106_135955 (Custom).jpg,62
+test,Sooty Mould,data/raw/Sooty Mould/IMG_20211212_143057 (Custom).jpg,data/raw/Sooty Mould/IMG_20211212_143159 (Custom).jpg,62
+val,Gall Midge,data/raw/Gall Midge/IMG_20211106_162808 (Custom).jpg,data/raw/Gall Midge/IMG_20211106_162705 (Custom).jpg,63
+test,Gall Midge,data/raw/Gall Midge/IMG_20211106_162834 (Custom).jpg,data/raw/Gall Midge/IMG_20211106_162937 (Custom).jpg,63
+val,Bacterial Canker,data/raw/Bacterial Canker/IMG_20211106_120844 (Custom).jpg,data/raw/Bacterial Canker/IMG_20211106_120947 (Custom).jpg,63
+val,Bacterial Canker,data/raw/Bacterial Canker/IMG_20211106_141745 (Custom).jpg,data/raw/Bacterial Canker/IMG_20211106_141848 (Custom).jpg,63
+test,Bacterial Canker,data/raw/Bacterial Canker/IMG_20211106_141652 (Custom).jpg,data/raw/Bacterial Canker/IMG_20211106_141548 (Custom).jpg,64
+test,Bacterial Canker,data/raw/Bacterial Canker/IMG_20211106_143416 (Custom).jpg,data/raw/Bacterial Canker/IMG_20211106_143312 (Custom).jpg,64
+test,Anthracnose,data/raw/Anthracnose/IMG_20211011_153557 (Custom).jpg,data/raw/Anthracnose/IMG_20211011_153453 (Custom).jpg,64
+test,Healthy,data/raw/Healthy/20211231_155615 (Custom).jpg,data/raw/Healthy/20211231_155719 (Custom).jpg,64
+test,Powdery Mildew,data/raw/Powdery Mildew/IMG_20211107_121336 (Custom).jpg,data/raw/Powdery Mildew/IMG_20211107_121440 (Custom).jpg,64
+test,Sooty Mould,data/raw/Sooty Mould/IMG_20211211_154101 (Custom).jpg,data/raw/Sooty Mould/IMG_20211211_154205 (Custom).jpg,64
+test,Gall Midge,data/raw/Gall Midge/IMG_20211106_162457 (Custom).jpg,data/raw/Gall Midge/IMG_20211106_162602 (Custom).jpg,65
+val,Powdery Mildew,data/raw/Powdery Mildew/IMG_20211107_123514 (Custom).jpg,data/raw/Powdery Mildew/IMG_20211107_123619 (Custom).jpg,65
+test,Gall Midge,data/raw/Gall Midge/IMG_20211106_162832 (Custom).jpg,data/raw/Gall Midge/IMG_20211106_162937 (Custom).jpg,65
+test,Die Back,data/raw/Die Back/20211129_162827 (Custom).jpg,data/raw/Die Back/20211129_162722 (Custom).jpg,65
+val,Cutting Weevil,data/raw/Cutting Weevil/20211011_161346 (Custom) (Custom).jpg,data/raw/Cutting Weevil/20211011_161452 (Custom) (Custom).jpg,66
+test,Die Back,data/raw/Die Back/IMG_20211027_185924 (Custom).jpg,data/raw/Die Back/IMG_20211027_190030 (Custom).jpg,66
+test,Sooty Mould,data/raw/Sooty Mould/IMG_20211212_143053 (Custom).jpg,data/raw/Sooty Mould/IMG_20211212_143159 (Custom).jpg,66
+val,Cutting Weevil,data/raw/Cutting Weevil/20211011_161345 (Custom) (Custom).jpg,data/raw/Cutting Weevil/20211011_161452 (Custom) (Custom).jpg,67
+val,Gall Midge,data/raw/Gall Midge/IMG_20211106_162352 (Custom).jpg,data/raw/Gall Midge/IMG_20211106_162245 (Custom).jpg,67
+val,Healthy,data/raw/Healthy/20211231_123220 (Custom).jpg,data/raw/Healthy/20211231_123327 (Custom).jpg,67
+val,Bacterial Canker,data/raw/Bacterial Canker/IMG_20211106_141741 (Custom).jpg,data/raw/Bacterial Canker/IMG_20211106_141848 (Custom).jpg,67
+test,Anthracnose,data/raw/Anthracnose/20211008_124907 (Custom).jpg,data/raw/Anthracnose/20211008_125014 (Custom).jpg,67
+test,Bacterial Canker,data/raw/Bacterial Canker/IMG_20211106_141656 (Custom).jpg,data/raw/Bacterial Canker/IMG_20211106_141548 (Custom).jpg,68
+val,Bacterial Canker,data/raw/Bacterial Canker/IMG_20211106_120839 (Custom).jpg,data/raw/Bacterial Canker/IMG_20211106_120947 (Custom).jpg,68
+val,Powdery Mildew,data/raw/Powdery Mildew/IMG_20211107_123511 (Custom).jpg,data/raw/Powdery Mildew/IMG_20211107_123619 (Custom).jpg,68
+val,Anthracnose,data/raw/Anthracnose/IMG_20211011_133637 (Custom).jpg,data/raw/Anthracnose/20211011_133745 (Custom).jpg,68
+test,Die Back,data/raw/Die Back/20211129_162844 (Custom).jpg,data/raw/Die Back/20211129_162952 (Custom).jpg,68
+test,Gall Midge,data/raw/Gall Midge/IMG_20211106_162454 (Custom).jpg,data/raw/Gall Midge/IMG_20211106_162602 (Custom).jpg,68
+val,Healthy,data/raw/Healthy/20211231_154816 (Custom).jpg,data/raw/Healthy/20211231_154925 (Custom).jpg,69
+val,Gall Midge,data/raw/Gall Midge/IMG_20211106_162354 (Custom).jpg,data/raw/Gall Midge/IMG_20211106_162245 (Custom).jpg,69
+val,Healthy,data/raw/Healthy/20211231_125548 (Custom).jpg,data/raw/Healthy/20211231_125439 (Custom).jpg,69
+test,Sooty Mould,data/raw/Sooty Mould/IMG_20211211_154056 (Custom).jpg,data/raw/Sooty Mould/IMG_20211211_154205 (Custom).jpg,69
+test,Die Back,data/raw/Die Back/IMG_20211028_002641 (Custom).jpg,data/raw/Die Back/IMG_20211028_002750 (Custom).jpg,69
+test,Bacterial Canker,data/raw/Bacterial Canker/IMG_20211106_142050 (Custom).jpg,data/raw/Bacterial Canker/IMG_20211106_141941 (Custom).jpg,69
+test,Anthracnose,data/raw/Anthracnose/20211011_134427 (Custom).jpg,data/raw/Anthracnose/20211011_134537 (Custom).jpg,70
+test,Die Back,data/raw/Die Back/IMG_20211027_185920 (Custom).jpg,data/raw/Die Back/IMG_20211027_190030 (Custom).jpg,70
+test,Sooty Mould,data/raw/Sooty Mould/IMG_20211108_121019 (Custom).jpg,data/raw/Sooty Mould/IMG_20211108_120909 (Custom).jpg,70
+test,Healthy,data/raw/Healthy/20211231_155455 (Custom).jpg,data/raw/Healthy/20211231_155345 (Custom).jpg,70
+test,Sooty Mould,data/raw/Sooty Mould/IMG_20211212_143049 (Custom).jpg,data/raw/Sooty Mould/IMG_20211212_143159 (Custom).jpg,70
+test,Gall Midge,data/raw/Gall Midge/IMG_20211106_162451 (Custom).jpg,data/raw/Gall Midge/IMG_20211106_162602 (Custom).jpg,71
+test,Bacterial Canker,data/raw/Bacterial Canker/IMG_20211106_141659 (Custom).jpg,data/raw/Bacterial Canker/IMG_20211106_141548 (Custom).jpg,71
+val,Powdery Mildew,data/raw/Powdery Mildew/IMG_20211107_123508 (Custom).jpg,data/raw/Powdery Mildew/IMG_20211107_123619 (Custom).jpg,71
+test,Die Back,data/raw/Die Back/20211129_162841 (Custom).jpg,data/raw/Die Back/20211129_162952 (Custom).jpg,71
+test,Powdery Mildew,data/raw/Powdery Mildew/IMG_20211107_121329 (Custom).jpg,data/raw/Powdery Mildew/IMG_20211107_121440 (Custom).jpg,71
+test,Anthracnose,data/raw/Anthracnose/IMG_20211011_153604 (Custom).jpg,data/raw/Anthracnose/IMG_20211011_153453 (Custom).jpg,71
+test,Sooty Mould,data/raw/Sooty Mould/IMG_20211108_123730 (Custom).jpg,data/raw/Sooty Mould/IMG_20211108_123618 (Custom).jpg,72
+test,Healthy,data/raw/Healthy/20211231_155457 (Custom).jpg,data/raw/Healthy/20211231_155345 (Custom).jpg,72
+val,Cutting Weevil,data/raw/Cutting Weevil/20211011_161340 (Custom) (Custom).jpg,data/raw/Cutting Weevil/20211011_161452 (Custom) (Custom).jpg,72
+val,Bacterial Canker,data/raw/Bacterial Canker/IMG_20211106_141736 (Custom).jpg,data/raw/Bacterial Canker/IMG_20211106_141848 (Custom).jpg,72
+val,Gall Midge,data/raw/Gall Midge/IMG_20211106_162357 (Custom).jpg,data/raw/Gall Midge/IMG_20211106_162245 (Custom).jpg,72
+test,Die Back,data/raw/Die Back/20211129_162835 (Custom).jpg,data/raw/Die Back/20211129_162722 (Custom).jpg,73
+val,Healthy,data/raw/Healthy/20211231_154812 (Custom).jpg,data/raw/Healthy/20211231_154925 (Custom).jpg,73
+test,Healthy,data/raw/Healthy/20211231_155606 (Custom).jpg,data/raw/Healthy/20211231_155719 (Custom).jpg,73
+val,Cutting Weevil,data/raw/Cutting Weevil/20211011_161323 (Custom) (Custom).jpg,data/raw/Cutting Weevil/20211011_161210(0) (Custom) (Custom).jpg,73
+test,Sooty Mould,data/raw/Sooty Mould/IMG_20211211_154052 (Custom).jpg,data/raw/Sooty Mould/IMG_20211211_154205 (Custom).jpg,73
+test,Sooty Mould,data/raw/Sooty Mould/IMG_20211108_121022 (Custom).jpg,data/raw/Sooty Mould/IMG_20211108_120909 (Custom).jpg,73
+test,Anthracnose,data/raw/Anthracnose/IMG_20211011_153606 (Custom).jpg,data/raw/Anthracnose/IMG_20211011_153453 (Custom).jpg,73
+test,Sooty Mould,data/raw/Sooty Mould/IMG_20211212_143046 (Custom).jpg,data/raw/Sooty Mould/IMG_20211212_143159 (Custom).jpg,73
+val,Cutting Weevil,data/raw/Cutting Weevil/20211011_161339 (Custom) (Custom).jpg,data/raw/Cutting Weevil/20211011_161452 (Custom) (Custom).jpg,73
+val,Anthracnose,data/raw/Anthracnose/IMG_20211011_133632 (Custom).jpg,data/raw/Anthracnose/20211011_133745 (Custom).jpg,73
+test,Die Back,data/raw/Die Back/20211129_162838 (Custom).jpg,data/raw/Die Back/20211129_162952 (Custom).jpg,74
+val,Powdery Mildew,data/raw/Powdery Mildew/IMG_20211107_123505 (Custom).jpg,data/raw/Powdery Mildew/IMG_20211107_123619 (Custom).jpg,74
+test,Cutting Weevil,data/raw/Cutting Weevil/20211011_170252 (Custom) (Custom).jpg,data/raw/Cutting Weevil/20211011_170138 (Custom) (Custom).jpg,74
+val,Bacterial Canker,data/raw/Bacterial Canker/IMG_20211106_120833 (Custom).jpg,data/raw/Bacterial Canker/IMG_20211106_120947 (Custom).jpg,74
+test,Bacterial Canker,data/raw/Bacterial Canker/IMG_20211106_141702 (Custom).jpg,data/raw/Bacterial Canker/IMG_20211106_141548 (Custom).jpg,74
+test,Gall Midge,data/raw/Gall Midge/IMG_20211106_162448 (Custom).jpg,data/raw/Gall Midge/IMG_20211106_162602 (Custom).jpg,74
+test,Sooty Mould,data/raw/Sooty Mould/IMG_20211108_123732 (Custom).jpg,data/raw/Sooty Mould/IMG_20211108_123618 (Custom).jpg,74
+val,Gall Midge,data/raw/Gall Midge/IMG_20211106_162400 (Custom).jpg,data/raw/Gall Midge/IMG_20211106_162245 (Custom).jpg,75
+test,Powdery Mildew,data/raw/Powdery Mildew/IMG_20211107_121325 (Custom).jpg,data/raw/Powdery Mildew/IMG_20211107_121440 (Custom).jpg,75
+test,Cutting Weevil,data/raw/Cutting Weevil/20211011_170254 (Custom) (Custom).jpg,data/raw/Cutting Weevil/20211011_170138 (Custom) (Custom).jpg,76
+val,Powdery Mildew,data/raw/Powdery Mildew/IMG_20211107_124507 (Custom).jpg,data/raw/Powdery Mildew/IMG_20211107_124623 (Custom).jpg,76
+test,Anthracnose,data/raw/Anthracnose/IMG_20211011_133554 (Custom).jpg,data/raw/Anthracnose/20211011_133438 (Custom).jpg,76
+test,Sooty Mould,data/raw/Sooty Mould/IMG_20211212_143042 (Custom).jpg,data/raw/Sooty Mould/IMG_20211212_142926 (Custom).jpg,76
+val,Powdery Mildew,data/raw/Powdery Mildew/IMG_20211107_123502 (Custom).jpg,data/raw/Powdery Mildew/IMG_20211107_123619 (Custom).jpg,77
+test,Anthracnose,data/raw/Anthracnose/20211011_134420 (Custom).jpg,data/raw/Anthracnose/20211011_134537 (Custom).jpg,77
+test,Sooty Mould,data/raw/Sooty Mould/IMG_20211211_154048 (Custom).jpg,data/raw/Sooty Mould/IMG_20211211_154205 (Custom).jpg,77
+test,Sooty Mould,data/raw/Sooty Mould/IMG_20211108_123735 (Custom).jpg,data/raw/Sooty Mould/IMG_20211108_123618 (Custom).jpg,77
+test,Gall Midge,data/raw/Gall Midge/IMG_20211106_162445 (Custom).jpg,data/raw/Gall Midge/IMG_20211106_162602 (Custom).jpg,77
+val,Healthy,data/raw/Healthy/20211231_125609 (Custom).jpg,data/raw/Healthy/20211231_125726 (Custom).jpg,77
+val,Bacterial Canker,data/raw/Bacterial Canker/IMG_20211106_141730 (Custom).jpg,data/raw/Bacterial Canker/IMG_20211106_141848 (Custom).jpg,78
+val,Gall Midge,data/raw/Gall Midge/IMG_20211106_162404 (Custom).jpg,data/raw/Gall Midge/IMG_20211106_162245 (Custom).jpg,79
+test,Bacterial Canker,data/raw/Bacterial Canker/IMG_20211106_141707 (Custom).jpg,data/raw/Bacterial Canker/IMG_20211106_141548 (Custom).jpg,79
+val,Powdery Mildew,data/raw/Powdery Mildew/IMG_20211107_124504 (Custom).jpg,data/raw/Powdery Mildew/IMG_20211107_124623 (Custom).jpg,79
+test,Sooty Mould,data/raw/Sooty Mould/IMG_20211108_123737 (Custom).jpg,data/raw/Sooty Mould/IMG_20211108_123618 (Custom).jpg,79
+val,Cutting Weevil,data/raw/Cutting Weevil/20211011_161330 (Custom) (Custom).jpg,data/raw/Cutting Weevil/20211011_161210(0) (Custom) (Custom).jpg,80
+val,Powdery Mildew,data/raw/Powdery Mildew/IMG_20211107_123459 (Custom).jpg,data/raw/Powdery Mildew/IMG_20211107_123619 (Custom).jpg,80
+test,Powdery Mildew,data/raw/Powdery Mildew/IMG_20211107_121320 (Custom).jpg,data/raw/Powdery Mildew/IMG_20211107_121440 (Custom).jpg,80
+test,Anthracnose,data/raw/Anthracnose/20211011_134416 (Custom).jpg,data/raw/Anthracnose/20211011_134537 (Custom).jpg,81
+test,Sooty Mould,data/raw/Sooty Mould/IMG_20211211_154044 (Custom).jpg,data/raw/Sooty Mould/IMG_20211211_154205 (Custom).jpg,81
+val,Healthy,data/raw/Healthy/20211231_125605 (Custom).jpg,data/raw/Healthy/20211231_125726 (Custom).jpg,81
+val,Gall Midge,data/raw/Gall Midge/IMG_20211106_162407 (Custom).jpg,data/raw/Gall Midge/IMG_20211106_162245 (Custom).jpg,82
+test,Gall Midge,data/raw/Gall Midge/IMG_20211106_162440 (Custom).jpg,data/raw/Gall Midge/IMG_20211106_162602 (Custom).jpg,82
+test,Healthy,data/raw/Healthy/20211231_155556 (Custom).jpg,data/raw/Healthy/20211231_155719 (Custom).jpg,83
+val,Powdery Mildew,data/raw/Powdery Mildew/IMG_20211107_123456 (Custom).jpg,data/raw/Powdery Mildew/IMG_20211107_123619 (Custom).jpg,83
+test,Anthracnose,data/raw/Anthracnose/20211011_134413 (Custom).jpg,data/raw/Anthracnose/20211011_134537 (Custom).jpg,84
+val,Healthy,data/raw/Healthy/20211231_155509 (Custom).jpg,data/raw/Healthy/20211231_155345 (Custom).jpg,84
+test,Bacterial Canker,data/raw/Bacterial Canker/IMG_20211106_142105 (Custom).jpg,data/raw/Bacterial Canker/IMG_20211106_141941 (Custom).jpg,84
+val,Bacterial Canker,data/raw/Bacterial Canker/IMG_20211106_120823 (Custom).jpg,data/raw/Bacterial Canker/IMG_20211106_120947 (Custom).jpg,84
+val,Gall Midge,data/raw/Gall Midge/IMG_20211106_162410 (Custom).jpg,data/raw/Gall Midge/IMG_20211106_162245 (Custom).jpg,85
+val,Powdery Mildew,data/raw/Powdery Mildew/IMG_20211107_124458 (Custom).jpg,data/raw/Powdery Mildew/IMG_20211107_124623 (Custom).jpg,85
+test,Bacterial Canker,data/raw/Bacterial Canker/IMG_20211106_141714 (Custom).jpg,data/raw/Bacterial Canker/IMG_20211106_141548 (Custom).jpg,86
+val,Powdery Mildew,data/raw/Powdery Mildew/IMG_20211107_123453 (Custom).jpg,data/raw/Powdery Mildew/IMG_20211107_123619 (Custom).jpg,86
+test,Sooty Mould,data/raw/Sooty Mould/IMG_20211211_154038 (Custom).jpg,data/raw/Sooty Mould/IMG_20211211_154205 (Custom).jpg,87
+test,Bacterial Canker,data/raw/Bacterial Canker/IMG_20211106_142108 (Custom).jpg,data/raw/Bacterial Canker/IMG_20211106_141941 (Custom).jpg,87
+val,Anthracnose,data/raw/Anthracnose/IMG_20211011_165710 (Custom).jpg,data/raw/Anthracnose/IMG_20211011_165838 (Custom).jpg,88
+val,Powdery Mildew,data/raw/Powdery Mildew/IMG_20211107_124455 (Custom).jpg,data/raw/Powdery Mildew/IMG_20211107_124623 (Custom).jpg,88
+val,Anthracnose,data/raw/Anthracnose/IMG_20211011_161351 (Custom).jpg,data/raw/Anthracnose/IMG_20211011_161519 (Custom).jpg,88
+test,Die Back,data/raw/Die Back/IMG_20211027_193553 (Custom).jpg,data/raw/Die Back/IMG_20211027_193425 (Custom).jpg,88
+test,Bacterial Canker,data/raw/Bacterial Canker/IMG_20211106_142110 (Custom).jpg,data/raw/Bacterial Canker/IMG_20211106_141941 (Custom).jpg,89
+test,Bacterial Canker,data/raw/Bacterial Canker/IMG_20211106_141717 (Custom).jpg,data/raw/Bacterial Canker/IMG_20211106_141548 (Custom).jpg,89
+test,Powdery Mildew,data/raw/Powdery Mildew/IMG_20211107_121310 (Custom).jpg,data/raw/Powdery Mildew/IMG_20211107_121440 (Custom).jpg,90
+val,Healthy,data/raw/Healthy/20211231_155515 (Custom).jpg,data/raw/Healthy/20211231_155345 (Custom).jpg,90
+test,Sooty Mould,data/raw/Sooty Mould/IMG_20211211_154035 (Custom).jpg,data/raw/Sooty Mould/IMG_20211211_154205 (Custom).jpg,90
+test,Healthy,data/raw/Healthy/20211231_155548 (Custom).jpg,data/raw/Healthy/20211231_155719 (Custom).jpg,91
+test,Healthy,data/raw/Healthy/20211231_123156 (Custom).jpg,data/raw/Healthy/20211231_123327 (Custom).jpg,91
+val,Gall Midge,data/raw/Gall Midge/IMG_20211106_162416 (Custom).jpg,data/raw/Gall Midge/IMG_20211106_162245 (Custom).jpg,91
+test,Powdery Mildew,data/raw/Powdery Mildew/IMG_20211107_122637 (Custom).jpg,data/raw/Powdery Mildew/IMG_20211107_122505 (Custom).jpg,92
+test,Anthracnose,data/raw/Anthracnose/20211011_134405 (Custom).jpg,data/raw/Anthracnose/20211011_134537 (Custom).jpg,92
+val,Bacterial Canker,data/raw/Bacterial Canker/IMG_20211106_120815 (Custom).jpg,data/raw/Bacterial Canker/IMG_20211106_120947 (Custom).jpg,92
+test,Die Back,data/raw/Die Back/IMG_20211027_193558 (Custom).jpg,data/raw/Die Back/IMG_20211027_193425 (Custom).jpg,93
+test,Anthracnose,data/raw/Anthracnose/20211011_134902 (Custom).jpg,data/raw/Anthracnose/20211011_134729 (Custom).jpg,93
+val,Anthracnose,data/raw/Anthracnose/IMG_20211011_161345 (Custom).jpg,data/raw/Anthracnose/IMG_20211011_161519 (Custom).jpg,94
+val,Gall Midge,data/raw/Gall Midge/IMG_20211106_162428 (Custom).jpg,data/raw/Gall Midge/IMG_20211106_162602 (Custom).jpg,94
+test,Anthracnose,data/raw/Anthracnose/20211011_134403 (Custom).jpg,data/raw/Anthracnose/20211011_134537 (Custom).jpg,94
+test,Powdery Mildew,data/raw/Powdery Mildew/IMG_20211107_121305 (Custom).jpg,data/raw/Powdery Mildew/IMG_20211107_121440 (Custom).jpg,95
+test,Anthracnose,data/raw/Anthracnose/20211011_134904 (Custom).jpg,data/raw/Anthracnose/20211011_134729 (Custom).jpg,95
+val,Bacterial Canker,data/raw/Bacterial Canker/IMG_20211106_120811 (Custom).jpg,data/raw/Bacterial Canker/IMG_20211106_120947 (Custom).jpg,96
+val,Anthracnose,data/raw/Anthracnose/IMG_20211011_161343 (Custom).jpg,data/raw/Anthracnose/IMG_20211011_161519 (Custom).jpg,96
+val,Gall Midge,data/raw/Gall Midge/IMG_20211106_162422 (Custom).jpg,data/raw/Gall Midge/IMG_20211106_162245 (Custom).jpg,97
+val,Gall Midge,data/raw/Gall Midge/IMG_20211106_162425 (Custom).jpg,data/raw/Gall Midge/IMG_20211106_162602 (Custom).jpg,97
+val,Die Back,data/raw/Die Back/IMG_20211028_002316 (Custom).jpg,data/raw/Die Back/IMG_20211028_002138 (Custom).jpg,98
+val,Anthracnose,data/raw/Anthracnose/IMG_20211011_162512 (Custom).jpg,data/raw/Anthracnose/IMG_20211011_162650 (Custom).jpg,98
+test,Healthy,data/raw/Healthy/20211231_155541 (Custom).jpg,data/raw/Healthy/20211231_155719 (Custom).jpg,98
+test,Powdery Mildew,data/raw/Powdery Mildew/IMG_20211107_122643 (Custom).jpg,data/raw/Powdery Mildew/IMG_20211107_122505 (Custom).jpg,98
+val,Anthracnose,data/raw/Anthracnose/IMG_20211011_161340 (Custom).jpg,data/raw/Anthracnose/IMG_20211011_161519 (Custom).jpg,99
+test,Anthracnose,data/raw/Anthracnose/20211011_134908 (Custom).jpg,data/raw/Anthracnose/20211011_134729 (Custom).jpg,99
+test,Anthracnose,data/raw/Anthracnose/20211011_134909 (Custom).jpg,data/raw/Anthracnose/20211011_134729 (Custom).jpg,100
+val,Bacterial Canker,data/raw/Bacterial Canker/IMG_20211106_120807 (Custom).jpg,data/raw/Bacterial Canker/IMG_20211106_120947 (Custom).jpg,100
+test,Die Back,data/raw/Die Back/IMG_20211028_003553 (Custom).jpg,data/raw/Die Back/IMG_20211028_003413 (Custom).jpg,100
+test,Sooty Mould,data/raw/Sooty Mould/IMG_20211211_154608 (Custom).jpg,data/raw/Sooty Mould/IMG_20211211_154428 (Custom).jpg,100
+val,Anthracnose,data/raw/Anthracnose/IMG_20211011_162509 (Custom).jpg,data/raw/Anthracnose/IMG_20211011_162650 (Custom).jpg,101
+test,Healthy,data/raw/Healthy/20211231_155526 (Custom).jpg,data/raw/Healthy/20211231_155345 (Custom).jpg,101
+test,Anthracnose,data/raw/Anthracnose/20211011_134911 (Custom).jpg,data/raw/Anthracnose/20211011_134729 (Custom).jpg,102
+test,Anthracnose,data/raw/Anthracnose/IMG_20211011_164708 (Custom).jpg,data/raw/Anthracnose/IMG_20211011_164850 (Custom).jpg,102
+test,Powdery Mildew,data/raw/Powdery Mildew/IMG_20211107_122647 (Custom).jpg,data/raw/Powdery Mildew/IMG_20211107_122505 (Custom).jpg,102
+val,Anthracnose,data/raw/Anthracnose/IMG_20211011_162507 (Custom).jpg,data/raw/Anthracnose/IMG_20211011_162650 (Custom).jpg,103
+test,Anthracnose,data/raw/Anthracnose/20211011_134912 (Custom).jpg,data/raw/Anthracnose/20211011_134729 (Custom).jpg,103
+test,Powdery Mildew,data/raw/Powdery Mildew/IMG_20211107_124440 (Custom).jpg,data/raw/Powdery Mildew/IMG_20211107_124623 (Custom).jpg,103
+val,Die Back,data/raw/Die Back/IMG_20211028_002322 (Custom).jpg,data/raw/Die Back/IMG_20211028_002138 (Custom).jpg,104
+val,Anthracnose,data/raw/Anthracnose/IMG_20211011_161335 (Custom).jpg,data/raw/Anthracnose/IMG_20211011_161519 (Custom).jpg,104
+test,Anthracnose,data/raw/Anthracnose/IMG_20211011_164706 (Custom).jpg,data/raw/Anthracnose/IMG_20211011_164850 (Custom).jpg,104
+test,Healthy,data/raw/Healthy/20211231_155530 (Custom).jpg,data/raw/Healthy/20211231_155345 (Custom).jpg,105
+test,Powdery Mildew,data/raw/Powdery Mildew/IMG_20211107_124436 (Custom).jpg,data/raw/Powdery Mildew/IMG_20211107_124623 (Custom).jpg,107
+val,Anthracnose,data/raw/Anthracnose/IMG_20211011_162503 (Custom).jpg,data/raw/Anthracnose/IMG_20211011_162650 (Custom).jpg,107
+test,Anthracnose,data/raw/Anthracnose/IMG_20211011_164702 (Custom).jpg,data/raw/Anthracnose/IMG_20211011_164850 (Custom).jpg,108
+test,Gall Midge,data/raw/Gall Midge/IMG_20211106_164757 (Custom).jpg,data/raw/Gall Midge/IMG_20211106_164608 (Custom).jpg,109
+test,Powdery Mildew,data/raw/Powdery Mildew/IMG_20211107_124434 (Custom).jpg,data/raw/Powdery Mildew/IMG_20211107_124623 (Custom).jpg,109
+val,Anthracnose,data/raw/Anthracnose/IMG_20211011_161329 (Custom).jpg,data/raw/Anthracnose/IMG_20211011_161519 (Custom).jpg,110
+val,Sooty Mould,data/raw/Sooty Mould/IMG_20211108_121655 (Custom).jpg,data/raw/Sooty Mould/IMG_20211108_121845 (Custom).jpg,110
+test,Healthy,data/raw/Healthy/20211231_123136 (Custom).jpg,data/raw/Healthy/20211231_123327 (Custom).jpg,111
+test,Anthracnose,data/raw/Anthracnose/IMG_20211011_164659 (Custom).jpg,data/raw/Anthracnose/IMG_20211011_164850 (Custom).jpg,111
+val,Anthracnose,data/raw/Anthracnose/IMG_20211011_162458 (Custom).jpg,data/raw/Anthracnose/IMG_20211011_162650 (Custom).jpg,112
+test,Powdery Mildew,data/raw/Powdery Mildew/IMG_20211107_124431 (Custom).jpg,data/raw/Powdery Mildew/IMG_20211107_124623 (Custom).jpg,112
+test,Gall Midge,data/raw/Gall Midge/IMG_20211106_164800 (Custom).jpg,data/raw/Gall Midge/IMG_20211106_164608 (Custom).jpg,112
+test,Anthracnose,data/raw/Anthracnose/IMG_20211011_164657 (Custom).jpg,data/raw/Anthracnose/IMG_20211011_164850 (Custom).jpg,113
+val,Healthy,data/raw/Healthy/20211231_154732 (Custom).jpg,data/raw/Healthy/20211231_154925 (Custom).jpg,113
+val,Sooty Mould,data/raw/Sooty Mould/IMG_20211108_121652 (Custom).jpg,data/raw/Sooty Mould/IMG_20211108_121845 (Custom).jpg,113
+val,Anthracnose,data/raw/Anthracnose/IMG_20211011_162456 (Custom).jpg,data/raw/Anthracnose/IMG_20211011_162650 (Custom).jpg,114
+val,Anthracnose,data/raw/Anthracnose/IMG_20211011_161325 (Custom).jpg,data/raw/Anthracnose/IMG_20211011_161519 (Custom).jpg,114
+val,Die Back,data/raw/Die Back/IMG_20211028_002333 (Custom).jpg,data/raw/Die Back/IMG_20211028_002138 (Custom).jpg,115
+test,Powdery Mildew,data/raw/Powdery Mildew/IMG_20211107_124427 (Custom).jpg,data/raw/Powdery Mildew/IMG_20211107_124623 (Custom).jpg,116
+val,Anthracnose,data/raw/Anthracnose/IMG_20211011_161322 (Custom).jpg,data/raw/Anthracnose/IMG_20211011_161519 (Custom).jpg,117
+val,Sooty Mould,data/raw/Sooty Mould/IMG_20211108_121648 (Custom).jpg,data/raw/Sooty Mould/IMG_20211108_121845 (Custom).jpg,117
+val,Healthy,data/raw/Healthy/20211231_154728 (Custom).jpg,data/raw/Healthy/20211231_154925 (Custom).jpg,117
+test,Anthracnose,data/raw/Anthracnose/IMG_20211011_164653 (Custom).jpg,data/raw/Anthracnose/IMG_20211011_164850 (Custom).jpg,117
+val,Anthracnose,data/raw/Anthracnose/IMG_20211011_162453 (Custom).jpg,data/raw/Anthracnose/IMG_20211011_162650 (Custom).jpg,117
+val,Anthracnose,data/raw/Anthracnose/IMG_20211011_161321 (Custom).jpg,data/raw/Anthracnose/IMG_20211011_161519 (Custom).jpg,118
+test,Anthracnose,data/raw/Anthracnose/IMG_20211011_164651 (Custom).jpg,data/raw/Anthracnose/IMG_20211011_164850 (Custom).jpg,119
+test,Powdery Mildew,data/raw/Powdery Mildew/IMG_20211107_124424 (Custom).jpg,data/raw/Powdery Mildew/IMG_20211107_124623 (Custom).jpg,119
+val,Anthracnose,data/raw/Anthracnose/IMG_20211011_161316 (Custom).jpg,data/raw/Anthracnose/IMG_20211011_161519 (Custom).jpg,123
+val,Anthracnose,data/raw/Anthracnose/IMG_20211011_164630 (Custom).jpg,data/raw/Anthracnose/IMG_20211011_164427 (Custom).jpg,123
+val,Healthy,data/raw/Healthy/20211231_123123 (Custom).jpg,data/raw/Healthy/20211231_123327 (Custom).jpg,124
+test,Anthracnose,data/raw/Anthracnose/IMG_20211011_164646 (Custom).jpg,data/raw/Anthracnose/IMG_20211011_164850 (Custom).jpg,124
+val,Sooty Mould,data/raw/Sooty Mould/IMG_20211108_121640 (Custom).jpg,data/raw/Sooty Mould/IMG_20211108_121845 (Custom).jpg,125
+test,Anthracnose,data/raw/Anthracnose/IMG_20211011_164644 (Custom).jpg,data/raw/Anthracnose/IMG_20211011_164850 (Custom).jpg,126
+val,Sooty Mould,data/raw/Sooty Mould/IMG_20211108_121637 (Custom).jpg,data/raw/Sooty Mould/IMG_20211108_121845 (Custom).jpg,128
+test,Die Back,data/raw/Die Back/IMG_20211027_193633 (Custom).jpg,data/raw/Die Back/IMG_20211027_193425 (Custom).jpg,128
+test,Die Back,data/raw/Die Back/IMG_20211027_193637 (Custom).jpg,data/raw/Die Back/IMG_20211027_193425 (Custom).jpg,132
+val,Sooty Mould,data/raw/Sooty Mould/IMG_20211108_121632 (Custom).jpg,data/raw/Sooty Mould/IMG_20211108_121845 (Custom).jpg,133
+val,Sooty Mould,data/raw/Sooty Mould/IMG_20211108_121523 (Custom).jpg,data/raw/Sooty Mould/IMG_20211108_121307 (Custom).jpg,136
+val,Sooty Mould,data/raw/Sooty Mould/IMG_20211108_121628 (Custom).jpg,data/raw/Sooty Mould/IMG_20211108_121845 (Custom).jpg,137
+test,Die Back,data/raw/Die Back/IMG_20211027_193643 (Custom).jpg,data/raw/Die Back/IMG_20211027_193425 (Custom).jpg,138
+val,Sooty Mould,data/raw/Sooty Mould/IMG_20211108_121625 (Custom).jpg,data/raw/Sooty Mould/IMG_20211108_121845 (Custom).jpg,140
+val,Healthy,data/raw/Healthy/20211231_123105 (Custom).jpg,data/raw/Healthy/20211231_123327 (Custom).jpg,142
+val,Sooty Mould,data/raw/Sooty Mould/IMG_20211108_121529 (Custom).jpg,data/raw/Sooty Mould/IMG_20211108_121307 (Custom).jpg,142
+test,Die Back,data/raw/Die Back/IMG_20211027_193648 (Custom).jpg,data/raw/Die Back/IMG_20211027_193425 (Custom).jpg,143
+val,Sooty Mould,data/raw/Sooty Mould/IMG_20211108_121621 (Custom).jpg,data/raw/Sooty Mould/IMG_20211108_121845 (Custom).jpg,144
+val,Sooty Mould,data/raw/Sooty Mould/IMG_20211108_121536 (Custom).jpg,data/raw/Sooty Mould/IMG_20211108_121307 (Custom).jpg,149
+val,Sooty Mould,data/raw/Sooty Mould/IMG_20211108_121615 (Custom).jpg,data/raw/Sooty Mould/IMG_20211108_121845 (Custom).jpg,150
+val,Sooty Mould,data/raw/Sooty Mould/IMG_20211108_121611 (Custom).jpg,data/raw/Sooty Mould/IMG_20211108_121845 (Custom).jpg,154
+val,Sooty Mould,data/raw/Sooty Mould/IMG_20211108_121541 (Custom).jpg,data/raw/Sooty Mould/IMG_20211108_121307 (Custom).jpg,154
+val,Sooty Mould,data/raw/Sooty Mould/IMG_20211108_121607 (Custom).jpg,data/raw/Sooty Mould/IMG_20211108_121845 (Custom).jpg,158
+test,Anthracnose,data/raw/Anthracnose/IMG_20211011_170204 (Custom).jpg,data/raw/Anthracnose/20211011_165925 (Custom).jpg,159
+val,Anthracnose,data/raw/Anthracnose/IMG_20211011_170419 (Custom).jpg,data/raw/Anthracnose/20211011_170700 (Custom).jpg,161
+val,Sooty Mould,data/raw/Sooty Mould/IMG_20211108_121604 (Custom).jpg,data/raw/Sooty Mould/IMG_20211108_121845 (Custom).jpg,161
+test,Anthracnose,data/raw/Anthracnose/IMG_20211011_170206 (Custom).jpg,data/raw/Anthracnose/20211011_165925 (Custom).jpg,161
+val,Sooty Mould,data/raw/Sooty Mould/IMG_20211108_121550 (Custom).jpg,data/raw/Sooty Mould/IMG_20211108_121307 (Custom).jpg,163
+test,Die Back,data/raw/Die Back/IMG_20211027_193710 (Custom).jpg,data/raw/Die Back/IMG_20211027_193425 (Custom).jpg,165
+val,Anthracnose,data/raw/Anthracnose/IMG_20211011_170415 (Custom).jpg,data/raw/Anthracnose/20211011_170700 (Custom).jpg,165
+val,Sooty Mould,data/raw/Sooty Mould/IMG_20211108_121559 (Custom).jpg,data/raw/Sooty Mould/IMG_20211108_121845 (Custom).jpg,166
+test,Anthracnose,data/raw/Anthracnose/IMG_20211011_170212 (Custom).jpg,data/raw/Anthracnose/20211011_165925 (Custom).jpg,167
+val,Sooty Mould,data/raw/Sooty Mould/IMG_20211108_121554 (Custom).jpg,data/raw/Sooty Mould/IMG_20211108_121307 (Custom).jpg,167
+test,Bacterial Canker,data/raw/Bacterial Canker/IMG_20211106_120700 (Custom).jpg,data/raw/Bacterial Canker/IMG_20211106_120947 (Custom).jpg,167
+val,Powdery Mildew,data/raw/Powdery Mildew/IMG_20211107_115709 (Custom).jpg,data/raw/Powdery Mildew/IMG_20211107_115957 (Custom).jpg,168
+val,Anthracnose,data/raw/Anthracnose/IMG_20211011_170411 (Custom).jpg,data/raw/Anthracnose/20211011_170700 (Custom).jpg,169
+test,Anthracnose,data/raw/Anthracnose/IMG_20211011_170214 (Custom).jpg,data/raw/Anthracnose/20211011_165925 (Custom).jpg,169
+val,Powdery Mildew,data/raw/Powdery Mildew/IMG_20211107_115706 (Custom).jpg,data/raw/Powdery Mildew/IMG_20211107_115957 (Custom).jpg,171
+val,Anthracnose,data/raw/Anthracnose/IMG_20211011_170409 (Custom).jpg,data/raw/Anthracnose/20211011_170700 (Custom).jpg,171
+test,Powdery Mildew,data/raw/Powdery Mildew/IMG_20211107_115443 (Custom).jpg,data/raw/Powdery Mildew/IMG_20211107_115151 (Custom).jpg,172
+test,Die Back,data/raw/Die Back/IMG_20211027_193719 (Custom).jpg,data/raw/Die Back/IMG_20211027_193425 (Custom).jpg,174
+test,Powdery Mildew,data/raw/Powdery Mildew/IMG_20211107_115446 (Custom).jpg,data/raw/Powdery Mildew/IMG_20211107_115151 (Custom).jpg,175
+val,Anthracnose,data/raw/Anthracnose/IMG_20211011_170404 (Custom).jpg,data/raw/Anthracnose/20211011_170700 (Custom).jpg,176
+val,Powdery Mildew,data/raw/Powdery Mildew/IMG_20211107_115658 (Custom).jpg,data/raw/Powdery Mildew/IMG_20211107_115957 (Custom).jpg,179
+test,Die Back,data/raw/Die Back/IMG_20211027_193724 (Custom).jpg,data/raw/Die Back/IMG_20211027_193425 (Custom).jpg,179
+val,Anthracnose,data/raw/Anthracnose/IMG_20211011_170400 (Custom).jpg,data/raw/Anthracnose/20211011_170700 (Custom).jpg,180
+test,Powdery Mildew,data/raw/Powdery Mildew/IMG_20211107_115453 (Custom).jpg,data/raw/Powdery Mildew/IMG_20211107_115151 (Custom).jpg,182
+test,Die Back,data/raw/Die Back/IMG_20211027_193728 (Custom).jpg,data/raw/Die Back/IMG_20211027_193425 (Custom).jpg,183
+val,Anthracnose,data/raw/Anthracnose/IMG_20211011_170357 (Custom).jpg,data/raw/Anthracnose/20211011_170700 (Custom).jpg,183
+test,Powdery Mildew,data/raw/Powdery Mildew/IMG_20211107_115456 (Custom).jpg,data/raw/Powdery Mildew/IMG_20211107_115151 (Custom).jpg,185
+val,Powdery Mildew,data/raw/Powdery Mildew/IMG_20211107_115652 (Custom).jpg,data/raw/Powdery Mildew/IMG_20211107_115957 (Custom).jpg,185
+val,Anthracnose,data/raw/Anthracnose/IMG_20211011_170355 (Custom).jpg,data/raw/Anthracnose/20211011_170700 (Custom).jpg,185
+test,Powdery Mildew,data/raw/Powdery Mildew/IMG_20211107_115458 (Custom).jpg,data/raw/Powdery Mildew/IMG_20211107_115151 (Custom).jpg,187
+test,Die Back,data/raw/Die Back/IMG_20211027_193732 (Custom).jpg,data/raw/Die Back/IMG_20211027_193425 (Custom).jpg,187
+val,Powdery Mildew,data/raw/Powdery Mildew/IMG_20211107_115649 (Custom).jpg,data/raw/Powdery Mildew/IMG_20211107_115957 (Custom).jpg,188
+test,Powdery Mildew,data/raw/Powdery Mildew/IMG_20211107_115501 (Custom).jpg,data/raw/Powdery Mildew/IMG_20211107_115151 (Custom).jpg,190
+test,Die Back,data/raw/Die Back/IMG_20211027_193735 (Custom).jpg,data/raw/Die Back/IMG_20211027_193425 (Custom).jpg,190
+val,Anthracnose,data/raw/Anthracnose/IMG_20211011_170350 (Custom).jpg,data/raw/Anthracnose/20211011_170700 (Custom).jpg,190
+val,Powdery Mildew,data/raw/Powdery Mildew/IMG_20211107_115646 (Custom).jpg,data/raw/Powdery Mildew/IMG_20211107_115957 (Custom).jpg,191
+test,Anthracnose,data/raw/Anthracnose/20211011_171136 - Copy - Copy - Copy (Custom).jpg,data/raw/Anthracnose/20211011_170824 - Copy - Copy - Copy (Custom).jpg,192
+test,Die Back,data/raw/Die Back/IMG_20211027_193738 (Custom).jpg,data/raw/Die Back/IMG_20211027_193425 (Custom).jpg,193
+test,Powdery Mildew,data/raw/Powdery Mildew/IMG_20211107_115505 (Custom).jpg,data/raw/Powdery Mildew/IMG_20211107_115151 (Custom).jpg,194
+test,Anthracnose,data/raw/Anthracnose/20211011_171138 - Copy - Copy - Copy (Custom).jpg,data/raw/Anthracnose/20211011_170824 - Copy - Copy - Copy (Custom).jpg,194
+test,Anthracnose,data/raw/Anthracnose/20211011_171141 (Custom).jpg,data/raw/Anthracnose/20211011_170824 - Copy - Copy - Copy (Custom).jpg,197
+test,Die Back,data/raw/Die Back/IMG_20211027_193742 (Custom).jpg,data/raw/Die Back/IMG_20211027_193425 (Custom).jpg,197
+test,Powdery Mildew,data/raw/Powdery Mildew/IMG_20211107_115508 (Custom).jpg,data/raw/Powdery Mildew/IMG_20211107_115151 (Custom).jpg,197
+test,Powdery Mildew,data/raw/Powdery Mildew/IMG_20211107_115512 (Custom).jpg,data/raw/Powdery Mildew/IMG_20211107_115151 (Custom).jpg,201
+test,Anthracnose,data/raw/Anthracnose/20211011_171145 - Copy - Copy - Copy (Custom).jpg,data/raw/Anthracnose/20211011_170824 - Copy - Copy - Copy (Custom).jpg,201
+test,Anthracnose,data/raw/Anthracnose/20211011_171148 - Copy - Copy - Copy (Custom).jpg,data/raw/Anthracnose/20211011_170824 - Copy - Copy - Copy (Custom).jpg,204
+test,Die Back,data/raw/Die Back/IMG_20211027_193751 (Custom).jpg,data/raw/Die Back/IMG_20211027_193425 (Custom).jpg,206
+test,Anthracnose,data/raw/Anthracnose/20211011_171151 - Copy - Copy - Copy (Custom).jpg,data/raw/Anthracnose/20211011_170824 - Copy - Copy - Copy (Custom).jpg,207
+test,Anthracnose,data/raw/Anthracnose/20211011_171153 - Copy - Copy - Copy (Custom).jpg,data/raw/Anthracnose/20211011_170824 - Copy - Copy - Copy (Custom).jpg,209
+test,Powdery Mildew,data/raw/Powdery Mildew/IMG_20211107_115520 (Custom).jpg,data/raw/Powdery Mildew/IMG_20211107_115151 (Custom).jpg,209
+test,Die Back,data/raw/Die Back/IMG_20211027_193755 (Custom).jpg,data/raw/Die Back/IMG_20211027_193425 (Custom).jpg,210
+test,Anthracnose,data/raw/Anthracnose/20211011_171156 - Copy - Copy - Copy (Custom).jpg,data/raw/Anthracnose/20211011_170824 - Copy - Copy - Copy (Custom).jpg,212
+test,Powdery Mildew,data/raw/Powdery Mildew/IMG_20211107_115524 (Custom).jpg,data/raw/Powdery Mildew/IMG_20211107_115151 (Custom).jpg,213
+test,Anthracnose,data/raw/Anthracnose/20211011_171159 - Copy - Copy - Copy (Custom).jpg,data/raw/Anthracnose/20211011_170824 - Copy - Copy - Copy (Custom).jpg,215
+test,Anthracnose,data/raw/Anthracnose/20211011_171202 - Copy - Copy - Copy (Custom).jpg,data/raw/Anthracnose/20211011_170824 - Copy - Copy - Copy (Custom).jpg,218
+test,Anthracnose,data/raw/Anthracnose/20211008_124632 (Custom).jpg,data/raw/Anthracnose/20211008_125014 (Custom).jpg,222
+test,Sooty Mould,data/raw/Sooty Mould/IMG_20211212_144458 (Custom).jpg,data/raw/Sooty Mould/IMG_20211212_144843 (Custom).jpg,225
+test,Sooty Mould,data/raw/Sooty Mould/IMG_20211212_144454 (Custom).jpg,data/raw/Sooty Mould/IMG_20211212_144843 (Custom).jpg,229
+test,Anthracnose,data/raw/Anthracnose/20211008_124624 (Custom).jpg,data/raw/Anthracnose/20211008_125014 (Custom).jpg,230
+val,Powdery Mildew,data/raw/Powdery Mildew/IMG_20211107_115543 (Custom).jpg,data/raw/Powdery Mildew/IMG_20211107_115151 (Custom).jpg,232
+test,Sooty Mould,data/raw/Sooty Mould/IMG_20211212_144451 (Custom).jpg,data/raw/Sooty Mould/IMG_20211212_144843 (Custom).jpg,232
+val,Powdery Mildew,data/raw/Powdery Mildew/IMG_20211107_115603 (Custom).jpg,data/raw/Powdery Mildew/IMG_20211107_115957 (Custom).jpg,234
+test,Cutting Weevil,data/raw/Cutting Weevil/20211011_170533 (Custom) (Custom).jpg,data/raw/Cutting Weevil/20211011_170138 (Custom) (Custom).jpg,235
+val,Powdery Mildew,data/raw/Powdery Mildew/IMG_20211107_115547 (Custom).jpg,data/raw/Powdery Mildew/IMG_20211107_115151 (Custom).jpg,236
+test,Cutting Weevil,data/raw/Cutting Weevil/20211011_170535 (Custom) (Custom).jpg,data/raw/Cutting Weevil/20211011_170138 (Custom) (Custom).jpg,237
+test,Cutting Weevil,data/raw/Cutting Weevil/20211011_170538 (Custom) (Custom).jpg,data/raw/Cutting Weevil/20211011_170138 (Custom) (Custom).jpg,240
+test,Cutting Weevil,data/raw/Cutting Weevil/20211011_170540 (Custom) (Custom).jpg,data/raw/Cutting Weevil/20211011_170138 (Custom) (Custom).jpg,242
+test,Cutting Weevil,data/raw/Cutting Weevil/20211011_170546 (Custom) (Custom).jpg,data/raw/Cutting Weevil/20211011_170138 (Custom) (Custom).jpg,248
+test,Powdery Mildew,data/raw/Powdery Mildew/IMG_20211107_123144 (Custom).jpg,data/raw/Powdery Mildew/IMG_20211107_123619 (Custom).jpg,275
+test,Powdery Mildew,data/raw/Powdery Mildew/IMG_20211107_123141 (Custom).jpg,data/raw/Powdery Mildew/IMG_20211107_123619 (Custom).jpg,278
+test,Powdery Mildew,data/raw/Powdery Mildew/IMG_20211107_123139 (Custom).jpg,data/raw/Powdery Mildew/IMG_20211107_123619 (Custom).jpg,280
+test,Powdery Mildew,data/raw/Powdery Mildew/IMG_20211107_123135 (Custom).jpg,data/raw/Powdery Mildew/IMG_20211107_123619 (Custom).jpg,284
+test,Powdery Mildew,data/raw/Powdery Mildew/IMG_20211107_123133 (Custom).jpg,data/raw/Powdery Mildew/IMG_20211107_123619 (Custom).jpg,286
+test,Powdery Mildew,data/raw/Powdery Mildew/IMG_20211107_123130 (Custom).jpg,data/raw/Powdery Mildew/IMG_20211107_123619 (Custom).jpg,289
+val,Anthracnose,data/raw/Anthracnose/20211008_124524 (Custom).jpg,data/raw/Anthracnose/20211008_125014 (Custom).jpg,290
+test,Powdery Mildew,data/raw/Powdery Mildew/IMG_20211107_123127 (Custom).jpg,data/raw/Powdery Mildew/IMG_20211107_123619 (Custom).jpg,292
+val,Anthracnose,data/raw/Anthracnose/20211008_124522 (Custom).jpg,data/raw/Anthracnose/20211008_125014 (Custom).jpg,292
+test,Powdery Mildew,data/raw/Powdery Mildew/IMG_20211107_123124 (Custom).jpg,data/raw/Powdery Mildew/IMG_20211107_123619 (Custom).jpg,295
+test,Sooty Mould,data/raw/Sooty Mould/IMG_20211211_160001 (Custom).jpg,data/raw/Sooty Mould/IMG_20211211_155450 (Custom).jpg,311
+val,Anthracnose,data/raw/Anthracnose/20211008_124501 (Custom).jpg,data/raw/Anthracnose/20211008_125014 (Custom).jpg,313
+test,Sooty Mould,data/raw/Sooty Mould/IMG_20211211_160005 (Custom).jpg,data/raw/Sooty Mould/IMG_20211211_155450 (Custom).jpg,315
+val,Anthracnose,data/raw/Anthracnose/20211008_124457 (Custom).jpg,data/raw/Anthracnose/20211008_125014 (Custom).jpg,317
+test,Sooty Mould,data/raw/Sooty Mould/IMG_20211211_160011 (Custom).jpg,data/raw/Sooty Mould/IMG_20211211_155450 (Custom).jpg,321
+test,Sooty Mould,data/raw/Sooty Mould/IMG_20211211_160015 (Custom).jpg,data/raw/Sooty Mould/IMG_20211211_155450 (Custom).jpg,325
+test,Sooty Mould,data/raw/Sooty Mould/IMG_20211211_160017 (Custom).jpg,data/raw/Sooty Mould/IMG_20211211_155450 (Custom).jpg,327
+test,Sooty Mould,data/raw/Sooty Mould/IMG_20211211_160020 (Custom).jpg,data/raw/Sooty Mould/IMG_20211211_155450 (Custom).jpg,330
+val,Sooty Mould,data/raw/Sooty Mould/IMG_20211108_120232 (Custom).jpg,data/raw/Sooty Mould/IMG_20211108_120816 (Custom).jpg,344
+val,Sooty Mould,data/raw/Sooty Mould/IMG_20211108_120228 (Custom).jpg,data/raw/Sooty Mould/IMG_20211108_120816 (Custom).jpg,348
+val,Sooty Mould,data/raw/Sooty Mould/IMG_20211212_145957 (Custom).jpg,data/raw/Sooty Mould/IMG_20211212_145408 (Custom).jpg,349
+val,Sooty Mould,data/raw/Sooty Mould/IMG_20211108_120225 (Custom).jpg,data/raw/Sooty Mould/IMG_20211108_120816 (Custom).jpg,351
+val,Sooty Mould,data/raw/Sooty Mould/IMG_20211212_150000 (Custom).jpg,data/raw/Sooty Mould/IMG_20211212_145408 (Custom).jpg,352
+test,Die Back,data/raw/Die Back/IMG_20211027_183432 (Custom).jpg,data/raw/Die Back/IMG_20211027_184024 (Custom).jpg,352
+test,Die Back,data/raw/Die Back/IMG_20211027_183425 (Custom).jpg,data/raw/Die Back/IMG_20211027_184024 (Custom).jpg,359
+val,Anthracnose,data/raw/Anthracnose/20211008_124345 (Custom).jpg,data/raw/Anthracnose/20211008_125014 (Custom).jpg,389
+val,Anthracnose,data/raw/Anthracnose/20211008_124341 (Custom).jpg,data/raw/Anthracnose/20211008_125014 (Custom).jpg,393
+val,Anthracnose,data/raw/Anthracnose/20211008_124336 (Custom).jpg,data/raw/Anthracnose/20211008_125014 (Custom).jpg,398
+val,Anthracnose,data/raw/Anthracnose/20211008_124334 (Custom).jpg,data/raw/Anthracnose/20211008_125014 (Custom).jpg,400
+val,Anthracnose,data/raw/Anthracnose/20211008_124312 (Custom).jpg,data/raw/Anthracnose/20211008_125014 (Custom).jpg,422
+val,Anthracnose,data/raw/Anthracnose/20211008_124310 (Custom).jpg,data/raw/Anthracnose/20211008_125014 (Custom).jpg,424
+val,Anthracnose,data/raw/Anthracnose/20211008_124306 (Custom).jpg,data/raw/Anthracnose/20211008_125014 (Custom).jpg,428
+val,Die Back,data/raw/Die Back/IMG_20211027_183316 (Custom).jpg,data/raw/Die Back/IMG_20211027_184024 (Custom).jpg,428
+val,Anthracnose,data/raw/Anthracnose/20211008_124305 (Custom).jpg,data/raw/Anthracnose/20211008_125014 (Custom).jpg,429
+val,Anthracnose,data/raw/Anthracnose/20211008_124302 (Custom).jpg,data/raw/Anthracnose/20211008_125014 (Custom).jpg,432
+val,Anthracnose,data/raw/Anthracnose/20211008_124301 (Custom).jpg,data/raw/Anthracnose/20211008_125014 (Custom).jpg,433
+val,Anthracnose,data/raw/Anthracnose/20211008_124256 (Custom).jpg,data/raw/Anthracnose/20211008_125014 (Custom).jpg,438
+val,Anthracnose,data/raw/Anthracnose/20211008_124253 (Custom).jpg,data/raw/Anthracnose/20211008_125014 (Custom).jpg,441
+val,Anthracnose,data/raw/Anthracnose/20211008_124252 (Custom).jpg,data/raw/Anthracnose/20211008_125014 (Custom).jpg,442
+val,Anthracnose,data/raw/Anthracnose/20211008_124250 (Custom).jpg,data/raw/Anthracnose/20211008_125014 (Custom).jpg,444
+val,Anthracnose,data/raw/Anthracnose/20211008_124249 (Custom).jpg,data/raw/Anthracnose/20211008_125014 (Custom).jpg,445
+test,Sooty Mould,data/raw/Sooty Mould/IMG_20211211_153406 (Custom).jpg,data/raw/Sooty Mould/IMG_20211211_154205 (Custom).jpg,479
+test,Sooty Mould,data/raw/Sooty Mould/IMG_20211212_150308 (Custom).jpg,data/raw/Sooty Mould/IMG_20211212_145408 (Custom).jpg,540
+test,Sooty Mould,data/raw/Sooty Mould/IMG_20211212_150310 (Custom).jpg,data/raw/Sooty Mould/IMG_20211212_145408 (Custom).jpg,542
+test,Sooty Mould,data/raw/Sooty Mould/IMG_20211212_150314 (Custom).jpg,data/raw/Sooty Mould/IMG_20211212_145408 (Custom).jpg,546
+val,Anthracnose,data/raw/Anthracnose/IMG_20211011_160612 (Custom).jpg,data/raw/Anthracnose/IMG_20211011_161519 (Custom).jpg,547
+val,Anthracnose,data/raw/Anthracnose/IMG_20211011_160610 (Custom).jpg,data/raw/Anthracnose/IMG_20211011_161519 (Custom).jpg,549
+val,Anthracnose,data/raw/Anthracnose/IMG_20211011_160609 (Custom).jpg,data/raw/Anthracnose/IMG_20211011_161519 (Custom).jpg,550
+test,Sooty Mould,data/raw/Sooty Mould/IMG_20211212_150321 (Custom).jpg,data/raw/Sooty Mould/IMG_20211212_145408 (Custom).jpg,553
+val,Anthracnose,data/raw/Anthracnose/IMG_20211011_160605 (Custom).jpg,data/raw/Anthracnose/IMG_20211011_161519 (Custom).jpg,554
+test,Sooty Mould,data/raw/Sooty Mould/IMG_20211212_150324 (Custom).jpg,data/raw/Sooty Mould/IMG_20211212_145408 (Custom).jpg,556
+val,Anthracnose,data/raw/Anthracnose/IMG_20211011_160602 (Custom).jpg,data/raw/Anthracnose/IMG_20211011_161519 (Custom).jpg,557
+val,Anthracnose,data/raw/Anthracnose/IMG_20211011_160557 (Custom).jpg,data/raw/Anthracnose/IMG_20211011_161519 (Custom).jpg,562
+test,Sooty Mould,data/raw/Sooty Mould/IMG_20211212_150331 (Custom).jpg,data/raw/Sooty Mould/IMG_20211212_145408 (Custom).jpg,563
+test,Sooty Mould,data/raw/Sooty Mould/IMG_20211212_150335 (Custom).jpg,data/raw/Sooty Mould/IMG_20211212_145408 (Custom).jpg,567
+test,Sooty Mould,data/raw/Sooty Mould/IMG_20211212_150341 (Custom).jpg,data/raw/Sooty Mould/IMG_20211212_145408 (Custom).jpg,573
+test,Sooty Mould,data/raw/Sooty Mould/IMG_20211212_150345 (Custom).jpg,data/raw/Sooty Mould/IMG_20211212_145408 (Custom).jpg,577
+test,Sooty Mould,data/raw/Sooty Mould/IMG_20211212_150350 (Custom).jpg,data/raw/Sooty Mould/IMG_20211212_145408 (Custom).jpg,582
+test,Sooty Mould,data/raw/Sooty Mould/IMG_20211212_150352 (Custom).jpg,data/raw/Sooty Mould/IMG_20211212_145408 (Custom).jpg,584
+test,Sooty Mould,data/raw/Sooty Mould/IMG_20211212_150355 (Custom).jpg,data/raw/Sooty Mould/IMG_20211212_145408 (Custom).jpg,587
+val,Anthracnose,data/raw/Anthracnose/IMG_20211011_160531 (Custom).jpg,data/raw/Anthracnose/IMG_20211011_161519 (Custom).jpg,588
+test,Sooty Mould,data/raw/Sooty Mould/IMG_20211212_150358 (Custom).jpg,data/raw/Sooty Mould/IMG_20211212_145408 (Custom).jpg,590
+val,Anthracnose,data/raw/Anthracnose/IMG_20211011_160528 (Custom).jpg,data/raw/Anthracnose/IMG_20211011_161519 (Custom).jpg,591
+test,Sooty Mould,data/raw/Sooty Mould/IMG_20211212_150401 (Custom).jpg,data/raw/Sooty Mould/IMG_20211212_145408 (Custom).jpg,593
+val,Anthracnose,data/raw/Anthracnose/IMG_20211011_160525 (Custom).jpg,data/raw/Anthracnose/IMG_20211011_161519 (Custom).jpg,594
+val,Anthracnose,data/raw/Anthracnose/IMG_20211011_160523 (Custom).jpg,data/raw/Anthracnose/IMG_20211011_161519 (Custom).jpg,596
+test,Sooty Mould,data/raw/Sooty Mould/IMG_20211212_150405 (Custom).jpg,data/raw/Sooty Mould/IMG_20211212_145408 (Custom).jpg,597
+test,Sooty Mould,data/raw/Sooty Mould/IMG_20211212_150408 (Custom).jpg,data/raw/Sooty Mould/IMG_20211212_145408 (Custom).jpg,600
+val,Anthracnose,data/raw/Anthracnose/IMG_20211011_160519 (Custom).jpg,data/raw/Anthracnose/IMG_20211011_161519 (Custom).jpg,600
+val,Anthracnose,data/raw/Anthracnose/IMG_20211011_160515 (Custom).jpg,data/raw/Anthracnose/IMG_20211011_161519 (Custom).jpg,604
+test,Sooty Mould,data/raw/Sooty Mould/IMG_20211212_150412 (Custom).jpg,data/raw/Sooty Mould/IMG_20211212_145408 (Custom).jpg,604
+test,Sooty Mould,data/raw/Sooty Mould/IMG_20211212_150421 (Custom).jpg,data/raw/Sooty Mould/IMG_20211212_145408 (Custom).jpg,613
+test,Sooty Mould,data/raw/Sooty Mould/IMG_20211212_150513 (Custom).jpg,data/raw/Sooty Mould/IMG_20211212_145408 (Custom).jpg,665
+test,Sooty Mould,data/raw/Sooty Mould/IMG_20211212_150516 (Custom).jpg,data/raw/Sooty Mould/IMG_20211212_145408 (Custom).jpg,668
+test,Sooty Mould,data/raw/Sooty Mould/IMG_20211212_150519 (Custom).jpg,data/raw/Sooty Mould/IMG_20211212_145408 (Custom).jpg,671
+test,Die Back,data/raw/Die Back/IMG_20211027_194600 (Custom).jpg,data/raw/Die Back/IMG_20211027_193425 (Custom).jpg,695
+test,Die Back,data/raw/Die Back/IMG_20211027_194605 (Custom).jpg,data/raw/Die Back/IMG_20211027_193425 (Custom).jpg,700
+test,Die Back,data/raw/Die Back/IMG_20211027_194616 (Custom).jpg,data/raw/Die Back/IMG_20211027_193425 (Custom).jpg,711
+test,Die Back,data/raw/Die Back/IMG_20211027_194645 (Custom).jpg,data/raw/Die Back/IMG_20211027_193425 (Custom).jpg,740
+val,Anthracnose,data/raw/Anthracnose/20211011_160206 (Custom).jpg,data/raw/Anthracnose/IMG_20211011_161519 (Custom).jpg,793
+val,Anthracnose,data/raw/Anthracnose/20211011_160205 (Custom).jpg,data/raw/Anthracnose/IMG_20211011_161519 (Custom).jpg,794
+test,Die Back,data/raw/Die Back/IMG_20211027_194742 (Custom).jpg,data/raw/Die Back/IMG_20211027_193425 (Custom).jpg,797
+val,Anthracnose,data/raw/Anthracnose/20211011_160149 (Custom).jpg,data/raw/Anthracnose/IMG_20211011_161519 (Custom).jpg,810
+val,Anthracnose,data/raw/Anthracnose/20211011_160147 (Custom).jpg,data/raw/Anthracnose/IMG_20211011_161519 (Custom).jpg,812
+test,Die Back,data/raw/Die Back/IMG_20211027_194758 (Custom).jpg,data/raw/Die Back/IMG_20211027_193425 (Custom).jpg,813
+val,Anthracnose,data/raw/Anthracnose/20211011_160144 (Custom).jpg,data/raw/Anthracnose/IMG_20211011_161519 (Custom).jpg,815
+val,Anthracnose,data/raw/Anthracnose/20211011_160143 (Custom).jpg,data/raw/Anthracnose/IMG_20211011_161519 (Custom).jpg,816
+test,Die Back,data/raw/Die Back/IMG_20211027_194802 (Custom).jpg,data/raw/Die Back/IMG_20211027_193425 (Custom).jpg,817
+test,Die Back,data/raw/Die Back/IMG_20211027_194809 (Custom).jpg,data/raw/Die Back/IMG_20211027_193425 (Custom).jpg,824
+test,Die Back,data/raw/Die Back/IMG_20211027_194812 (Custom).jpg,data/raw/Die Back/IMG_20211027_193425 (Custom).jpg,827
+test,Die Back,data/raw/Die Back/IMG_20211027_194816 (Custom).jpg,data/raw/Die Back/IMG_20211027_193425 (Custom).jpg,831
+test,Die Back,data/raw/Die Back/IMG_20211027_194824 (Custom).jpg,data/raw/Die Back/IMG_20211027_193425 (Custom).jpg,839
+val,Die Back,data/raw/Die Back/IMG_20211027_194844 (Custom).jpg,data/raw/Die Back/IMG_20211027_193425 (Custom).jpg,859
+val,Die Back,data/raw/Die Back/IMG_20211027_194848 (Custom).jpg,data/raw/Die Back/IMG_20211027_193425 (Custom).jpg,863
+val,Die Back,data/raw/Die Back/IMG_20211027_194852 (Custom).jpg,data/raw/Die Back/IMG_20211027_193425 (Custom).jpg,867
+val,Die Back,data/raw/Die Back/IMG_20211027_194857 (Custom).jpg,data/raw/Die Back/IMG_20211027_193425 (Custom).jpg,872
+val,Die Back,data/raw/Die Back/IMG_20211027_194901 (Custom).jpg,data/raw/Die Back/IMG_20211027_193425 (Custom).jpg,876
+val,Die Back,data/raw/Die Back/IMG_20211027_182411 (Custom).jpg,data/raw/Die Back/IMG_20211027_184024 (Custom).jpg,973
+val,Die Back,data/raw/Die Back/IMG_20211027_182234 (Custom).jpg,data/raw/Die Back/IMG_20211027_184024 (Custom).jpg,1070
+val,Die Back,data/raw/Die Back/IMG_20211027_182214 (Custom).jpg,data/raw/Die Back/IMG_20211027_184024 (Custom).jpg,1090
+val,Die Back,data/raw/Die Back/IMG_20211027_182209 (Custom).jpg,data/raw/Die Back/IMG_20211027_184024 (Custom).jpg,1095
+val,Die Back,data/raw/Die Back/IMG_20211027_182159 (Custom).jpg,data/raw/Die Back/IMG_20211027_184024 (Custom).jpg,1105
+val,Die Back,data/raw/Die Back/IMG_20211027_182142 (Custom).jpg,data/raw/Die Back/IMG_20211027_184024 (Custom).jpg,1122
+val,Cutting Weevil,data/raw/Cutting Weevil/20211011_131115 (Custom) (Custom).jpg,data/raw/Cutting Weevil/IMG_20211011_140211 (Custom) (Custom).jpg,3056
+test,Cutting Weevil,data/raw/Cutting Weevil/20211011_131104 (Custom) (Custom).jpg,data/raw/Cutting Weevil/IMG_20211011_140211 (Custom) (Custom).jpg,3067
+test,Cutting Weevil,data/raw/Cutting Weevil/20211011_131101 (Custom) (Custom).jpg,data/raw/Cutting Weevil/IMG_20211011_140211 (Custom) (Custom).jpg,3070
+test,Die Back,data/raw/Die Back/IMG_20211027_230019 (Custom).jpg,data/raw/Die Back/IMG_20211028_002047 (Custom).jpg,4828
+test,Die Back,data/raw/Die Back/IMG_20211027_230015 (Custom).jpg,data/raw/Die Back/IMG_20211028_002047 (Custom).jpg,4832
+test,Die Back,data/raw/Die Back/IMG_20211027_230010 (Custom).jpg,data/raw/Die Back/IMG_20211028_002047 (Custom).jpg,4837
+test,Die Back,data/raw/Die Back/IMG_20211027_230005 (Custom).jpg,data/raw/Die Back/IMG_20211028_002047 (Custom).jpg,4842

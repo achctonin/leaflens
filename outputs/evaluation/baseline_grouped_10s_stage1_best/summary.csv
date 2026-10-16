@@ -1,0 +1,2 @@
+model,test_accuracy,test_macro_f1,model_size_mb,prediction_seconds,ms_per_image,test_images
+baseline_grouped_10s_stage1_best,0.9135135135135135,0.9089610978488483,2.8513412475585938,40.95762478200004,73.7975221297298,555

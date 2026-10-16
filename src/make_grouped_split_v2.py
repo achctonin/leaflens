@@ -3,7 +3,7 @@ import numpy as np
 import pandas as pd
 
 SEED = 42
-GAP = 4  # seconds between consecutive shots that still count as one group
+GAP = 10  # seconds between consecutive shots that still count as one group
 TARGET = {"train": 0.70, "val": 0.15, "test": 0.15}
 
 df = pd.read_csv("data/manifest_dedup.csv")   # must be the threshold-2 version (3706 rows)
@@ -55,4 +55,7 @@ assert (df.groupby("group")["split"].nunique() == 1).all(), "A group spans split
 assert (df["split"] != "").all()
 
 print(pd.crosstab(df["label"], df["split"], margins=True)[["train", "val", "test", "All"]])
-df[["filepath", "label", "split"]].to_csv("data/manifest_grouped_v2.csv", index=False)
+df[["filepath", "label", "split"]].to_csv(
+    "data/manifest_grouped_10s.csv",
+    index=False
+)
