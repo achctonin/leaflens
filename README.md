@@ -1,155 +1,409 @@
+
 # LeafLens: Mango Leaf Disease Detection (CS333)
 
-Image classification of 8 mango leaf classes (Healthy, Anthracnose, Bacterial Canker, Cutting Weevil, Die Back, Gall Midge, Powdery Mildew, Sooty Mould) using MobileNetV3 (TensorFlow/Keras).
+Image classification of eight mango leaf classes using TensorFlow/Keras and MobileNetV3:
+
+- Healthy
+- Anthracnose
+- Bacterial Canker
+- Cutting Weevil
+- Die Back
+- Gall Midge
+- Powdery Mildew
+- Sooty Mould
 
 Team: **Member A**, **Member B** (replace with names)
 
 ---
 
-## Project status (read this first)
+## Project status
 
 | Step | Status | Output |
 |---|---|---|
-| Environment + repo | Done | `requirements.txt`, `requirements-train.txt` |
-| Dataset download | Done (each member downloads their own copy) | `data/raw/` (not committed) |
-| Manifest from folder names | Done | `data/manifest.csv` |
-| Corrupted-file check | Done | `src/check_integrity.py` |
-| Near-duplicate check and removal | Done | `src/check_duplicates.py`, `src/dedupe.py`, `data/duplicates_removed.csv` |
-| Stratified 70/15/15 split, seed 42 | Done | `src/split.py`, `split` column in `data/manifest.csv` |
-| EDA | Done | `notebooks/01_eda.ipynb`, plots in `outputs/plots/` |
-| Preprocessing + augmentation | Done | `src/data.py` |
-| Baseline CNN | Done | `src/model.py`, `src/train.py` |
-| MobileNetV3-Small (frozen, then fine-tuned) | Done | `src/model.py`, `src/train.py` |
-| MobileNetV3-Large (frozen, then fine-tuned) | Done | `src/model.py`, `src/train.py` |
-| Local leaf photos (real-world test set, 30 to 50) | **Not started** | `data/local/` (to be created) |
-| Evaluation: test set, confusion matrix, per-class metrics, Grad-CAM | **Not started** | `src/evaluate.py` (not written yet) |
-| Inference script for a single photo | **Not started** | `src/predict.py` (not written yet) |
-| Final model choice, then one run on the test set | **Not started** | |
+| Environment and repository | Done | `requirements.txt`, `requirements-train.txt` |
+| Dataset download | Done | `data/raw/` (not committed) |
+| Manifest generation | Done | `data/manifest.csv` |
+| Corrupted-image check | Done | `src/check_integrity.py` |
+| Near-duplicate detection and removal | Done | `src/check_duplicates.py`, `src/dedupe.py` |
+| Grouped 10-second split | Done | `src/make_grouped_split_v2.py`, `data/manifest_grouped_10s.csv` |
+| Exploratory data analysis | Done | `notebooks/01_eda.ipynb`, `outputs/plots/` |
+| Preprocessing and augmentation | Done | `src/data.py` |
+| Baseline CNN training | Done | `src/model.py`, `src/train.py` |
+| MobileNetV3-Small training | Done | `src/model.py`, `src/train.py` |
+| MobileNetV3-Large training | Done | `src/model.py`, `src/train.py` |
+| Grouped-split test evaluation | Done | `src/evaluate.py`, `outputs/evaluation/` |
+| Single-image inference script | Implemented | `src/inference.py` |
+| Grad-CAM analysis | Pending update | `src/gradcam.py` |
+| Local Philippine mango-leaf evaluation | Pending | Local photo dataset |
+| Final model selection and report | Pending | Model comparison and analysis |
 
-The manifest has **3,706 images** (the original dataset has 4,000; 294 near-duplicates were removed). The `split` column is already filled in: 2,594 train / 556 val / 556 test. Nobody should re-split.
+The dataset originally contained **4,000 images**. After removing 294 near-duplicates, **3,706 images** remained.
 
-## Results so far (validation set only)
+The final grouped manifest contains:
 
-The test set has **not** been used yet. These numbers were used for early stopping and for choosing between stage 1 and stage 2, so they are slightly optimistic. All runs: seed 42, batch size 32, class weights on, augmentation on the training split only. Raw numbers are in `outputs/runs.csv`.
+| Split | Images |
+|---|---:|
+| Training | 2,593 |
+| Validation | 558 |
+| Test | 555 |
+| **Total** | **3,706** |
 
-| Model | Val accuracy | Val macro-F1 | Val loss | Wrong images (of 556) | Train time (CPU laptop) |
-|---|---|---|---|---|---|
-| Baseline CNN | 95.86% | 0.960 | 0.176 | about 23 | 25.5 min |
-| MobileNetV3-Small | 99.82% | 0.998 | 0.015 | about 1 | 8.2 min |
-| MobileNetV3-Large | 99.64% | 0.997 | 0.007 | about 2 | 20.9 min |
-
-Small and Large are within one image of each other on validation, so accuracy alone will not decide between them. We will also compare model size, speed, Grad-CAM and the local leaf photos. MobileNetV3-Small is about a third the size of Large.
+The final pipeline uses `data/manifest_grouped_10s.csv`. Do not regenerate or randomly reassign these splits.
 
 ---
 
-## Setup (do this once on your own machine)
+## Final grouped-split test results
 
-1. **Install** Python 3.10 or 3.11 (we use 3.11) and Git. Install VS Code too, with the **Python** and **Jupyter** extensions.
-2. **Clone the repo** and enter it:
-   ```
-   git clone https://github.com/achctonin/leaflens.git
-   cd leaflens
-   ```
-3. **Create and activate a virtual environment:**
-   ```
-   python -m venv .venv
-   .venv\Scripts\activate        # Windows (PowerShell)
-   source .venv/bin/activate     # Mac/Linux
-   ```
-   If PowerShell blocks activation, run `Set-ExecutionPolicy -Scope Process Bypass` and try again. You should see `(.venv)` at the start of the prompt.
-4. **Install dependencies:**
-   ```
-   python -m pip install -r requirements.txt          # data prep and EDA (light)
-   python -m pip install -r requirements-train.txt    # adds TensorFlow, needed for training
-   python -m pip install ipykernel                    # needed to run notebooks in VS Code
-   ```
-5. **Verify:**
-   ```
-   python -c "import pandas, PIL, sklearn, cv2; print('ok')"
-   python src/model.py
-   ```
-   The second command builds all three models and prints their sizes (baseline 242,920 parameters, MobileNetV3-Small 943,736, MobileNetV3-Large 3,004,040).
+All three models were evaluated on the same 555-image grouped test set.
 
-Native Windows TensorFlow does not use the GPU. All our runs were on a CPU laptop and finished in under 30 minutes each. Use Google Colab (free GPU) or WSL2 if your machine is slower.
+| Model | Test accuracy | Test macro-F1 |
+|---|---:|---:|
+| Baseline CNN (GroupNorm) | 91.35% | 90.90% |
+| MobileNetV3-Small | 97.12% | 97.33% |
+| MobileNetV3-Large | **98.02%** | **98.17%** |
 
-## Dataset (each member downloads their own copy)
+These figures come from the saved `summary.csv` files in `outputs/evaluation/`.
 
-`data/` is not committed to Git. The images are not in the repo, so you must download them.
+MobileNetV3-Large achieved the highest test accuracy and macro-F1. However, the final model decision should also consider model size, inference speed, Grad-CAM findings, and performance on local Philippine mango-leaf photographs.
 
-1. Open https://www.kaggle.com/datasets/aryashah2k/mango-leaf-disease-dataset (a free Kaggle account is needed) and click **Download**.
-2. Extract the zip into `data/raw/` so the layout is `data/raw/<class_name>/*.jpg` (for example `data/raw/Anthracnose/20211008_124249 (Custom).jpg`). There must be no extra wrapper folder between `raw` and the class folders.
-3. Check: you should see 8 class folders inside `data/raw/`.
+Each model's evaluation folder contains:
 
-Alternative with the Kaggle CLI (token saved in `~/.kaggle/kaggle.json`):
+- `summary.csv` — overall test metrics and efficiency measurements
+- `classification_report.csv` — per-class precision, recall, and F1
+- `confusion_matrix.csv` — confusion-matrix values
+- `confusion_matrix.png` — confusion-matrix visualization
+- `predictions.csv` — predicted classes and confidence scores
+
+**Important:** These test results describe performance on the grouped Kaggle dataset. They do not establish equivalent performance on real-world Philippine mango-leaf photographs.
+
+### Historical random-split results
+
+The original experiments used an image-level random split and produced unusually high validation results.
+
+| Model | Historical validation accuracy | Historical validation macro-F1 |
+|---|---:|---:|
+| Baseline CNN | 95.86% | 95.99% |
+| MobileNetV3-Small | 99.82% | 99.83% |
+| MobileNetV3-Large | 99.64% | 99.67% |
+
+These results should **not** be compared directly with the final grouped-split test scores.
+
+The original random split allowed images captured seconds apart to appear in different splits. This introduced potential same-leaf leakage and made the original validation results optimistic.
+
+Historical run records are preserved in `outputs/runs_old.csv`. The current `outputs/runs.csv` contains the locally recorded grouped-split smoke test; it is not a complete record of all final Colab training runs.
+
+---
+
+## Dataset leakage investigation
+
+The original random split was investigated using image similarity and capture timestamps embedded in image filenames.
+
+Photographs taken seconds apart can show the same leaf from slightly different angles. If these photographs appear in both training and evaluation splits, the model may benefit from visual similarities that do not reflect generalization to independent leaves.
+
+To reduce this problem, we generated a deterministic grouped split using:
+
+- `src/make_grouped_split_v2.py`
+- A 10-second grouping threshold
+- Fixed random seed 42
+- Class-aware split allocation
+
+The grouped manifest was independently regenerated and its assignments matched the saved version.
+
+### Final timestamp leakage check
+
+The final grouped manifest was checked using:
+
+```powershell
+python src/check_time_leakage.py --manifest data/manifest_grouped_10s.csv --out outputs/time_leakage_10s.csv
 ```
-kaggle datasets download -d aryashah2k/mango-leaf-disease-dataset -p data/raw --unzip
+
+Results:
+
+| Time gap to closest same-class training photo | Test | Validation |
+|---|---:|---:|
+| Within 10 seconds | 0/555 (0.0%) | 0/558 (0.0%) |
+| Within 30 seconds | 186/555 (33.5%) | 218/558 (39.1%) |
+| Within 60 seconds | 337/555 (60.7%) | 385/558 (69.0%) |
+
+The median gap was 45 seconds for test images and 39 seconds for validation images.
+
+**Limitation:** The grouped split eliminates cross-split same-class timestamp pairs within 10 seconds, but this does not prove that every image belongs to an independent leaf. Some photographs taken more than 10 seconds apart may still depict the same leaf.
+
+The dataset does not provide verified leaf identities, so residual same-leaf leakage cannot be ruled out.
+
+---
+
+## Setup
+
+Run these commands from the repository root.
+
+### 1. Install the tools
+
+Install Python 3.10 or 3.11, Git, and VS Code with the Python and Jupyter extensions.
+
+### 2. Clone the repository
+
+```powershell
+git clone https://github.com/achctonin/leaflens.git
+cd leaflens
 ```
 
-**Important:** always load images through `data/manifest.csv`, never by walking the folders. Your `data/raw/` folder still contains the near-duplicate images that were removed from the manifest, and the manifest is what keeps everyone on identical data and splits.
+### 3. Create and activate a virtual environment
+
+Windows PowerShell:
+
+```powershell
+python -m venv .venv
+.\.venv\Scripts\Activate.ps1
+```
+
+Mac/Linux:
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+```
+
+If PowerShell blocks activation, run:
+
+```powershell
+Set-ExecutionPolicy -Scope Process Bypass
+```
+
+Then activate the environment again.
+
+### 4. Install dependencies
+
+```powershell
+python -m pip install -r requirements.txt
+python -m pip install -r requirements-train.txt
+python -m pip install ipykernel
+```
+
+### 5. Verify the environment
+
+```powershell
+python -c "import pandas, PIL, sklearn, cv2; print('ok')"
+python src/model.py
+```
+
+Native Windows TensorFlow generally uses the CPU. Google Colab or a compatible Linux GPU environment can be used for GPU training.
+
+---
+
+## Dataset setup
+
+Dataset source:
+
+[Mango Leaf Disease Dataset — Kaggle](https://www.kaggle.com/datasets/aryashah2k/mango-leaf-disease-dataset)
+
+Each team member downloads the dataset separately.
+
+Extract the images into:
+
+```text
+data/
+└── raw/
+    ├── Anthracnose/
+    ├── Bacterial Canker/
+    ├── Cutting Weevil/
+    ├── Die Back/
+    ├── Gall Midge/
+    ├── Healthy/
+    ├── Powdery Mildew/
+    └── Sooty Mould/
+```
+
+The images are not committed to GitHub.
+
+The original `data/raw/` folder may contain images excluded during deduplication. Always use the manifest to determine which images belong to the dataset and which split they belong to.
+
+**Current manifest:** `data/manifest_grouped_10s.csv`
+
+**Historical manifest:** `data/manifest.csv`
+
+The current dataset loader defaults to the grouped manifest.
+
+---
 
 ## Project layout
-- `data/raw/` original images (one folder per class = the label), not committed
-- `data/manifest.csv` filepath, label, split (committed, so splits are identical for everyone)
-- `data/duplicates_removed.csv` the near-duplicate images that were removed
-- `notebooks/` EDA (`01_eda.ipynb`)
-- `src/` data-prep scripts (`make_manifest.py`, `check_integrity.py`, `check_duplicates.py`, `dedupe.py`, `split.py`) and the ML code: `data.py` (datasets and augmentation), `model.py` (baseline and MobileNetV3), `train.py` (training), `diagnose_bn.py` (a debugging check for the baseline). `evaluate.py` and `predict.py` are still to be written.
-- `outputs/plots/` EDA plots and the augmentation preview
-- `outputs/models/` trained models (not committed, can be large; share through Drive)
-- `outputs/runs.csv` one row per training run (committed)
+
+```text
+leaflens/
+├── data/
+│   ├── raw/                       # Downloaded images (not committed)
+│   ├── manifest.csv               # Original manifest
+│   ├── manifest_dedup.csv         # Deduplicated dataset
+│   └── manifest_grouped_10s.csv   # Final grouped split
+├── notebooks/
+│   └── 01_eda.ipynb
+├── src/
+│   ├── data.py                    # Dataset loading and augmentation
+│   ├── model.py                   # CNN and MobileNetV3 architectures
+│   ├── train.py                   # Training pipeline
+│   ├── evaluate.py                # Test evaluation
+│   ├── inference.py               # Single-image inference
+│   ├── gradcam.py                 # Grad-CAM (pending update)
+│   ├── make_grouped_split_v2.py   # Grouped split generation
+│   ├── check_time_leakage.py      # Timestamp leakage analysis
+│   ├── show_time_pairs.py         # Leakage-pair visualization
+│   └── diagnose_bn.py             # Historical BatchNorm investigation
+├── outputs/
+│   ├── evaluation/                # Final grouped test results
+│   ├── plots/                     # EDA and diagnostic figures
+│   ├── runs.csv                   # Current local run log
+│   └── runs_old.csv               # Historical random-split runs
+├── requirements.txt
+├── requirements-train.txt
+└── README.md
+```
+
+Additional data-preparation and analysis scripts remain in `src/`.
+
+Trained `.keras` checkpoints are not committed to GitHub. Final grouped model checkpoints are stored separately in Google Drive.
+
+---
 
 ## Data and pipeline decisions
-- **Resize:** every image is stretched to 224x224 (no padding). Source images come in three shapes (320x240 landscape, 240x320 portrait, 240x240 square), so stretching distorts the leaf shape a little.
-- **No manual normalization.** Keras MobileNetV3 has preprocessing built in and expects raw 0-255 pixels. The baseline rescales to 0-1 in its first layer.
-- **Augmentation (training split only):** horizontal and vertical flip, rotation up to about 18 degrees, zoom 10%, brightness and contrast 20%. Validation and test are never augmented.
-- **Class weights** are computed from the training split. Cutting Weevil has only 172 training images (about half of the other classes), so its weight is about 1.9 and the others are about 0.93 to 0.96.
-- **Split first, augment after.** The test set is used once, at the very end.
 
-## EDA findings (summary)
-- 8 classes, 500 images each in the original dataset. After removing 294 near-duplicates: 3,706 images. Cutting Weevil lost 254 of its 500 images (51%), Anthracnose 19, Die Back 10, Bacterial Canker 4, Gall Midge 4, Powdery Mildew 2, Sooty Mould 1, Healthy none. Cutting Weevil is now the smallest class (246 images).
-- 96.6% of images are one of three sizes: 320x240, 240x320 or 240x240. A few classes have small irregular crops.
-- Median brightness is similar across classes (about 165 to 182). Cutting Weevil images are very uniform (all 240 px tall, narrow brightness range), which could let a model recognize that class from capture conditions instead of the disease. We check this with Grad-CAM and the local leaf photos.
-- Photos show a single leaf on a plain surface, so the model does not have to deal with cluttered backgrounds.
+- **Input size:** 224 × 224 RGB images, resized without preserving the original aspect ratio.
+- **Pixel range:** Raw float32 pixel values from 0 to 255. MobileNetV3 performs its expected preprocessing internally; the baseline model handles rescaling.
+- **Augmentation:** Applied only to training images, including flips, rotation, zoom, brightness, and contrast adjustments.
+- **Class weights:** Computed from the training split to address class imbalance.
+- **Split before augmentation:** Validation and test images are never augmented.
+- **Reproducibility:** Fixed seed 42 and a committed grouped manifest.
+- **Evaluation:** Accuracy, macro-F1, per-class recall, and confusion matrices.
+
+### Dataset limitations
+
+Cutting Weevil is the smallest class after deduplication, with 246 images. Its images also show relatively uniform capture characteristics, which may encourage the model to learn background or acquisition cues rather than disease symptoms.
+
+The Kaggle photographs commonly show individual leaves against relatively simple backgrounds. Real-world leaves may have different lighting, backgrounds, camera quality, disease severity, and overlapping symptoms.
+
+These limitations motivate Grad-CAM analysis and a separate local-photo evaluation.
+
+---
+
+## Exploratory data analysis
+
+The original dataset contained 500 images per class.
+
+After removing 294 near-duplicates, the dataset contained 3,706 images. Cutting Weevil lost 254 images and became the smallest class.
+
+Other observations:
+
+- Most images have dimensions of 320 × 240, 240 × 320, or 240 × 240.
+- Some classes have relatively uniform image characteristics.
+- Brightness distributions are broadly similar across classes.
+- Many images use plain backgrounds, which differ from natural field conditions.
+
+EDA plots are saved in `outputs/plots/`.
+
+---
 
 ## Training
 
-Run from the repo root with the `.venv` active. Each run adds a row to `outputs/runs.csv` and saves models to `outputs/models/`. The script never touches the test split.
+Training uses `src/train.py` and the grouped manifest configured in `src/data.py`.
 
-```
-python src/train.py --model baseline --epochs 12 --run-name baseline_gn
-python src/train.py --model mobilenet_small --epochs 15 --finetune-epochs 15 --run-name mnv3_small_v1
-python src/train.py --model mobilenet_large --epochs 15 --finetune-epochs 15 --run-name mnv3_large_v1
-```
+The baseline CNN uses group normalization. MobileNetV3-Small and MobileNetV3-Large use ImageNet-pretrained backbones and a two-stage transfer-learning approach.
 
-- **MobileNet** trains in two stages: stage 1 trains only the new head on the frozen backbone (learning rate 1e-3); stage 2 unfreezes the top 30 backbone layers and fine-tunes at 1e-5. The script keeps whichever stage has the lower validation loss. BatchNorm layers stay frozen.
-- **Early stopping** on validation loss (patience 5) with best-weights restore, and the learning rate halves when validation loss stalls.
-- **The first MobileNet run downloads the ImageNet weights**, so it needs internet.
-- Use a unique `--run-name` for every run. If you and your teammate both append to `outputs/runs.csv`, keep both sets of rows when git reports a conflict.
-- Results can differ by a few images between machines even with seed 42.
+For MobileNetV3:
+
+1. Train the classification head with the backbone frozen.
+2. Fine-tune selected upper backbone layers using a lower learning rate.
+
+Training uses validation loss for early stopping and checkpoint selection. This means validation results are part of the model-selection process, not an independent final performance estimate.
+
+The training script records local run information in `outputs/runs.csv` and saves model checkpoints under `outputs/models/`.
+
+Final grouped model checkpoints from Colab are stored separately in Google Drive.
 
 ### Why the baseline uses group normalization
-With BatchNorm, the small baseline CNN reached 80 to 90% training accuracy but stayed at chance level (5 to 18%) on validation, even on its own training images in evaluation mode. `src/diagnose_bn.py` showed that accuracy returned to about 78% when BatchNorm used batch statistics, so the saved running statistics were the problem, not the data. MobileNet was not affected because its BatchNorm layers are frozen. We replaced BatchNorm with group normalization in the baseline, which has no running statistics. Mention this in the report.
+
+An earlier baseline CNN using BatchNorm showed a large difference between training-mode and evaluation-mode performance.
+
+The investigation in `src/diagnose_bn.py` indicated problems involving BatchNorm running statistics. The baseline was changed to group normalization, which does not rely on running batch statistics.
+
+This debugging history is retained for reproducibility and the final report.
 
 ---
 
-## What is left
+## Evaluation
 
-| Task | Member A | Member B |
-|---|---|---|
-| Local leaf photos (30 to 50 total, one leaf per photo on a plain background, labeled by disease) | Half (suggest: split by class) | Half |
-| Evaluation on the test set, once: confusion matrix, per-class precision/recall/F1 | `src/evaluate.py` | Review |
-| Grad-CAM and misclassified-image review | Review | Grad-CAM script and analysis |
-| Inference script for one photo | `src/predict.py` | Review |
-| Final model choice (Small vs Large) | Decide together after Grad-CAM and the local photo test | |
-| Proposal and report items from the plan (abstract, data description, evaluation plan, related work, timeline, framework decision) | Check the project plan for what is still missing | |
+The final grouped test evaluation has already been completed for all three models.
 
-**Open decision:** one code layout for the repo. This README uses the flat `src/` layout (`python src/train.py ...`). If the team prefers one folder per stage (for example `python -m src.training.train`), move the files in one go and update this README so both members use the same commands.
+To evaluate a saved model when necessary:
 
-## Workflow
+```powershell
+python src/evaluate.py --model-path "path/to/model.keras"
+```
 
-- One branch per member (`git checkout -b yourname/feature`), merge to `main` via pull request reviewed by the other member.
-- Run `git pull` before starting work and commit small, often.
-- Fixed seed 42 everywhere. Never re-split the data.
-- Split first, augment after. Augment the training set only.
-- Never tune anything on the test set. Use it once, at the very end, after the final model is chosen.
-- Report macro-F1, per-class recall and the confusion matrix, not just accuracy.
-- Do not commit `data/raw/` or `outputs/models/`.
+The script saves results under:
+
+```text
+outputs/evaluation/<model_name>/
+```
+
+Do not repeatedly use test results to tune model settings or select new hyperparameters. The test set has already been used for final evaluation.
+
+The existing results should be preserved rather than rerunning training or evaluation unnecessarily.
+
+---
+
+## Single-image inference
+
+Use `src/inference.py` to predict the class of one mango-leaf photograph:
+
+```powershell
+python src/inference.py --model "path/to/model.keras" --image "path/to/leaf.jpg"
+```
+
+The script:
+
+1. Loads the saved model.
+2. Converts the input image to RGB.
+3. Resizes it to 224 × 224.
+4. Predicts the disease class.
+5. Displays the predicted class, confidence, and all class probabilities.
+
+The confidence value is a model probability, not a guarantee of diagnostic correctness.
+
+The script has been implemented and reviewed, but independent real-world inference testing remains part of the remaining work.
+
+---
+
+## Remaining work
+
+| Task | Status |
+|---|---|
+| Grouped-split training | Completed |
+| Final Kaggle test evaluation | Completed |
+| Single-image inference implementation | Completed |
+| Grad-CAM update and analysis | Pending; assigned to teammate |
+| Misclassification analysis | Pending |
+| Collect and evaluate local Philippine mango-leaf photos | Pending |
+| Compare model size, speed, and real-world performance | Pending final analysis |
+| Final model selection | Pending |
+| Final project report and presentation | Pending |
+
+For the local-photo evaluation, collect independently sourced images and document how their labels were determined. Self-assigned labels should not be treated as expert-verified diagnoses.
+
+Avoid using local-photo results to repeatedly tune the model and then reporting those same images as an independent evaluation.
+
+---
+
+## Git and collaboration workflow
+
+- Keep the flat `src/` project structure unless both members agree to change it.
+- Use separate branches and pull requests for team changes.
+- Pull the latest changes before starting new work.
+- Preserve the final grouped manifest and seed 42.
+- Do not randomly re-split the dataset.
+- Do not augment validation or test images.
+- Do not tune models using final test results.
+- Report macro-F1, per-class recall, and confusion matrices alongside accuracy.
+- Do not commit `data/raw/` or large `.keras` model checkpoints.
+- Keep historical random-split results clearly separated from final grouped-split results.
+- Update Grad-CAM separately after coordinating with the teammate responsible for it.
+
+LeafLens is a university image-classification project. Its predictions should not be treated as independently validated agricultural diagnoses.

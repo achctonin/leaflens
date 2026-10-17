@@ -1,0 +1,2 @@
+model,test_accuracy,test_macro_f1,model_size_mb,prediction_seconds,ms_per_image,test_images
+mobilenet_large_grouped_10s_stage2_best,0.9801801801801802,0.9816658518156363,24.28761577606201,201.92457335400013,363.8280600972975,555

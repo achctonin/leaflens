@@ -31,3 +31,13 @@ Thumbs.db
 data/processed/
 
 data/manifest_with_hash.csv
+
+
+data/manifest_grouped.csv
+data/manifest_grouped_v2.csv
+data/manifest_dedup.csv
+data/manifest_with_hash.csv
+
+
+colab_pack
+colab_pack.zip

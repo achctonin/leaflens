@@ -1,0 +1,9 @@
+,Anthracnose,Bacterial Canker,Cutting Weevil,Die Back,Gall Midge,Healthy,Powdery Mildew,Sooty Mould
+Anthracnose,72,0,0,0,0,0,0,0
+Bacterial Canker,1,61,0,0,8,3,0,1
+Cutting Weevil,7,0,28,2,0,0,0,0
+Die Back,0,0,0,72,1,0,0,0
+Gall Midge,0,0,0,0,72,0,0,2
+Healthy,0,0,0,0,0,75,0,0
+Powdery Mildew,0,0,0,0,0,0,71,4
+Sooty Mould,0,0,0,0,5,0,14,56
