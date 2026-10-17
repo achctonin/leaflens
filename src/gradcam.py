@@ -10,6 +10,12 @@ Single image (any photo, e.g. a local photo):
 One or more images per class from a split:
     python src/gradcam.py outputs/models/<model>.keras --split val --per-class 1
 
+Single image, also showing the heatmap for a chosen class (e.g. the true class):
+    python src/gradcam.py outputs/models/<model>.keras --image "<photo>" --target Anthracnose
+
+Several images of one class from a split:
+    python src/gradcam.py outputs/models/<model>.keras --split val --per-class 8 --only Anthracnose
+
 Misclassified images of a split:
     python src/gradcam.py outputs/models/<model>.keras --split val --max 24
 
@@ -113,6 +119,10 @@ def main():
                     help="N images per class from --split, saved as one grid")
     ap.add_argument("--allow-test", action="store_true",
                     help="needed for --split test (use it only for the final run)")
+    ap.add_argument("--target",
+                    help="with --image: also show the heatmap for this class (e.g. the true class)")
+    ap.add_argument("--only",
+                    help="with --per-class: restrict the grid to this class")
     args = ap.parse_args()
 
     if args.split == "test" and not args.image and not args.allow_test:
@@ -128,10 +138,18 @@ def main():
         print(f"Predicted: {pred} ({p * 100:.1f}%)")
         for i in np.argsort(probs)[::-1]:
             print(f"  {classes[i]}: {probs[i] * 100:.1f}%")
-        fig, ax = plt.subplots(1, 2, figsize=(8, 4))
-        ax[0].imshow(img); ax[0].set_title("input (as the model sees it)", fontsize=9)
-        ax[1].imshow(ov); ax[1].set_title(f"{pred} ({p:.2f})")
-        for a in ax:
+        panels = [(img, "input (as the model sees it)"),
+                  (ov, f"predicted: {pred} ({p:.2f})")]
+        if args.target:
+            if args.target not in classes:
+                raise SystemExit(f"--target must be one of: {classes}")
+            t = classes.index(args.target)
+            cam_t, _, probs_t = gradcam(model, load_image(args.image), t)
+            panels.append((overlay(img, cam_t), f"target: {args.target} ({probs_t[t]:.2f})"))
+        fig, ax = plt.subplots(1, len(panels), figsize=(4 * len(panels), 4))
+        for a, (im, title) in zip(np.atleast_1d(ax), panels):
+            a.imshow(im)
+            a.set_title(title, fontsize=9)
             a.axis("off")
         tag = f"{Path(args.image).parent.name}_{Path(args.image).stem}".replace(" ", "_")
         out = OUT_DIR / f"{name}_{tag}_single.png"
@@ -143,9 +161,11 @@ def main():
     rows = df[df["split"] == args.split].reset_index(drop=True)
 
     if args.per_class:
-        picks = pd.concat([rows[rows["label"] == c].head(args.per_class) for c in classes])
+        picks = pd.concat([rows[rows["label"] == c].head(args.per_class)
+                           for c in classes if not args.only or c == args.only])
         items = list(zip(picks["filepath"], picks["label"]))
-        save_grid(model, classes, items, OUT_DIR / f"{name}_{args.split}_per_class.png")
+        tag = f"_{args.only.replace(' ', '_')}" if args.only else ""
+        save_grid(model, classes, items, OUT_DIR / f"{name}_{args.split}_per_class{tag}.png")
         return
 
     # Misclassified review: batch prediction with the same dataset code as evaluate.py
