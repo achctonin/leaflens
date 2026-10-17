@@ -1,18 +1,30 @@
 """Grad-CAM for the LeafLens MobileNetV3 models.
 
-Single image:
-    python src/gradcam.py outputs/models/mnv3_small_v1_stage2.keras --image "data/raw/Healthy/xxx.jpg"
+Reuses the project's own pipeline in src/data.py, so images are loaded and preprocessed
+exactly as in training and evaluate.py (tf.io decode, stretch-resize to 224x224, raw 0-255
+pixels), and the manifest and class names come from data.py (manifest_grouped_10s.csv).
 
-Misclassified review (use val until the final model is chosen):
-    python src/gradcam.py outputs/models/mnv3_small_v1_stage2.keras --split val --max 24
+Single image (any photo, e.g. a local photo):
+    python src/gradcam.py outputs/models/<model>.keras --image "data/local/Healthy/leaf1.jpg"
 
-Assumptions to verify against src/data.py and src/model.py:
-  - images are resized to 224x224 with a plain resize and fed as raw 0-255 floats
-  - class index order is the alphabetical order of the labels in data/manifest.csv
-  - the final Dense layer outputs probabilities (softmax)
+One or more images per class from a split:
+    python src/gradcam.py outputs/models/<model>.keras --split val --per-class 1
+
+Single image, also showing the heatmap for a chosen class (e.g. the true class):
+    python src/gradcam.py outputs/models/<model>.keras --image "<photo>" --target Anthracnose
+
+Several images of one class from a split:
+    python src/gradcam.py outputs/models/<model>.keras --split val --per-class 8 --only Anthracnose
+
+Misclassified images of a split:
+    python src/gradcam.py outputs/models/<model>.keras --split val --max 24
+
+Use --split val until the final model is chosen. The test split is for the single final run
+and needs --allow-test. MobileNetV3 models only (the baseline CNN has no nested backbone).
 """
 import argparse
-import os
+import sys
+from pathlib import Path
 
 import numpy as np
 import pandas as pd
@@ -21,21 +33,36 @@ import matplotlib
 
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
-from PIL import Image
 
-IMG_SIZE = (224, 224)
-OUT_DIR = "outputs/gradcam"
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from data import ROOT, MANIFEST, get_class_names, make_dataset, _load_image  # noqa: E402
+
+OUT_DIR = ROOT / "outputs" / "gradcam"
+
+
+def resolve(path):
+    """Use the path as given if it exists, otherwise treat it as relative to the repo root."""
+    p = Path(path)
+    return p if p.exists() else ROOT / p
 
 
 def load_image(path):
-    img = Image.open(path).convert("RGB")
-    return img, np.array(img.resize(IMG_SIZE), dtype="float32")  # raw 0-255
+    """Same loading and resize as training. Returns float32 (224, 224, 3), values 0-255."""
+    img, _ = _load_image(str(resolve(path)), 0)
+    return img.numpy()
+
+
+def split_model(model):
+    """Return (backbone, head layers). The backbone's output is the last conv feature map."""
+    for i, layer in enumerate(model.layers):
+        if isinstance(layer, tf.keras.Model):
+            return layer, model.layers[i + 1:]
+    raise SystemExit("Grad-CAM here supports the MobileNetV3 models (nested backbone) only.")
 
 
 def gradcam(model, x, class_idx=None):
-    """Return (heatmap 7x7 in [0,1], predicted/used class index, probabilities)."""
-    base = model.layers[1]          # nested MobileNetV3 base -> (None, 7, 7, C)
-    head = model.layers[2:]         # pooling, dropout, dense
+    """Return (heatmap in [0,1], class index used, probabilities)."""
+    base, head = split_model(model)
     with tf.GradientTape() as tape:
         fmap = base(x[None], training=False)
         tape.watch(fmap)
@@ -53,91 +80,113 @@ def gradcam(model, x, class_idx=None):
 
 
 def overlay(img, cam, alpha=0.4):
-    cam_img = Image.fromarray(np.uint8(cam * 255)).resize(img.size, Image.BILINEAR)
-    heat = plt.get_cmap("jet")(np.array(cam_img) / 255.0)[..., :3]
-    base = np.array(img, dtype="float32") / 255.0
+    h, w = img.shape[:2]
+    cam_r = tf.image.resize(cam[..., None], (h, w), method="bilinear").numpy()[..., 0]
+    heat = plt.get_cmap("jet")(cam_r)[..., :3]
+    base = img.astype("float32") / 255.0
     return np.clip((1 - alpha) * base + alpha * heat, 0, 1)
 
 
-def explain(model, classes, path, true_label=None):
-    img, x = load_image(path)
+def explain(model, classes, path):
+    x = load_image(path)
     cam, idx, probs = gradcam(model, x)
-    return img, overlay(img, cam), classes[idx], float(probs[idx])
+    return x.astype("uint8"), overlay(x, cam), classes[idx], float(probs[idx]), probs
+
+
+def save_grid(model, classes, items, out, cols=4):
+    """items: list of (path, true_label). Saves one grid of Grad-CAM overlays."""
+    n_rows = int(np.ceil(len(items) / cols))
+    fig, axes = plt.subplots(n_rows, cols, figsize=(4 * cols, 4 * n_rows))
+    axes = np.atleast_1d(axes).ravel()
+    for a in axes:
+        a.axis("off")
+    for a, (path, true) in zip(axes, items):
+        _, ov, pred, p, _ = explain(model, classes, path)
+        a.imshow(ov)
+        a.set_title(f"true: {true}\npred: {pred} ({p:.2f})", fontsize=9)
+    fig.savefig(out, dpi=120, bbox_inches="tight")
+    plt.close(fig)
+    print("saved", out)
 
 
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("model")
     ap.add_argument("--image")
-    ap.add_argument("--split", default="val")
+    ap.add_argument("--split", default="val", choices=["train", "val", "test"])
     ap.add_argument("--max", type=int, default=24)
     ap.add_argument("--per-class", type=int, default=0,
                     help="N images per class from --split, saved as one grid")
+    ap.add_argument("--allow-test", action="store_true",
+                    help="needed for --split test (use it only for the final run)")
+    ap.add_argument("--target",
+                    help="with --image: also show the heatmap for this class (e.g. the true class)")
+    ap.add_argument("--only",
+                    help="with --per-class: restrict the grid to this class")
     args = ap.parse_args()
 
-    df = pd.read_csv("data/manifest.csv")
-    classes = sorted(df["label"].unique())
-    model = tf.keras.models.load_model(args.model)
-    os.makedirs(OUT_DIR, exist_ok=True)
-    name = os.path.splitext(os.path.basename(args.model))[0]
+    if args.split == "test" and not args.image and not args.allow_test:
+        raise SystemExit("The test split is for the single final run. Add --allow-test if that is intended.")
+
+    classes = get_class_names()
+    model = tf.keras.models.load_model(args.model, compile=False)
+    OUT_DIR.mkdir(parents=True, exist_ok=True)
+    name = Path(args.model).stem
 
     if args.image:
-        img, ov, pred, p = explain(model, classes, args.image)
-        fig, ax = plt.subplots(1, 2, figsize=(8, 4))
-        ax[0].imshow(img); ax[0].set_title("input")
-        ax[1].imshow(ov); ax[1].set_title(f"{pred} ({p:.2f})")
-        for a in ax: a.axis("off")
-        out = os.path.join(OUT_DIR, f"{name}_single.png")
+        img, ov, pred, p, probs = explain(model, classes, args.image)
+        print(f"Predicted: {pred} ({p * 100:.1f}%)")
+        for i in np.argsort(probs)[::-1]:
+            print(f"  {classes[i]}: {probs[i] * 100:.1f}%")
+        panels = [(img, "input (as the model sees it)"),
+                  (ov, f"predicted: {pred} ({p:.2f})")]
+        if args.target:
+            if args.target not in classes:
+                raise SystemExit(f"--target must be one of: {classes}")
+            t = classes.index(args.target)
+            cam_t, _, probs_t = gradcam(model, load_image(args.image), t)
+            panels.append((overlay(img, cam_t), f"target: {args.target} ({probs_t[t]:.2f})"))
+        fig, ax = plt.subplots(1, len(panels), figsize=(4 * len(panels), 4))
+        for a, (im, title) in zip(np.atleast_1d(ax), panels):
+            a.imshow(im)
+            a.set_title(title, fontsize=9)
+            a.axis("off")
+        tag = f"{Path(args.image).parent.name}_{Path(args.image).stem}".replace(" ", "_")
+        out = OUT_DIR / f"{name}_{tag}_single.png"
         fig.savefig(out, dpi=120, bbox_inches="tight")
         print("saved", out)
         return
+
+    df = pd.read_csv(MANIFEST)
+    rows = df[df["split"] == args.split].reset_index(drop=True)
 
     if args.per_class:
-        sub = df[df["split"] == args.split]
-        picks = pd.concat(
-            [sub[sub["label"] == c].head(args.per_class) for c in classes]
-        )
-        n_rows = len(picks) // 4 + (len(picks) % 4 > 0)
-        fig, axes = plt.subplots(n_rows, 4, figsize=(16, 4 * n_rows))
-        axes = np.atleast_1d(axes).ravel()
-        for a in axes: a.axis("off")
-        for a, (_, r) in zip(axes, picks.iterrows()):
-            img, ov, pred, p = explain(model, classes, r["filepath"])
-            a.imshow(ov)
-            a.set_title(f"true: {r['label']}\npred: {pred} ({p:.2f})", fontsize=9)
-        out = os.path.join(OUT_DIR, f"{name}_{args.split}_per_class.png")
-        fig.savefig(out, dpi=120, bbox_inches="tight")
-        print("saved", out)
+        picks = pd.concat([rows[rows["label"] == c].head(args.per_class)
+                           for c in classes if not args.only or c == args.only])
+        items = list(zip(picks["filepath"], picks["label"]))
+        tag = f"_{args.only.replace(' ', '_')}" if args.only else ""
+        save_grid(model, classes, items, OUT_DIR / f"{name}_{args.split}_per_class{tag}.png")
         return
 
-    # Misclassified review on one split
-    rows = df[df["split"] == args.split]
-    wrong = []
-    for _, r in rows.iterrows():
-        img, x = load_image(r["filepath"])
-        probs = model(x[None], training=False).numpy()[0]
-        pred = classes[int(np.argmax(probs))]
-        if pred != r["label"]:
-            wrong.append((r["filepath"], r["label"], pred, float(probs.max())))
+    # Misclassified review: batch prediction with the same dataset code as evaluate.py
+    ds = make_dataset(args.split, batch_size=32, augment=False, shuffle=False)
+    probs = model.predict(ds, verbose=0)
+    y_true = rows["label"].map({c: i for i, c in enumerate(classes)}).values
+    y_pred = probs.argmax(axis=1)
+    wrong = np.where(y_pred != y_true)[0]
     print(f"{len(wrong)} misclassified of {len(rows)} in split '{args.split}'")
-    pd.DataFrame(wrong, columns=["filepath", "true", "pred", "conf"]).to_csv(
-        os.path.join(OUT_DIR, f"{name}_{args.split}_misclassified.csv"), index=False)
 
-    wrong = wrong[: args.max]
-    if not wrong:
-        return
-    cols = 4
-    n_rows = int(np.ceil(len(wrong) / cols))
-    fig, axes = plt.subplots(n_rows, cols, figsize=(4 * cols, 4 * n_rows))
-    axes = np.atleast_1d(axes).ravel()
-    for a in axes: a.axis("off")
-    for a, (path, true, pred, conf) in zip(axes, wrong):
-        img, ov, _, _ = explain(model, classes, path)
-        a.imshow(ov)
-        a.set_title(f"true: {true}\npred: {pred} ({conf:.2f})", fontsize=9)
-    out = os.path.join(OUT_DIR, f"{name}_{args.split}_misclassified.png")
-    fig.savefig(out, dpi=120, bbox_inches="tight")
-    print("saved", out)
+    table = pd.DataFrame({
+        "filepath": rows.loc[wrong, "filepath"].values,
+        "true": rows.loc[wrong, "label"].values,
+        "pred": [classes[i] for i in y_pred[wrong]],
+        "conf": probs[wrong].max(axis=1),
+    })
+    table.to_csv(OUT_DIR / f"{name}_{args.split}_misclassified.csv", index=False)
+
+    if len(table):
+        items = list(zip(table["filepath"], table["true"]))[: args.max]
+        save_grid(model, classes, items, OUT_DIR / f"{name}_{args.split}_misclassified.png")
 
 
 if __name__ == "__main__":
